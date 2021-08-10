@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">mad-pet-doctor</string>
+    <string name="Logo">LOGO</string>
+    <string name="background_template">Background_Template</string>
+    <string name="footer">Footer</string>
+    <string name="sidebarbutton1">SideBarButton1</string>
+    <string name="sidebarbutton2">SideBarButton2</string>
+    <string name="user_icon">User_Icon</string>
+    <string name="username">UserName</string>
 </resources>
