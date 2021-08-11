@@ -51,4 +51,10 @@
     <string name="vaccinedate">VaccineDate</string>
     <string name="vaccinenametext">VaccineNameText</string>
     <string name="nurcelogovaccinedetails">NurceLogoVaccineDetails</string>
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText">Email</string>
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText">Password</string>
 </resources>
