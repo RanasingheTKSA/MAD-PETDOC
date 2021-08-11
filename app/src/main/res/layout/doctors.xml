@@ -136,7 +136,7 @@
         android:layout_marginRight="120dp"
         android:layout_marginBottom="563dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/doctors"
+        android:text="Doctors"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#FFFFFF"
@@ -172,7 +172,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             app:srcCompat="@drawable/user_profile"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="userprofile" />
 
         <TextView
             android:id="@+id/textView8"
@@ -181,7 +181,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/my_profile"
+            android:text="My Profile"
             android:textColor="#000000"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -210,7 +210,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             app:srcCompat="@drawable/appointment"
-            android:contentDescription="@string/my_appointments" />
+            android:contentDescription="appointments" />
 
         <TextView
             android:id="@+id/textView9"
@@ -219,7 +219,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/my_appointments"
+            android:text="My Appointments"
             android:textColor="#000000"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -249,7 +249,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             app:srcCompat="@drawable/chat"
-            android:contentDescription="@string/chat" />
+            android:contentDescription="chat" />
 
         <TextView
             android:id="@+id/textView11"
@@ -258,7 +258,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/chat_with_a_doctor"
+            android:text="Chat with a Doctor"
             android:textColor="#000000"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -288,7 +288,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             app:srcCompat="@drawable/tips"
-            android:contentDescription="@string/health_tips" />
+            android:contentDescription="tips" />
 
         <TextView
             android:id="@+id/textView10"
@@ -297,7 +297,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/health_tips"
+            android:text="Health Tips"
             android:textColor="#000000"
             android:textSize="28sp"
             android:textStyle="bold" />
