@@ -13,7 +13,6 @@
         android:layout_marginTop="-16dp"
         android:layout_marginBottom="-75dp"
         android:contentDescription="@string/background_template"
-        android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
