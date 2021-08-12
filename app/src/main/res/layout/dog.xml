@@ -120,32 +120,14 @@
     <SearchView
         android:layout_width="384dp"
         android:layout_height="40dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
         android:layout_marginTop="75dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
         android:layout_marginBottom="616dp"
+        android:background="#FFFFFF"
         android:contentDescription="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/detailsofpetspage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/dogpageheading"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="DOGS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -245,59 +227,69 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icons8_dog_40" />
 
-    <EditText
-        android:id="@+id/dogpageintroduction"
+    <TextView
+        android:id="@+id/dogs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
-        android:contentDescription="@string/dogpageintroduction"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="INTRODUCTION"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/dogheadings"
+        android:text="DOGS"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/originofbreed"
+    <TextView
+        android:id="@+id/introductions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="139dp"
-        android:layout_marginLeft="139dp"
-        android:layout_marginTop="360dp"
-        android:contentDescription="@string/dogpageoriginofbreed"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ORIGIN OF BREED"
+        android:layout_marginTop="231dp"
+        android:contentDescription="@string/dogintro"
+        android:text="INTRODUCTIONS"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
+        android:id="@+id/originofbreeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+        android:contentDescription="@string/originofbreeds"
+        android:text="ORIGIN OF BREEDS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/nutritionandgrowth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginLeft="141dp"
-        android:layout_marginTop="487dp"
-        android:contentDescription="@string/dogpagenutritionandgrowth"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="NUTRITION AND GROUTH"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="504dp"
+        android:contentDescription="@string/nutritionandgrowth"
+        android:text="NUTRITION AND GROWTH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/diseasesandvaccines"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginLeft="146dp"
-        android:layout_marginTop="616dp"
-        android:contentDescription="@string/dogpagediseasesandvaccines"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="635dp"
+        android:contentDescription="@string/diseasesandvaccines"
         android:text="DISEASES AND VACCINES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

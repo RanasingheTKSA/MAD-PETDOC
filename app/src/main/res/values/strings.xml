@@ -162,6 +162,16 @@
     <string name="catoob">CatOOB</string>
     <string name="catnag">CatNAG</string>
     <string name="catdav">CatDAV</string>
+    <string name="dogheadings">DogHeadings</string>
+    <string name="dogintro">DogIntro</string>
+    <string name="originofbreeds">OriginOfBreeds</string>
+    <string name="nutritionandgrowth">NutritionAndGrowth</string>
+    <string name="diseasesandvaccines">DiseasesAndVaccines</string>
+    <string name="vrheading">VRHeading</string>
+    <string name="vdpetid">VDPetId</string>
+    <string name="vdvaccinename">VDVaccineName</string>
+    <string name="vdvaccinedate">VDVaccineDate</string>
+    <string name="vdvaccineprice">VDVaccinePrice</string>
 
 
 </resources>
