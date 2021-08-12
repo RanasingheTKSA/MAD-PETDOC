@@ -159,4 +159,14 @@
     <string name="createAccbtn">Create</string>
 
 
+
+
+
+    <string name="mad_name">mad_name</string>
+    <string name="textview">TextView</string>
+    <string name="user_profile">user_profile</string>
+    <string name="plus">plus</string>
+    <string name="send">send</string>
+
+
 </resources>
