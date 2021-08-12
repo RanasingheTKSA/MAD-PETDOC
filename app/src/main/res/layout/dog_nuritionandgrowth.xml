@@ -101,19 +101,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="330dp"
-        android:layout_marginLeft="330dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="your name"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,13 +140,13 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="168dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="203dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="152dp"
         android:contentDescription="@string/nuritionandgrowthheading"
         android:text="NUTRITION AND GROWTH"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -163,27 +165,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="378dp"
-        android:layout_height="282dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/dognutritionandgrowthdescription"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="nutrition and growth description"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView35"
         android:layout_width="381dp"
@@ -200,5 +181,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rottweiler_1785760_1920" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="347dp"
+        android:layout_height="283dp"
+        android:contentDescription="@string/dognutritiondesc"
+        android:text="Puppies need three basic things in order to thrive: good nutrition, warmth, and companionship. Puppies need to eat three or four times a day from the time they are weaned until they are about six months old. Thereafter they can be fed twice a day until maturity and once daily after that. However, many dog owners, especially those with large breeds, feed twice a day throughout the dog’s life (this does not mean feeding more than the required daily amount, but it is a more balanced method of feeding)."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
