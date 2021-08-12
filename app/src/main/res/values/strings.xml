@@ -160,6 +160,14 @@
     <string name="clientProfileUserName">USER NAME</string>
     <string name="clientProfileText">Edit Profile</string>
     <string name="clientProfile_nameText">Name</string>
+    <string name="editProfile_nameEditText" />
+    <string name="editProfile_emailText">Email</string>
+    <string name="editProfile_emailEditText" />
+    <string name="editProfile_mobileText">Mobile Number</string>
+    <string name="editProfile_movileNumberEditText" />
+    <string name="editProfile_passwordEdit">Password</string>
+    <string name="editProfile_passwordEditText" />
+    <string name="clientProfileSavebtn">Save</string>
 
 
 </resources>
