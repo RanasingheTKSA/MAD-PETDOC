@@ -98,7 +98,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -110,23 +110,24 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="your name"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
         android:layout_width="384dp"
         android:layout_height="40dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="75dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
         android:layout_marginBottom="616dp"
+        android:background="#FFFFFF"
         android:contentDescription="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -151,108 +152,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background_template2" />
 
-    <EditText
-        android:id="@+id/VACCINEDETAILS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="139dp"
-        android:layout_marginEnd="165dp"
-        android:layout_marginRight="165dp"
-        android:layout_marginBottom="547dp"
-        android:contentDescription="@string/petcard"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="VACCINE DETAILS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/PETID"
-        android:layout_width="106dp"
-        android:layout_height="42dp"
-        android:contentDescription="@string/id"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="PET ID"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.267" />
-
-    <EditText
-        android:id="@+id/VACCINEPRICE"
-        android:layout_width="136dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="390dp"
-        android:contentDescription="@string/vaccineprice"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="VACCINE PRICE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
-
-    <EditText
-        android:id="@+id/VACCINETED"
-        android:layout_width="135dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="390dp"
-        android:contentDescription="@string/radiobutton"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="VACCINETED"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.628" />
-
-    <EditText
-        android:id="@+id/VACCINEDATE"
-        android:layout_width="137dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="326dp"
-        android:contentDescription="@string/breed"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="VACCINE DATE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
-
-    <EditText
-        android:id="@+id/VACCINENAME"
-        android:layout_width="135dp"
-        android:layout_height="45dp"
-        android:contentDescription="@string/name"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="VACCINE NAME"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
-
     <TableRow
         android:layout_width="382dp"
         android:layout_height="39dp"
@@ -266,6 +165,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.053">
 
+        <EditText
+            android:id="@+id/petidinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="PET ID" />
     </TableRow>
 
     <TableRow
@@ -283,6 +189,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.148">
 
+        <EditText
+            android:id="@+id/vaccinenameinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="VACCINE NAME " />
     </TableRow>
 
     <TableRow
@@ -300,11 +213,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.274">
 
+        <EditText
+            android:id="@+id/vaccinedateinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="VACCINE DATE" />
     </TableRow>
 
     <TableRow
-        android:layout_width="377dp"
-        android:layout_height="36dp"
+        android:layout_width="382dp"
+        android:layout_height="44dp"
         android:layout_marginStart="9dp"
         android:layout_marginLeft="9dp"
         android:layout_marginTop="390dp"
@@ -317,6 +237,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.449">
 
+        <EditText
+            android:id="@+id/vaccinepriceinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/vdvaccineprice"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="VACCINE PRICE" />
     </TableRow>
 
     <Button
@@ -373,6 +301,83 @@
         android:layout_marginTop="576dp"
         android:contentDescription="@string/noradiobutton"
         android:text="NO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vaccinedetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="151dp"
+        android:contentDescription="@string/vrheading"
+        android:text="VACCINE DETAILS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/petid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="202dp"
+        android:contentDescription="@string/vdpetid"
+        android:text="PET ID"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vaccinename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="306dp"
+        android:contentDescription="@string/vdvaccinename"
+        android:text="VACCINE NAME"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vaccinedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="397dp"
+        android:contentDescription="@string/vdvaccinedate"
+        android:text="VACCINE DATE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vaccineprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="488dp"
+        android:text="VACCINE PRICE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vaccinated"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="592dp"
+        android:text="VACCINETD"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

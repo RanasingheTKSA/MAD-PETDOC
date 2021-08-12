@@ -99,19 +99,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="330dp"
-        android:layout_marginLeft="330dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="your name"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,8 +121,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="402dp"
-        android:layout_height="612dp"
+        android:layout_width="403dp"
+        android:layout_height="596dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
@@ -138,13 +140,14 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="100dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="151dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="168dp"
         android:contentDescription="@string/introductionofcats"
         android:text="INTRODUCTION"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -157,32 +160,12 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="622dp"
+        android:background="#FFFFFF"
         android:contentDescription="@string/introductioncatsearchbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="389dp"
-        android:layout_height="539dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/introductionodcatdescription"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="introduction description"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView31"
@@ -201,5 +184,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cat_3449999_1920" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="371dp"
+        android:layout_height="297dp"
+        android:contentDescription="@string/catintrodesc"
+        android:text="Cat, (Felis catus), also called house cat or domestic cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family. Like all felids, domestic cats are characterized by supple low-slung bodies, finely molded heads, long tails that aid in balance, and specialized teeth and claws that adapt them admirably to a life of active hunting. Cats possess other features of their wild relatives in being basically carnivorous, remarkably agile and powerful, and finely coordinated in movement.    It is noteworthy that the ancestors of the other common household pet, the dog, were social animals that lived together in packs in which there was subordination to a leader, and the dog has readily transferred its allegiance from pack leader to human master. The cat, however, has not yielded as readily to subjugation. Consequently, the house cat is able to revert to complete self-reliance more quickly and more successfully than most domesticated dogs. For an account of the relationship of the family of cats to other carnivores, see carnivore."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

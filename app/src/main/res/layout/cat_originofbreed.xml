@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="412dp"
-        android:layout_height="731dp"
+        android:layout_width="413dp"
+        android:layout_height="734dp"
         android:contentDescription="@string/background_template"
         android:rotation="0"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,19 +101,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="330dp"
-        android:layout_marginLeft="330dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="your name"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,13 +140,13 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="115dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="189dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="144dp"
         android:contentDescription="@string/originofbreedcat"
         android:text="ORIGIN OF BREED"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -158,25 +160,6 @@
         android:layout_marginRight="5dp"
         android:layout_marginBottom="622dp"
         android:contentDescription="@string/originofbreedcatsearchbar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="389dp"
-        android:layout_height="539dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/originofbreedcatdescription"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="origin of breed description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -199,5 +182,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cat_3261420_1920" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="367dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="220dp"
+        android:contentDescription="@string/catoriginofbreeddesc"
+        android:text="The “cat pattern,” established very early in the evolution of modern mammals, was a successful one: early cats were already typical in form at a time when the ancestors of most other modern mammalian types were scarcely recognizable. They first appeared in the early Pliocene Epoch (5.3 to 3.6 million years ago), and they have continued with remarkably little change into modern times.    Cats have long been known to other cultures. Wall tiles in Crete dating from 1600 BCE depict hunting cats. Evidence from art and literature indicates that the cat was present in Greece from the 5th century BCE, and tiles featuring cats appeared in China from 500 BCE. In India cats were mentioned in Sanskrit writings around 100 BCE, while the Arabs and the Japanese were not introduced to the cat until about 600 CE. The earliest record of cats in Britain dates to about 936 CE, when Howel Dda, prince of south-central Wales, enacted laws for their protection."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
