@@ -170,7 +170,7 @@
         android:layout_marginRight="40dp"
         android:layout_marginBottom="556dp"
         android:background="#EFEBEB"
-        android:text="@string/textview"
+        android:text="@string/extview"
         android:textColor="#EFEBEB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
