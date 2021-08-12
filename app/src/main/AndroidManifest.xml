@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".CreateAccount"></activity>
+        <activity android:name=".Cat"></activity>
+        <activity android:name=".ActivityMainSideBar" />
+        <activity android:name=".CreateAccount" />
         <activity android:name=".AuthActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
