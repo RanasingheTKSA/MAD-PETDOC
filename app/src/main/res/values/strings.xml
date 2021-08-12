@@ -155,6 +155,9 @@
     <string name="createAcc_passwordText">Password</string>
     <string name="createAcc_passwordEditTest" />
     <string name="createAccbtn">Create</string>
+    <string name="clientProfileUserName">USER NAME</string>
+    <string name="clientProfileText">Edit Profile</string>
+    <string name="clientProfile_nameText">Name</string>
 
 
 </resources>
