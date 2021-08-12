@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
-        android:layout_height="731dp"
+        android:layout_height="735dp"
         android:contentDescription="@string/background_template"
         android:rotation="0"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,10 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="665dp"
         android:contentDescription="@string/footer"
@@ -38,30 +36,27 @@
         android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +74,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
-        android:layout_marginBottom="669dp"
+        android:layout_marginBottom="665dp"
         android:contentDescription="@string/Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,11 +84,11 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
         android:layout_marginStart="341dp"
         android:layout_marginLeft="341dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="664dp"
@@ -104,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -112,11 +107,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="321dp"
         android:layout_marginLeft="321dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,13 +121,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="398dp"
-        android:layout_height="602dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_width="402dp"
+        android:layout_height="614dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
         android:layout_marginBottom="12dp"
         android:contentDescription="@string/background_template2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -143,13 +140,13 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="168dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="164dp"
         android:contentDescription="@string/catdiseasesandvaccinesheading"
         android:text="DISEASES AND VACCINES"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -168,27 +165,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="388dp"
-        android:layout_height="542dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/catdiseasesandvaccinesdescrption"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="diseases and vaccines descrption"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView38"
         android:layout_width="372dp"
@@ -206,5 +182,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cat_339400_1920" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="363dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="235dp"
+        android:contentDescription="@string/catdiseasesdesc"
+        android:text="For many years cat treatments were simply extensions of those given dogs. Now, however, cat disorders of the skin, the eyes, the ears, the various systems and the blood, as well as contagious cat diseases and external and internal parasites, are studied, so that appropriate preventions and treatments can be developed.  Cats permitted to wander outdoors are exposed to a variety of hazards, including accidents, attacks from other animals, poisoning, fleas and other parasites, and contagious diseases such as feline acquired immune deficiency syndrome .Cats that kill and eat rodents and other small animals can become infected with the parasitic protozoan Toxoplasma gondii, which can be transmitted to humans and causes the disease toxoplasmosis. Cats that share litter boxes with one another may increase their exposure to Tritrichomonas foetus, a single-celled flagellated protozoan that resembles Giardia. T. foetus infects the cat’s lower intestine, causing diarrhea, which may also contain mucus or fresh blood in some infected cats."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

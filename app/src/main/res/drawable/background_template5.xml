@@ -3,9 +3,9 @@
 
     <item>
         <shape>
-            <solid android:color="#ffc581"/>
+            <solid android:color="#c3bb38"/>
             <stroke android:width="3dp"
-                android:color="#ff000000" />
+                android:color="@color/black" />
 
             <padding android:left="1dp"
                 android:top="1dp"

@@ -21,10 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
+        android:layout_width="409dp"
+        android:layout_height="58dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="665dp"
         android:contentDescription="@string/footer"
@@ -38,30 +36,27 @@
         android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +74,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
-        android:layout_marginBottom="669dp"
+        android:layout_marginBottom="665dp"
         android:contentDescription="@string/Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,11 +84,11 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
         android:layout_marginStart="341dp"
         android:layout_marginLeft="341dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="664dp"
@@ -104,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -112,11 +107,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="321dp"
         android:layout_marginLeft="321dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,14 +121,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="398dp"
-        android:layout_height="602dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="12dp"
+        android:layout_width="403dp"
+        android:layout_height="619dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
         android:contentDescription="@string/background_template2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,13 +140,14 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="168dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="254dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="144dp"
         android:contentDescription="@string/catnutritionandgrowthheading"
         android:text="NUTRITION AND GROWTH"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -168,27 +166,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="378dp"
-        android:layout_height="282dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/catnutritionandgrowthdescrption"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="nutrition and growth description"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView36"
         android:layout_width="376dp"
@@ -205,5 +182,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/kittens_2273598_1920" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="351dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="194dp"
+        android:contentDescription="@string/nutritionandgrowthdesc"
+        android:text="Nutrients are substances obtained from food and used by an animal as a source of energy and as part of the metabolic machinery necessary for maintenance and growth. Barring any special needs, illness-related deficiencies or instructions from your vet, your pets should be able to get all the nutrients they need from high-quality commercial pet foods, which are formulated with these special standards in mind. Here are the six essential classes of nutrients fundamental for healthy living."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

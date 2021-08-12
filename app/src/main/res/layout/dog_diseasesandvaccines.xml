@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="412dp"
-        android:layout_height="731dp"
+        android:layout_width="415dp"
+        android:layout_height="733dp"
         android:contentDescription="@string/background_template"
         android:rotation="0"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,10 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
+        android:layout_width="410dp"
+        android:layout_height="57dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="665dp"
         android:contentDescription="@string/footer"
@@ -38,30 +36,27 @@
         android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +74,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
-        android:layout_marginBottom="669dp"
+        android:layout_marginBottom="665dp"
         android:contentDescription="@string/Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,11 +84,11 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
         android:layout_marginStart="341dp"
         android:layout_marginLeft="341dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="664dp"
@@ -104,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -112,12 +107,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="321dp"
         android:layout_marginLeft="321dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -126,11 +121,9 @@
         android:id="@+id/imageView2"
         android:layout_width="398dp"
         android:layout_height="602dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="12dp"
         android:contentDescription="@string/background_template2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -138,18 +131,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.962"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/background_template2" />
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="168dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="249dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="156dp"
         android:contentDescription="@string/dogdiseasesandvaccinesheading"
         android:text="DISEASES AND VACCINES"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -168,27 +161,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="378dp"
-        android:layout_height="282dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/diseasesandvaccinesdescription"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="diseases and vaccines descrption"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView37"
         android:layout_width="367dp"
@@ -198,12 +170,30 @@
         android:layout_marginTop="461dp"
         android:layout_marginEnd="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="33dp"
+        android:layout_marginBottom="30dp"
         android:contentDescription="@string/diseasesandvaccinesimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dog_4940471_1920" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="362dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="250dp"
+        android:contentDescription="@string/dogdiseasesdesc"
+        android:text="As a dog parent, it is important to recognize the signs and symptoms of common illnesses so you can seek veterinary help for your canine friend as soon as possible. Read on for information about diseases and other medical inflictions that frequently impact dogs. Cancer Rabies Diabetes Ringworm Heartworm Kennel Cough Parvovirus ."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

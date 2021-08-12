@@ -6,13 +6,14 @@
             <solid android:color="#342415"/>
             <stroke android:width="3dp"
                 android:color="#c0c0c0" />
+
             <padding android:left="1dp"
                 android:top="1dp"
                 android:right="1dp"
                 android:bottom="1dp" />
+
             <corners android:radius="20dp" />
         </shape>
-
     </item>
 
 </selector>
