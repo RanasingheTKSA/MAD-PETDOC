@@ -12,10 +12,9 @@
         android:layout_height="734dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.666"
         app:srcCompat="@drawable/background_template" />
 
     <ImageView
@@ -70,8 +69,8 @@
 
     <ImageView
         android:id="@+id/imageView46"
-        android:layout_width="58dp"
-        android:layout_height="51dp"
+        android:layout_width="53dp"
+        android:layout_height="46dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -88,14 +87,15 @@
         app:layout_constraintHorizontal_bias="0.917"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/clientProfileUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:text="@string/clientProfileUserName"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,11 +103,13 @@
 
     <TextView
         android:id="@+id/clientProfileText"
-        android:layout_width="79dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="124dp"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="128dp"
         android:text="@string/clientProfileText"
-
+        android:textColor="@color/white"
+        android:textSize="80px"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
