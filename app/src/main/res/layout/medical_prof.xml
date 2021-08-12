@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hos_logo"
+        android:layout_width="804dp"
+        android:layout_height="1026dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="-75dp"
+        android:contentDescription="@string/background_template"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582"
+        app:srcCompat="@drawable/background_template" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="386dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/footer" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btn1"
+        android:layout_width="44dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginRight="342dp"
+        android:layout_marginBottom="695dp"
+        android:contentDescription="@string/sidebarbutton1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginRight="342dp"
+        android:layout_marginBottom="678dp"
+        android:contentDescription="@string/sidebarbutton2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="669dp"
+        android:contentDescription="@string/Logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chip5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pet_doc_2" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="341dp"
+        android:layout_marginLeft="341dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="664dp"
+        android:contentDescription="@string/user_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/user_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="665dp"
+        android:text="MAD NAME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/bton2"
+        android:layout_width="40dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/bton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/cont_heading"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/cont_heading"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginRight="314dp"
+        android:contentDescription="@string/hos_heading"
+        android:fontFamily="sans-serif"
+        android:hint="hos_heading"
+        android:text="              M+  Medical Center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/hos_logo"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/bton1"
+        android:layout_width="39dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/bton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toEndOf="@+id/cont_heading"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/profbar1"
+        android:layout_width="405dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="144dp"
+        android:contentDescription="@string/profbar1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prof_bar1" />
+
+    <TextView
+        android:id="@+id/bar1_name1"
+        android:layout_width="187dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:contentDescription="@string/bar1_name"
+        android:fontFamily="sans-serif-black"
+        android:freezesText="false"
+        android:text="Appointments"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bar1_photo"
+        android:layout_width="73dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="156dp"
+        android:contentDescription="@string/bar1_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appoint" />
+
+    <ImageView
+        android:id="@+id/profbar2"
+        android:layout_width="407dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="332dp"
+        android:contentDescription="@string/profbar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof_bar2" />
+
+    <TextView
+        android:id="@+id/bar1_name2"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="352dp"
+        android:contentDescription="@string/bar2_name"
+        android:fontFamily="sans-serif-black"
+        android:text="Schedules"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bar2_photo"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginBottom="408dp"
+        android:contentDescription="@string/bar2_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/schedule" />
+
+    <ImageView
+        android:id="@+id/profbar3"
+        android:layout_width="400dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="184dp"
+        android:contentDescription="@string/profbar3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof_bar3" />
+
+    <TextView
+        android:id="@+id/bar1_name3"
+        android:layout_width="218dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="196dp"
+        android:contentDescription="@string/bar3_name"
+        android:fontFamily="sans-serif-black"
+        android:text="Daily Reports"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bar3_photo"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/bar3_photo"
+        app:layout_constraintBottom_toTopOf="@+id/bar1_name3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rep" />
+
+    <ImageView
+        android:id="@+id/profbar4"
+        android:layout_width="400dp"
+        android:layout_height="156dp"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="@string/profbar4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof_bar4" />
+
+    <TextView
+        android:id="@+id/bar1_name4"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:contentDescription="@string/bar4_name"
+        android:fontFamily="sans-serif-black"
+        android:text="Doc Registration"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar4_photo" />
+
+    <ImageView
+        android:id="@+id/bar4_photo"
+        android:layout_width="79dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:contentDescription="@string/bar4_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profbar3"
+        app:srcCompat="@drawable/docreg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
