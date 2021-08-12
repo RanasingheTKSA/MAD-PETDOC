@@ -139,6 +139,22 @@
     <string name="catdiseasesandvaccinesheading">CatDiseasesAndVaccineHeading</string>
     <string name="catdiseasesandvaccinesdescrption">CatDiseasesAndVaccinesDescription</string>
     <string name="catdiseasesandvaccinesimage">CatDiseasesAndVaccinesImage</string>
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText" />
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText" />
+    <string name="createAcc_textView">Create Account</string>
+    <string name="createAcc_nameText">Name</string>
+    <string name="createAcc_nameEditText" />
+    <string name="createAcc_emailText">Email</string>
+    <string name="createAcc_emailEditText" />
+    <string name="createAcc_mobileNoText">Mobile Number</string>
+    <string name="createAcc_mobileNoEditText" />
+    <string name="createAcc_passwordText">Password</string>
+    <string name="createAcc_passwordEditTest" />
+    <string name="createAccbtn">Create</string>
 
 
 </resources>
