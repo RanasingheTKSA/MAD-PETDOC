@@ -135,191 +135,172 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="393dp"
-        android:layout_height="393dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="207dp"
-        android:contentDescription="@string/background_template2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template2" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="56dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginTop="179dp"
-        android:layout_marginEnd="303dp"
-        android:layout_marginRight="303dp"
-        android:layout_marginBottom="498dp"
-        android:contentDescription="@string/pet_foot01"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pet_foot" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="54dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="53dp"
-        android:layout_marginLeft="53dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginEnd="304dp"
-        android:layout_marginRight="304dp"
-        android:layout_marginBottom="365dp"
-        android:contentDescription="@string/pet_foot2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pet_foot" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="54dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="442dp"
-        android:layout_marginEnd="302dp"
-        android:layout_marginRight="302dp"
-        android:layout_marginBottom="238dp"
-        android:contentDescription="@string/pet_foot3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pet_foot" />
-
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/cats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="138dp"
-        android:layout_marginLeft="138dp"
-        android:layout_marginTop="135dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginRight="224dp"
-        android:layout_marginBottom="557dp"
-        android:contentDescription="@string/doctor_text"
-        android:text="Doctors"
+        android:contentDescription="@string/dogpageheading"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DOGS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.183" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="134dp"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="266dp"
-        android:layout_marginEnd="183dp"
-        android:layout_marginRight="183dp"
-        android:layout_marginBottom="446dp"
-        android:contentDescription="@string/medical_center"
-        android:text="Medical Center"
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="362dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginBottom="425dp"
+        android:contentDescription="@string/dogpageintroduction"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog_page_introduction_colour" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="364dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="318dp"
+        android:contentDescription="@string/dogpageoriginofbreed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog_page_originofbreed_colour" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="369dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="454dp"
+        android:contentDescription="@string/dogpagenutritionandgrowth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog_page_nutritionandgrowth_colour" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="370dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="585dp"
+        android:contentDescription="@string/dogpagediseasesandvaccines"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog_page_diseasesandvaccines_colour" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="97dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="207dp"
+        android:contentDescription="@string/dogpageimage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_dog_50" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="101dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="335dp"
+        android:contentDescription="@string/dogpageimage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_dog_48" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="598dp"
+        android:contentDescription="@string/dogpageimage4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_dog_60" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="94dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="473dp"
+        android:contentDescription="@string/dogpageimage3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_dog_40" />
+
+    <EditText
+        android:id="@+id/dogpageintroduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:contentDescription="@string/dogpageintroduction"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="INTRODUCTION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView4"
+    <EditText
+        android:id="@+id/originofbreed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="134dp"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="399dp"
-        android:layout_marginEnd="196dp"
-        android:layout_marginRight="196dp"
-        android:layout_marginBottom="313dp"
-        android:contentDescription="@string/otherdetails"
-        android:text="Other Details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="360dp"
+        android:contentDescription="@string/dogpageoriginofbreed"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ORIGIN OF BREED"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="260dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="166dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="481dp"
-        android:contentDescription="@string/doc_details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <EditText
+        android:id="@+id/nutritionandgrowth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="487dp"
+        android:contentDescription="@string/dogpagenutritionandgrowth"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NUTRITION AND GROUTH"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="260dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="298dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="349dp"
-        android:contentDescription="@string/medical_details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template3" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="260dp"
-        android:layout_height="84dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="429dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="218dp"
-        android:contentDescription="@string/other_details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template3" />
-
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="404dp"
-        android:layout_height="178dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="536dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="17dp"
-        android:contentDescription="@string/mapview"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <EditText
+        android:id="@+id/diseasesandvaccines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="616dp"
+        android:contentDescription="@string/dogpagediseasesandvaccines"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DISEASES AND VACCINES"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -19,9 +19,11 @@
     <string name="medical_center">Mdeical_Center</string>
     <string name="otherdetails">OtherDetails</string>
     <string name="mapview">MapView</string>
+
     <string name="vaccine_report">Vaccine_Report</string>
     <string name="reporticon">ReportIcon</string>
     <string name="addreporticon">AddReportIcon</string>
+
     <string name="petcardheading">PetCardHeading</string>
     <string name="petcard">PetCard</string>
     <string name="peticon">PetIcon</string>
@@ -46,9 +48,46 @@
     <string name="yesradiobutton">YesRadioButton</string>
     <string name="noradiobutton">NoRadioButton</string>
     <string name="vaccinereportsave">VaccineReportSave</string>
+
     <string name="vaccinepricetext">VaccinePriceText</string>
     <string name="vaccineprice">VaccinePrice</string>
     <string name="vaccinedate">VaccineDate</string>
     <string name="vaccinenametext">VaccineNameText</string>
     <string name="nurcelogovaccinedetails">NurceLogoVaccineDetails</string>
+    <string name="activitymainsidebar">ActivityMainSideBar</string>
+    <string name="sidebarimage">SideBarImage</string>
+    <string name="mainsidebardoctor">MainSIdeBarDoctor</string>
+    <string name="mainsidebarpetcarddetails">MainSideBarPetCardDetails</string>
+    <string name="mainsidebarmedicalcenters">MainSideBarMedicalCenters</string>
+    <string name="mainsidebarlogout">MainSideBarLogout</string>
+    <string name="mainsidebaraccount">MainSideBarAcoount</string>
+    <string name="mainsidebarblogs">MainSideBarBlogs</string>
+    <string name="mainsidebarvaccinedetails">MainSideBarVaccineDetails</string>
+    <string name="mainsidebardetailsofpets">MainSideBarDetailsofPets</string>
+    <string name="mainsidebaracoounts">MainSideBarAccounts</string>
+
+    <string name="dogpageheading">DogPageHeading</string>
+    <string name="dogpageintroduction">DogPageIntroduction</string>
+    <string name="dogpageoriginofbreed">DogPageOriginofBreed</string>
+    <string name="dogpagenutritionandgrowth">DogPageNutritionandGrowth</string>
+    <string name="dogpagediseasesandvaccines">DogPageDiseasesandVaccines</string>
+    <string name="dogpageimage4">DogPageImage4</string>
+    <string name="dogpageimage3">DogPageImage3</string>
+    <string name="dogpageimage2">DogPageImage2</string>
+    <string name="dogpageimage1">DogPageImage1</string>
+
+    <string name="catpageheading">CatPageHeading</string>
+    <string name="catpageintroductionlayer">CatPageIntroductionLayer</string>
+    <string name="catpageintroduction">CatPageIntroduction</string>
+    <string name="catpageoriginofbreedlayer">CatPageOriginofBreesLayer</string>
+    <string name="catpageorigineofbreed">CatPageOriginofBreed</string>
+    <string name="catpagenutritionandgrowth">CatPageNutitionAndGrowth</string>
+    <string name="catpagenutritionandgrowths">CatPageNutritionAndGrowths</string>
+    <string name="catpagediseasesandvaccineslayout">CatPageDiseasesAndVaccinesLayout</string>
+    <string name="catpagediseasesandvaccines">CatPageDiseasesAndVaccines</string>
+    <string name="catpageintrodutionimage">CatPageIntroductionImage</string>
+    <string name="catpageoriginofbreed">CatPageOriginofBreed</string>
+    <string name="catpagenutritionandgrwoth">CatPageNutritionAndGrwoth</string>
+    <string name="catpagedeasesandvaccines">CatPageDeasesAndVaccines</string>
+
 </resources>
