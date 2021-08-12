@@ -145,6 +145,7 @@
         android:layout_marginTop="168dp"
         android:contentDescription="@string/introductionofcats"
         android:text="INTRODUCTION"
+        android:textStyle="bold"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -154,8 +155,8 @@
     <SearchView
         android:layout_width="389dp"
         android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="75dp"
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"

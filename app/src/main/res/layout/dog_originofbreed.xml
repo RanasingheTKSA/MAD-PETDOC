@@ -143,6 +143,7 @@
         android:layout_marginTop="164dp"
         android:contentDescription="@string/originofbreeddog"
         android:text="ORIGIN OF BREED"
+        android:textStyle="bold"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -151,8 +152,8 @@
     <SearchView
         android:layout_width="389dp"
         android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="75dp"
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"

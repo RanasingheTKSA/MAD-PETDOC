@@ -145,6 +145,7 @@
         android:layout_marginTop="156dp"
         android:contentDescription="@string/introductionsofdogs"
         android:text="INTRODUCTION"
+        android:textStyle="bold"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
