@@ -1,4 +1,6 @@
 <resources>
+
+    <!-- Ranasinghe TKSA -->
     <string name="app_name">mad-pet-doctor</string>
     <string name="Logo">LOGO</string>
     <string name="background_template">Background_Template</string>
