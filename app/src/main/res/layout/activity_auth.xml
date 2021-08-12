@@ -7,23 +7,118 @@
     tools:context=".AuthActivity">
 
     <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="804dp"
-        android:layout_height="1026dp"
-        android:contentDescription="@string/background_template"
-        android:rotation="90"
+        android:id="@+id/auth_background"
+        android:layout_width="423dp"
+        android:layout_height="755dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template"
-        tools:layout_editor_absoluteX="-3dp" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background_template" />
 
     <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="366dp"
-        android:layout_height="374dp"
+        android:id="@+id/imageView39"
+        android:layout_width="381dp"
+        android:layout_height="458dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/background_template2"
-        tools:layout_editor_absoluteY="310dp" />
+        app:srcCompat="@drawable/background_template2" />
+
+    <ImageView
+        android:id="@+id/auth_logo"
+        android:layout_width="416dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/auth_logo" />
+
+    <TextView
+        android:id="@+id/auth_proceedWithYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_proceedWithYou"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/auth_loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_loginText"
+        android:textColor="@color/black"
+        android:textSize="80px"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/auth_emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginRight="245dp"
+        android:text="@string/auth_emailText"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <EditText
+        android:id="@+id/auth_emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/auth_emailEditText"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/auth_passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auth_passwordText"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <EditText
+        android:id="@+id/auth_passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/auth_passwordEditText"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="158dp"
+        android:layout_height="36dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="624dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
