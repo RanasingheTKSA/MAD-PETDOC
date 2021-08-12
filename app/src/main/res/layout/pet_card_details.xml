@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
@@ -124,8 +124,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="588dp"
+        android:layout_width="395dp"
+        android:layout_height="643dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="131dp"
@@ -138,7 +138,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.962"
         app:srcCompat="@drawable/background_template2" />
 
     <TextView
@@ -147,49 +147,47 @@
         android:layout_height="34dp"
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
-        android:layout_marginBottom="553dp"
+        android:layout_marginBottom="601dp"
         android:contentDescription="@string/vaccine_report"
-        android:text="VACCINE REPORT"
+        android:text="PET CARD DETAILS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="173dp"
-        android:layout_marginLeft="173dp"
-        android:layout_marginTop="185dp"
-        android:layout_marginEnd="174dp"
-        android:layout_marginRight="174dp"
-        android:layout_marginBottom="482dp"
-        android:contentDescription="@string/reporticon"
+        android:id="@+id/petcarddetailsimage1"
+        android:layout_width="131dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="510dp"
+        android:contentDescription="@string/petcarddetailsimage1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icons8_report_64" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="359dp"
-        android:layout_marginLeft="359dp"
-        android:layout_marginTop="248dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:layout_marginBottom="459dp"
-        android:contentDescription="@string/addreporticon"
+    <SearchView
+        android:layout_width="389dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="476dp"
+        android:contentDescription="@string/petcarddetailssearchbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_add_property_24" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

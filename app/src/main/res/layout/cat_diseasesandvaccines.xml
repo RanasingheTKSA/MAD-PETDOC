@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
@@ -124,8 +124,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="588dp"
+        android:layout_width="398dp"
+        android:layout_height="602dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="131dp"
@@ -138,58 +138,73 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.962"
         app:srcCompat="@drawable/background_template2" />
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="242dp"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="127dp"
+        android:contentDescription="@string/catdiseasesandvaccinesheading"
+        android:text="DISEASES AND VACCINES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:layout_width="389dp"
         android:layout_height="34dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:layout_marginBottom="553dp"
-        android:contentDescription="@string/vaccine_report"
-        android:text="VACCINE REPORT"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="622dp"
+        android:contentDescription="@string/catdiseasesandvaccinessearchbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="173dp"
-        android:layout_marginLeft="173dp"
-        android:layout_marginTop="185dp"
-        android:layout_marginEnd="174dp"
-        android:layout_marginRight="174dp"
-        android:layout_marginBottom="482dp"
-        android:contentDescription="@string/reporticon"
+    <EditText
+        android:id="@+id/diseasesandvaccinesdescription"
+        android:layout_width="388dp"
+        android:layout_height="542dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/catdiseasesandvaccinesdescrption"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="diseases and vaccines descrption"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_report_64" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="359dp"
-        android:layout_marginLeft="359dp"
-        android:layout_marginTop="248dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:layout_marginBottom="459dp"
-        android:contentDescription="@string/addreporticon"
+        android:id="@+id/imageView38"
+        android:layout_width="372dp"
+        android:layout_height="519dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="33dp"
+        android:alpha="0.3"
+        android:contentDescription="@string/catdiseasesandvaccinesimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_add_property_24" />
+        app:srcCompat="@drawable/cat_339400_1920" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

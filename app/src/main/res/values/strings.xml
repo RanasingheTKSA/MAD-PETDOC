@@ -90,4 +90,55 @@
     <string name="catpagenutritionandgrwoth">CatPageNutritionAndGrwoth</string>
     <string name="catpagedeasesandvaccines">CatPageDeasesAndVaccines</string>
 
+    <string name="detailsofpetpage">DetailsofPetPage</string>
+    <string name="detailsofpetpagedoglayer">DetailsofPetPageDogLayer</string>
+    <string name="detailsofpetpagedog">DetailsofPetPageDog</string>
+    <string name="detailsofpetpagecatlayer">DetailsofPetpageCatLayer</string>
+    <string name="detailsofpetpagecat">DetailsofPetPageCat</string>
+    <string name="detailsofpetpageimage1">DetailsofPetPageImage1</string>
+    <string name="detailsofpetpageimage2">DetailsofPetPageImage2</string>
+    <string name="petcarddetailsimage1">PetCardDetailsImage1</string>
+    <string name="petcarddetailssearchbar">PetCardDetailsSearchBar</string>
+
+    <string name="introductionsofdogs">IntroductionofDogs</string>
+    <string name="introductiondogsearchbar">IntroductionDogSearchBar</string>
+    <string name="introductionofdogimage">IntroductionofDogImage</string>
+    <string name="introductionofdogdescription">IntroductionofDogDescription</string>
+
+    <string name="introductionofcats">IntroductionofCats</string>
+    <string name="introductionodcatdescription">IntroductionofCatDescrption</string>
+    <string name="introductionofcatimage">IntroductionofCatImage</string>
+    <string name="introductioncatsearchbar">IntroductionCatSearchBar</string>
+
+    <string name="originofbreeddog">OriginofBreedDog</string>
+    <string name="originofbreeddescription">OriginofBreedDescription</string>
+    <string name="originofbreedimage">OriginofBreedImage</string>
+    <string name="originfobreedsearchbar">OriginofBreedSearchBar</string>
+
+    <string name="originofbreedcatsearchbar">OriginofBreedCatSearchBar</string>
+    <string name="originofbreedcatdescription">OriginofBreedCatDescription</string>
+    <string name="originofbreedcat">OriginofBreedCat</string>
+    <string name="originofbreedcatimage">OriginofBreedCatImage</string>
+
+    <string name="nuritionandgrowthsearchbar">NutritionAndGrowthSearchBar</string>
+    <string name="nuritionandgrowthheading">NuritionAndGrowthHeading</string>
+    <string name="dognutritionandgrowth">DogNutritionAndGrowth</string>
+    <string name="dognutritionandgrowthdescription">DogNutritionAndGrowthDescrption</string>
+
+    <string name="catnutritionandgrowthheading">CatNutritionAndgrowthHeading</string>
+    <string name="catnuritionandgrowthsearchbar">CatNutrionAndGrowthSearchBar</string>
+    <string name="catnutritionandgrowthdescrption">CatNutritionAndGrowthDescrption</string>
+    <string name="catnutritionandgrowthimage">CatNutritionAndGrowthDescrption</string>
+
+    <string name="dogdiseasesandvaccines">DogDiseasesAndVaccines</string>
+    <string name="dogdiseasesandvaccinesheading">DogDiseasesAndVaccinesHeading</string>
+    <string name="diseasesandvaccinesdescription">DiseasesAndVaccinesDescription</string>
+    <string name="diseasesandvaccinesimage">DiseasesAndVaccinesImage</string>
+
+    <string name="catdiseasesandvaccinessearchbar">CatDiseasesAndVaccineSearchBar</string>
+    <string name="catdiseasesandvaccinesheading">CatDiseasesAndVaccineHeading</string>
+    <string name="catdiseasesandvaccinesdescrption">CatDiseasesAndVaccinesDescription</string>
+    <string name="catdiseasesandvaccinesimage">CatDiseasesAndVaccinesImage</string>
+
+
 </resources>
