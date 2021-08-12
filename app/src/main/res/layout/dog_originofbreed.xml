@@ -99,19 +99,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="330dp"
-        android:layout_marginLeft="330dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="your name"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +122,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="401dp"
-        android:layout_height="616dp"
+        android:layout_height="601dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
@@ -136,13 +138,13 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="115dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="127dp"
+        android:layout_width="169dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="164dp"
         android:contentDescription="@string/originofbreeddog"
         android:text="ORIGIN OF BREED"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -155,26 +157,8 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="622dp"
+        android:background="#FFFFFF"
         android:contentDescription="@string/originfobreedsearchbar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/diseasesandvaccinesdescription"
-        android:layout_width="389dp"
-        android:layout_height="539dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="@string/originofbreeddescription"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="origin of breed description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -197,5 +181,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dog_2785077_1920" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="356dp"
+        android:layout_height="376dp"
+        android:layout_marginTop="238dp"
+        android:contentDescription="@string/dogoriginofbreeddesc"
+        android:text="Once it became evident that dogs were faster and stronger and could see and hear better than humans, those specimens exhibiting these qualities were interbred to enhance such attributes. Fleet-footed sighthounds were revered by noblemen in the Middle East, while in Europe powerful dogs such as the mastiff were developed to protect home and traveler from harm.    As society changed and agriculture—in addition to hunting—became a means of sustaining life, other breeds of dogs were developed. Herding and guarding dogs were important to farmers for protecting their flocks. At the same time, small breeds became desirable as playthings and companions for noble families. The Pekingese in China and fragile breeds such as the Chihuahua were bred to be lapdogs. The terrier breeds were developed, mainly in England, to rid granaries and barns of rodents. Pointing and retrieving breeds were selected for special tasks related to aiding the hunter to find and capture game. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
