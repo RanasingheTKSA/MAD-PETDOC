@@ -123,8 +123,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="403dp"
-        android:layout_height="609dp"
+        android:layout_width="400dp"
+        android:layout_height="626dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
@@ -140,27 +140,13 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="203dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="152dp"
+        android:layout_width="301dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="132dp"
         android:contentDescription="@string/nuritionandgrowthheading"
         android:text="NUTRITION AND GROWTH"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <SearchView
-        android:layout_width="389dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="622dp"
-        android:contentDescription="@string/nuritionandgrowthsearchbar"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -264,7 +264,6 @@
     <string name="bar4_photo">Bar4_Photo</string>
     <string name="profbar5">Profile_bar5</string>
     <string name="rep1_name">Report1_Name</string>
-
     <string name="cont_photo">Contact_Photo</string>
     <string name="cont_email">Contact_Email</string>
     <string name="cont_phone">Contact_Phone</string>
@@ -272,7 +271,6 @@
     <string name="cont_label2">Contact_Label2</string>
     <string name="cont_label3">Contact_Label3</string>
     <string name="bton3">SUBMIT</string>
-
     <string name="searchbar">SearchBar</string>
     <string name="calenderbar">CalenderBar</string>
     <string name="profbar6">Profile_bar6</string>
@@ -282,7 +280,6 @@
     <string name="applabel2">AppDocNAme</string>
     <string name="time">Time</string>
     <string name="bton4">BOOK</string>
-
     <string name="SearchBar">Search_Bar</string>
     <string name="callIcon">Call_Icon</string>
     <string name="schedulephoto">SchedulePhoto</string>
@@ -293,7 +290,6 @@
     <string name="cardhead">Card_Heading</string>
     <string name="card_checkbox">Confirm Box</string>
     <string name="bton6">CARD PAY</string>
-
     <string name="cardlabel2">CardHolder Name</string>
     <string name="cardlabel">Card Number</string>
     <string name="cardlabel11">Expiration Date</string>
@@ -302,7 +298,6 @@
     <string name="et_cont2">Email</string>
     <string name="et_cont1">Name</string>
     <string name="cont_heading">CONTACT US</string>
-
     <string name="sched_pic">Schedule</string>
     <string name="sched_name">ENTER SCHEDULES</string>
     <string name="profbar9">Profile_bar9</string>
@@ -315,7 +310,6 @@
     <string name="et_sched3">date</string>
     <string name="et_sched4">time</string>
     <string name="bton7">SUBMIT</string>
-
     <string name="profbar11">Profile_bar11</string>
     <string name="pet_label1">Animal ID</string>
     <string name="pet_label2">Animal Name</string>
@@ -326,7 +320,6 @@
     <string name="pet_pic1">Pic1</string>
     <string name="pet_pic2">Pic2</string>
     <string name="bton9">NEXT</string>
-
     <string name="app_label1">Animal Id</string>
     <string name="app_label2">Owner Name</string>
     <string name="app_label3">appointment Date</string>
@@ -336,7 +329,6 @@
     <string name="app_label7">Service Charges</string>
     <string name="app_label8">Total Fee</string>
     <string name="bton10">CONFIRM AND PAY</string>
-
     <string name="app_usericon">User Icon</string>
     <string name="view_1">Dr.Name</string>
     <string name="view_2">Vet surgeon</string>
@@ -353,7 +345,6 @@
     <string name="view_6">Appoin_Time</string>
     <string name="button17">time slot</string>
     <string name="appoint_checkBox">Confirm Box</string>
-
     <string name="doc_pic1">Doc_pic1</string>
     <string name="doc_pic04">Doc_pic04</string>
     <string name="doc_pic3">Doc_pic3</string>
@@ -382,7 +373,6 @@
     <string name="book_doc15">Doc_name15</string>
     <string name="buton3">BOOK4</string>
     <string name="phone_pic4">Phone4</string>
-
     <string name="confirm_1">M+ Medical Center</string>
     <string name="confirm_2">Moto</string>
     <string name="confirm_3">Address</string>

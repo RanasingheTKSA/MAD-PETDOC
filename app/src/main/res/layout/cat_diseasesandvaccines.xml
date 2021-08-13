@@ -121,8 +121,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="402dp"
-        android:layout_height="614dp"
+        android:layout_width="395dp"
+        android:layout_height="623dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="131dp"
@@ -142,25 +142,11 @@
         android:id="@+id/catdiseasesandvaccinesheading"
         android:layout_width="249dp"
         android:layout_height="40dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="136dp"
         android:contentDescription="@string/catdiseasesandvaccinesheading"
         android:text="DISEASES AND VACCINES"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <SearchView
-        android:layout_width="389dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="622dp"
-        android:contentDescription="@string/catdiseasesandvaccinessearchbar"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
