@@ -173,23 +173,6 @@
     <string name="vdvaccinedate">VDVaccineDate</string>
     <string name="vdvaccineprice">VDVaccinePrice</string>
 
-    <string name="auth_proceedWithYou">Proceed With You</string>
-    <string name="auth_loginText">Login</string>
-    <string name="auth_emailText">Email</string>
-    <string name="auth_emailEditText" />
-    <string name="auth_passwordText">Password</string>
-    <string name="auth_passwordEditText" />
-    <string name="createAcc_textView">Create Account</string>
-    <string name="createAcc_nameText">Name</string>
-    <string name="createAcc_nameEditText" />
-    <string name="createAcc_emailText">Email</string>
-    <string name="createAcc_emailEditText" />
-    <string name="createAcc_mobileNoText">Mobile Number</string>
-    <string name="createAcc_mobileNoEditText" />
-    <string name="createAcc_passwordText">Password</string>
-    <string name="createAcc_passwordEditTest" />
-    <string name="createAccbtn">Create</string>
-
 
 
  <!--Chanukshi-->
@@ -404,5 +387,77 @@
     <string name="content1">The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters running about–invading your space, poking their whiskers into your Zoom meetings, barking up a storm when you’re on a call with a client…the list goes on. Now that we’ve been relegated to the homestead for quite some time, you’d think most of us would have mastered Work From Home (WFH). The truth is that it’s never easy when it comes to balancing work and your energetic furry friends. To help you out, we’ve narrowed it down to the top 6 tips and tricks to make working from home easier if you’ve got pets.</string>
     <string name="health1">PROVIDE A PROTECTED AND CLEAN LIVING ENVIRONMENT FOR YOUR DOG: Shelter from the elements and hazards, as well as good hygiene, are basic to a quality life.</string>
     <string name="health2">ALWAYS KEEP FRESH WATER AVAILABLE.: Maintaining optimal hydration is important for health and energy.</string>
+
+
+
+    <!--Ashen-->
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText" />
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText" />
+    <string name="auth_loginbtn">Login</string>
+    <string name="auth_forgotPasswordText">Forgot Password?</string>
+    <string name="auth_dontHaveanAcc">DONT HAVE AN ACCOUNT SIGN UP</string>
+
+    <string name="createAcc_textView">Create Account</string>
+    <string name="createAcc_nameText">Name</string>
+    <string name="createAcc_nameEditText" />
+    <string name="createAcc_emailText">Email</string>
+    <string name="createAcc_emailEditText" />
+    <string name="createAcc_mobileNoText">Mobile Number</string>
+    <string name="createAcc_mobileNoEditText" />
+    <string name="createAcc_passwordText">Password</string>
+    <string name="createAcc_passwordEditTest" />
+    <string name="createAccbtn">Create</string>
+
+    <string name="clientProfileUserName">USER NAME</string>
+    <string name="clientProfileText">Edit Profile</string>
+    <string name="clientProfile_nameText">Name</string>
+    <string name="editProfile_nameEditText" />
+    <string name="editProfile_emailText">Email</string>
+    <string name="editProfile_emailEditText" />
+    <string name="editProfile_mobileText">Mobile Number</string>
+    <string name="editProfile_movileNumberEditText" />
+    <string name="editProfile_passwordEdit">Password</string>
+    <string name="editProfile_passwordEditText" />
+    <string name="clientProfileSavebtn">Save</string>
+
+    <string name="adminDashboardText">Admin Dashboard</string>
+    <string name="adminUsername">USERNAME</string>
+    <string name="adminUserText">Users</string>
+    <string name="adminDoctorText">Doctors</string>
+    <string name="adminMedicalCenterText">Medical Centers</string>
+    <string name="adminCard_doctorText">Doctors</string>
+    <string name="admin_doctorText">Doctors</string>
+    <string name="admin_medicalCenterText">Medical Centers</string>
+    <string name="admin_userText">Users</string>
+
+    <string name="changePasswordText">Reset Your Password?</string>
+    <string name="EditTextNewPassword">New Password</string>
+    <string name="chanagePasswordText">Reset Your Password ?</string>
+    <string name="chanagePasswordbtn">Change Password</string>
+    <string name="newPasswordEditText">New Password</string>
+    <string name="confirmPasswordEditText">Confirm Password</string>
+
+    <string name="adminUsername2">USERNAME</string>
+    <string name="userListAdminUserName">USERNAME</string>
+    <string name="userListText">Users</string>
+    <string name="userId">Id</string>
+    <string name="usercolName">Name</string>
+    <string name="userColEmail">Email</string>
+    <string name="userColAction">Action</string>
+    <string name="userRecordId">1</string>
+    <string name="userRecordName">User1</string>
+    <string name="docltorListText">Doctors</string>
+    <string name="doctorcolName">Doctor Name</string>
+    <string name="doctorColEmail">Email</string>
+    <string name="doctorlLstText">Doctors</string>
+    <string name="medicalcenteListText">Medical Centers</string>
+    <string name="medicalCenterId">Id</string>
+    <string name="medicalCenterName">Center Name</string>
+    <string name="medicalCentercolName">Center Name</string>
+    <string name="medicalcenterColEmail">Email</string>
 
 </resources>
