@@ -192,7 +192,7 @@
 
 
 
-    <!--Chanukshi-->
+ <!--Chanukshi-->
     <string name="hos_logo">Hospital_Logo</string>
     <string name="hos_heading">Hospital_heading</string>
     <string name="bton1">Nav_Btn1</string>
@@ -331,6 +331,5 @@
     <string name="daailyrep_2">report  Date</string>
     <string name="rep_name1">Photo_report</string>
     <string name="med_heading">M+ Medical Center</string>
-
 
 </resources>
