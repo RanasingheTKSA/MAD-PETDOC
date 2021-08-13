@@ -200,6 +200,11 @@
     <string name="editProfile_passwordEdit">Password</string>
     <string name="editProfile_passwordEditText" />
     <string name="clientProfileSavebtn">Save</string>
+    <string name="adminDashboardText">Admin Dashboard</string>
+    <string name="adminUsername">USERNAME</string>
+    <string name="adminUserText">Users</string>
+    <string name="adminDoctorText">Doctors</string>
+    <string name="adminMedicalCenterText">Medical Centers</string>
 
 
 </resources>
