@@ -216,6 +216,15 @@
     <string name="chanagePasswordbtn">Change Password</string>
     <string name="newPasswordEditText">New Password</string>
     <string name="confirmPasswordEditText">Confirm Password</string>
+    <string name="adminUsername2">USERNAME</string>
+    <string name="userListAdminUserName">USERNAME</string>
+    <string name="userListText">Users</string>
+    <string name="userId">Id</string>
+    <string name="usercolName">Name</string>
+    <string name="userColEmail">Email</string>
+    <string name="userColAction">Action</string>
+    <string name="userRecordId">1</string>
+    <string name="userRecordName">User1</string>
 
 
 </resources>
