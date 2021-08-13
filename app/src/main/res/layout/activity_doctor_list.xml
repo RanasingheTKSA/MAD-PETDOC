@@ -134,6 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:shadowColor="#B69191"
+                android:textColor="@color/black"
                 android:text="@string/userId"
                 android:textStyle="bold" />
 
@@ -142,6 +143,7 @@
                 android:layout_width="103dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="@string/doctorcolName"
                 android:textStyle="bold" />
 
@@ -151,6 +153,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/doctorColEmail"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -159,6 +162,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/userColAction"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -173,6 +177,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="@string/userRecordId" />
 
             <TextView
@@ -180,6 +185,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="@string/userRecordName" />
 
             <TextView
@@ -187,6 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor1@gmail.com" />
 
             <TextView
@@ -211,18 +218,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor2@gmail.com" />
 
             <TextView
@@ -246,18 +256,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor3@gmail.com" />
 
             <TextView
@@ -281,18 +294,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor4@gmail.com" />
 
             <TextView
@@ -316,30 +332,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="" />
 
             <ImageView
                 android:id="@+id/deletebtn5"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
+                android:textColor="@color/black"
                 app:srcCompat="@drawable/deleteicon" />
         </TableRow>
 
@@ -351,18 +372,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="Doctor6@gmail.com" />
 
             <TextView

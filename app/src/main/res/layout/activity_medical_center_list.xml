@@ -134,6 +134,7 @@
                 android:layout_weight="1"
                 android:shadowColor="#B69191"
                 android:text="@string/medicalCenterId"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -142,6 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/medicalCentercolName"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -150,6 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/medicalcenterColEmail"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -158,6 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/userColAction"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -172,6 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="@string/userRecordId" />
 
             <TextView
@@ -179,6 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center1" />
 
             <TextView
@@ -186,6 +192,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center1@gmail.com" />
 
             <TextView
@@ -210,24 +217,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center2@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="" />
 
             <ImageView
@@ -245,24 +256,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center3@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="" />
 
             <ImageView
@@ -280,24 +295,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center4@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="" />
 
             <ImageView
@@ -315,18 +334,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="centerr@gmail.com" />
 
             <TextView
@@ -350,18 +372,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="center6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="centerr6@gmail.com" />
 
             <TextView

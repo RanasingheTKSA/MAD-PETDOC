@@ -239,6 +239,9 @@
     <string name="medicalCenterName">Center Name</string>
     <string name="medicalCentercolName">Center Name</string>
     <string name="medicalcenterColEmail">Email</string>
+    <string name="auth_loginbtn">Login</string>
+    <string name="auth_forgotPasswordText">Forgot Password?</string>
+    <string name="auth_dontHaveanAcc">DONT HAVE AN ACCOUNT SIGN UP</string>
 
 
 </resources>
