@@ -173,6 +173,7 @@
     <string name="vdvaccinedate">VDVaccineDate</string>
     <string name="vdvaccineprice">VDVaccinePrice</string>
 
+    <!--Ashen-->
     <string name="auth_proceedWithYou">Proceed With You</string>
     <string name="auth_loginText">Login</string>
     <string name="auth_emailText">Email</string>
@@ -205,11 +206,16 @@
     <string name="adminUserText">Users</string>
     <string name="adminDoctorText">Doctors</string>
     <string name="adminMedicalCenterText">Medical Centers</string>
-    <string name="adminUserText">Users</string>
     <string name="adminCard_doctorText">Doctors</string>
     <string name="admin_doctorText">Doctors</string>
     <string name="admin_medicalCenterText">Medical Centers</string>
     <string name="admin_userText">Users</string>
+    <string name="changePasswordText">Reset Your Password?</string>
+    <string name="EditTextNewPassword">New Password</string>
+    <string name="chanagePasswordText">Reset Your Password ?</string>
+    <string name="chanagePasswordbtn">Change Password</string>
+    <string name="newPasswordEditText">New Password</string>
+    <string name="confirmPasswordEditText">Confirm Password</string>
 
 
 </resources>
