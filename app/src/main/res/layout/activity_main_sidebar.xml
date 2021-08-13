@@ -155,7 +155,7 @@
         app:srcCompat="@drawable/background_template2" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/hos_logo"
         android:layout_width="56dp"
         android:layout_height="51dp"
         android:layout_marginStart="52dp"

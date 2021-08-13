@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/hos_logo"
+        android:id="@+id/imageView"
         android:layout_width="804dp"
         android:layout_height="1026dp"
         android:layout_marginTop="-15dp"
@@ -16,7 +16,7 @@
         android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.65"
@@ -24,8 +24,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
+        android:layout_width="415dp"
+        android:layout_height="62dp"
         android:layout_marginStart="13dp"
         android:layout_marginLeft="13dp"
         android:layout_marginTop="10dp"
@@ -73,8 +73,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="61dp"
-        android:layout_height="52dp"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
         android:layout_marginStart="104dp"
         android:layout_marginLeft="104dp"
         android:layout_marginTop="10dp"
@@ -85,8 +85,10 @@
         android:contentDescription="@string/Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/chip5"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/pet_doc_2" />
 
     <ImageView
@@ -106,7 +108,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -118,7 +120,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,9 +132,9 @@
         android:id="@+id/cont_heading"
         android:layout_width="323dp"
         android:layout_height="64dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginRight="300dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="352dp"
+        android:layout_marginRight="352dp"
         android:contentDescription="@string/cont_heading"
         android:fontFamily="sans-serif"
         android:hint="cont_heading"
@@ -142,8 +146,8 @@
 
     <ImageView
         android:id="@+id/profbar3"
-        android:layout_width="400dp"
-        android:layout_height="369dp"
+        android:layout_width="394dp"
+        android:layout_height="349dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/profbar3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -226,11 +230,12 @@
 
     <Button
         android:id="@+id/bton3"
-        android:layout_width="147dp"
-        android:layout_height="61dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="140dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
         android:contentDescription="@string/bton3"
         android:text="SUBMIT"
+        app:backgroundTint="@android:color/holo_green_dark"
         app:iconTint="#208A24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -253,7 +258,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         android:background="#E8DEDE"
         app:layout_constraintStart_toEndOf="@+id/cont_label2"
         app:layout_constraintTop_toBottomOf="@+id/tableRow" />
