@@ -173,10 +173,10 @@
         app:srcCompat="@drawable/icons8_report_64" />
 
     <SearchView
-        android:layout_width="389dp"
+        android:layout_width="370dp"
         android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
@@ -199,8 +199,8 @@
         android:layout_height="match_parent"
         android:layout_marginTop="240dp"
         android:contentDescription="@string/table1"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">

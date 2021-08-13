@@ -167,8 +167,10 @@
         android:contentDescription="@string/reporticon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546"
         app:srcCompat="@drawable/icons8_report_64" />
 
     <ImageView
@@ -204,15 +206,15 @@
         android:layout_height="match_parent"
         android:layout_marginTop="230dp"
         android:contentDescription="@string/table2"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
             android:background="#aaaaaa"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum1"
@@ -250,7 +252,7 @@
 
         <TableRow
             android:background="#ffffff"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum5"
@@ -283,7 +285,7 @@
 
         <TableRow
             android:background="#DAE8FC"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum9"
@@ -316,7 +318,7 @@
 
         <TableRow
             android:background="#ffffff"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum13"
@@ -349,7 +351,7 @@
 
         <TableRow
             android:background="#DAE8FC"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum17"
@@ -382,7 +384,7 @@
 
         <TableRow
             android:background="#ffffff"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum21"
@@ -415,7 +417,7 @@
 
         <TableRow
             android:background="#DAE8FC"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/tablecoloum25"
@@ -448,7 +450,7 @@
 
         <TableRow
             android:background="#ffffff"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
