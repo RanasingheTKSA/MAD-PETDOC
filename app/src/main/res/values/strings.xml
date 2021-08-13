@@ -195,4 +195,75 @@
     <string name="contactus">ContactUs</string>
     <string name="logout">LogOut</string>
     <!--Ranasinghe TKSA-->
+
+
+    <!--Ashen-->
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText" />
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText" />
+    <string name="auth_loginbtn">Login</string>
+    <string name="auth_forgotPasswordText">Forgot Password?</string>
+    <string name="auth_dontHaveanAcc">DONT HAVE AN ACCOUNT SIGN UP</string>
+
+    <string name="createAcc_textView">Create Account</string>
+    <string name="createAcc_nameText">Name</string>
+    <string name="createAcc_nameEditText" />
+    <string name="createAcc_emailText">Email</string>
+    <string name="createAcc_emailEditText" />
+    <string name="createAcc_mobileNoText">Mobile Number</string>
+    <string name="createAcc_mobileNoEditText" />
+    <string name="createAcc_passwordText">Password</string>
+    <string name="createAcc_passwordEditTest" />
+    <string name="createAccbtn">Create</string>
+
+    <string name="clientProfileUserName">USER NAME</string>
+    <string name="clientProfileText">Edit Profile</string>
+    <string name="clientProfile_nameText">Name</string>
+    <string name="editProfile_nameEditText" />
+    <string name="editProfile_emailText">Email</string>
+    <string name="editProfile_emailEditText" />
+    <string name="editProfile_mobileText">Mobile Number</string>
+    <string name="editProfile_movileNumberEditText" />
+    <string name="editProfile_passwordEdit">Password</string>
+    <string name="editProfile_passwordEditText" />
+    <string name="clientProfileSavebtn">Save</string>
+
+    <string name="adminDashboardText">Admin Dashboard</string>
+    <string name="adminUsername">USERNAME</string>
+    <string name="adminUserText">Users</string>
+    <string name="adminDoctorText">Doctors</string>
+    <string name="adminMedicalCenterText">Medical Centers</string>
+    <string name="adminCard_doctorText">Doctors</string>
+    <string name="admin_doctorText">Doctors</string>
+    <string name="admin_medicalCenterText">Medical Centers</string>
+    <string name="admin_userText">Users</string>
+
+    <string name="changePasswordText">Reset Your Password?</string>
+    <string name="EditTextNewPassword">New Password</string>
+    <string name="chanagePasswordText">Reset Your Password ?</string>
+    <string name="chanagePasswordbtn">Change Password</string>
+    <string name="newPasswordEditText">New Password</string>
+    <string name="confirmPasswordEditText">Confirm Password</string>
+
+    <string name="adminUsername2">USERNAME</string>
+    <string name="userListAdminUserName">USERNAME</string>
+    <string name="userListText">Users</string>
+    <string name="userId">Id</string>
+    <string name="usercolName">Name</string>
+    <string name="userColEmail">Email</string>
+    <string name="userColAction">Action</string>
+    <string name="userRecordId">1</string>
+    <string name="userRecordName">User1</string>
+    <string name="docltorListText">Doctors</string>
+    <string name="doctorcolName">Doctor Name</string>
+    <string name="doctorColEmail">Email</string>
+    <string name="doctorlLstText">Doctors</string>
+    <string name="medicalcenteListText">Medical Centers</string>
+    <string name="medicalCenterId">Id</string>
+    <string name="medicalCenterName">Center Name</string>
+    <string name="medicalCentercolName">Center Name</string>
+    <string name="medicalcenterColEmail">Email</string>
 </resources>
