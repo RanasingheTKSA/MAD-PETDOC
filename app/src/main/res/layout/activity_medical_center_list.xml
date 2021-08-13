@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorListActivity">
-
+    tools:context=".MedicalCenterList">
 
     <ImageView
         android:id="@+id/imageView49"
@@ -134,7 +133,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:shadowColor="#B69191"
-                android:text="@string/userId"
+                android:text="@string/medicalCenterId"
                 android:textStyle="bold" />
 
             <TextView
@@ -142,7 +141,7 @@
                 android:layout_width="103dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/doctorcolName"
+                android:text="@string/medicalCentercolName"
                 android:textStyle="bold" />
 
             <TextView
@@ -150,7 +149,7 @@
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/doctorColEmail"
+                android:text="@string/medicalcenterColEmail"
                 android:textStyle="bold" />
 
             <TextView
@@ -180,14 +179,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/userRecordName" />
+                android:text="center1" />
 
             <TextView
                 android:id="@+id/userRecordEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor1@gmail.com" />
+                android:text="center1@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -217,13 +216,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor2" />
+                android:text="center2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor2@gmail.com" />
+                android:text="center2@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -252,13 +251,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor3" />
+                android:text="center3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor3@gmail.com" />
+                android:text="center3@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -287,13 +286,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor4" />
+                android:text="center4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor4@gmail.com" />
+                android:text="center4@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -322,13 +321,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor5" />
+                android:text="center5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor@gmail.com" />
+                android:text="centerr@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -357,13 +356,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor6" />
+                android:text="center6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Doctor6@gmail.com" />
+                android:text="centerr6@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -393,26 +392,28 @@
         app:srcCompat="@drawable/navnext" />
 
     <ImageView
-        android:id="@+id/imageView50"
-        android:layout_width="85dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="160dp"
+        android:id="@+id/imageView51"
+        android:layout_width="84dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="152dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/doctoradminavatar" />
+        app:srcCompat="@drawable/medicalcenter" />
 
     <TextView
-        android:id="@+id/docltorListText"
+        android:id="@+id/medicalcenteListText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
-        android:text="@string/docltorListText"
+        android:layout_marginTop="152dp"
+        android:text="@string/medicalcenteListText"
         android:textSize="80px"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adminNavBar" />
+        app:layout_constraintTop_toTopOf="@+id/adminDashbordlogo" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

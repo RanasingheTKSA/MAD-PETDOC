@@ -152,7 +152,7 @@
             android:padding="20dp">
 
             <TextView
-                android:id="@+id/userId"
+                android:id="@+id/medicalCenterId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -161,7 +161,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/doctorcolName"
+                android:id="@+id/medicalCentercolName"
                 android:layout_width="103dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -169,7 +169,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/doctorColEmail"
+                android:id="@+id/medicalcenterColEmail"
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

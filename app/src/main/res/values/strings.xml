@@ -180,6 +180,7 @@
     <string name="auth_emailEditText" />
     <string name="auth_passwordText">Password</string>
     <string name="auth_passwordEditText" />
+
     <string name="createAcc_textView">Create Account</string>
     <string name="createAcc_nameText">Name</string>
     <string name="createAcc_nameEditText" />
@@ -190,6 +191,7 @@
     <string name="createAcc_passwordText">Password</string>
     <string name="createAcc_passwordEditTest" />
     <string name="createAccbtn">Create</string>
+
     <string name="clientProfileUserName">USER NAME</string>
     <string name="clientProfileText">Edit Profile</string>
     <string name="clientProfile_nameText">Name</string>
@@ -201,6 +203,7 @@
     <string name="editProfile_passwordEdit">Password</string>
     <string name="editProfile_passwordEditText" />
     <string name="clientProfileSavebtn">Save</string>
+
     <string name="adminDashboardText">Admin Dashboard</string>
     <string name="adminUsername">USERNAME</string>
     <string name="adminUserText">Users</string>
@@ -210,12 +213,14 @@
     <string name="admin_doctorText">Doctors</string>
     <string name="admin_medicalCenterText">Medical Centers</string>
     <string name="admin_userText">Users</string>
+
     <string name="changePasswordText">Reset Your Password?</string>
     <string name="EditTextNewPassword">New Password</string>
     <string name="chanagePasswordText">Reset Your Password ?</string>
     <string name="chanagePasswordbtn">Change Password</string>
     <string name="newPasswordEditText">New Password</string>
     <string name="confirmPasswordEditText">Confirm Password</string>
+
     <string name="adminUsername2">USERNAME</string>
     <string name="userListAdminUserName">USERNAME</string>
     <string name="userListText">Users</string>
@@ -228,6 +233,12 @@
     <string name="docltorListText">Doctors</string>
     <string name="doctorcolName">Doctor Name</string>
     <string name="doctorColEmail">Email</string>
+    <string name="doctorlLstText">Doctors</string>
+    <string name="medicalcenteListText">Medical Centers</string>
+    <string name="medicalCenterId">Id</string>
+    <string name="medicalCenterName">Center Name</string>
+    <string name="medicalCentercolName">Center Name</string>
+    <string name="medicalcenterColEmail">Email</string>
 
 
 </resources>
