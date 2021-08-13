@@ -199,6 +199,18 @@
     <string name="pcpetnames">PCPetNames</string>
     <string name="dopdetailsofpets">DopDetailsOfPets</string>
     <string name="dopcats">DOPCats</string>
+    <string name="updatebutton">UpdateButton</string>
+    <string name="table1">Table1</string>
+    <string name="table2">Table2</string>
+    <string name="Doctor">Doctor</string>
+    <string name="petcarddetails">PetCardDetails</string>
+    <string name="medicalenter">MedicalCenter</string>
+    <string name="vaccinedetails">VaccineDetails</string>
+    <string name="detailsofpets">DetailsOfPets</string>
+    <string name="accounts">Accounts</string>
+    <string name="blogs">Blogs</string>
+    <string name="contactus">ContactUs</string>
+    <string name="logout">LogOut</string>
 
 
 </resources>
