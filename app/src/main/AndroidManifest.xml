@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".ScheduleApprovalsActivity"></activity>
+        <activity android:name=".ScheduleApprovalsActivity" />
         <activity android:name=".PetBookFormActivity" />
         <activity android:name=".MedicalProfActivity" />
         <activity android:name=".EnterScheduleActivity" />

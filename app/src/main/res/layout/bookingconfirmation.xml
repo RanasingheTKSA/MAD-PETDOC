@@ -124,8 +124,8 @@
 
     <ImageView
         android:id="@+id/profbar11"
-        android:layout_width="381dp"
-        android:layout_height="617dp"
+        android:layout_width="384dp"
+        android:layout_height="596dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/profbar11"
@@ -152,14 +152,14 @@
         android:id="@+id/dailyrep_1"
         android:layout_width="185dp"
         android:layout_height="37dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:contentDescription="@string/confirm_1"
         android:fontFamily="sans-serif-black"
         android:text="M+ Medical Center"
         android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.376"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/profbar11" />
 
@@ -177,6 +177,189 @@
         app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TableLayout
+        android:id="@+id/bookingconfirmtable"
+        android:layout_width="348dp"
+        android:layout_height="234dp"
+        android:layout_marginBottom="208dp"
+        android:contentDescription="@string/bookingconfirmtable"
+        android:paddingLeft="45dp"
+        android:paddingRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:shadowColor="#B69191"
+                android:text="Reference No"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="12345"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#fffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Animal ID"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="1232343"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Animal Name"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Toby"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab8"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Owner Name"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="C.H Gamage"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Appointment Date"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="06.Dec 2020"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Appointment Time"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="4.00PM - 5.00PM"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tab13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Total Fee"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/tab14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Rs.2000.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+    </TableLayout>
 
     <TextView
         android:id="@+id/daailyrep_2"
@@ -240,5 +423,43 @@
         android:text="mvet.hospital@gmial.com"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="292dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginBottom="181dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/confirm_8"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginBottom="134dp"
+        android:contentDescription="@string/confirm_8"
+        android:fontFamily="sans-serif-black"
+        android:text="Please keep this reference receipt with you"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/confirm_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:contentDescription="@string/confirm_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_download_24" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
