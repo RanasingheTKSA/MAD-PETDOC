@@ -314,6 +314,11 @@
     <string name="daailyrep_2">report  Date</string>
     <string name="rep_name1">Photo_report</string>
     <string name="med_heading">M+ Medical Center</string>
+    <string name="bookingconfirmtable">Booking Confirmation Table</string>
+    <string name="confirm_8">"Reference "</string>
+    <string name="confirm_download">Download Icon</string>
+    <string name="dailyreportstable">Daily Reports Table</string>
+    <string name="scheduleapprovalstable">Schedule Approval Table</string>
 
     <!-- Nawanjana MH -->
     <string name="mad_name">mad_name</string>
