@@ -144,39 +144,46 @@
 
     <TextView
         android:id="@+id/textView52"
-        android:layout_width="357dp"
-        android:layout_height="81dp"
+        android:layout_width="352dp"
+        android:layout_height="55dp"
         android:layout_marginStart="19dp"
         android:layout_marginLeft="19dp"
         android:layout_marginTop="388dp"
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
         android:layout_marginBottom="243dp"
-        android:background="#EFEBEB"
-        android:textColor="#EFEBEB"
+        android:background="#00EFEBEB"
+        android:text="@string/_6_ways_to_make_working_from_home_easier_when_you_have_pets"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
 
     <TextView
         android:id="@+id/textView51"
         android:layout_width="357dp"
-        android:layout_height="160dp"
+        android:layout_height="197dp"
         android:layout_marginStart="19dp"
         android:layout_marginLeft="19dp"
         android:layout_marginTop="488dp"
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
         android:layout_marginBottom="243dp"
-        android:background="#D8DCF6"
-        android:textColor="#EFEBEB"
+        android:background="#00D8DCF6"
+        android:text="@string/content"
+        android:textColor="#020202"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.147" />
 
     <Button
         android:id="@+id/button12"
@@ -193,7 +200,9 @@
         app:backgroundTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

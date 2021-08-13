@@ -127,42 +127,46 @@
 
     <ImageView
         android:id="@+id/imageView43"
-        android:layout_width="389dp"
-        android:layout_height="114dp"
+        android:layout_width="381dp"
+        android:layout_height="79dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="93dp"
         android:layout_marginEnd="6dp"
         android:layout_marginRight="6dp"
         android:layout_marginBottom="524dp"
+        android:contentDescription="@string/background_template"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template3"
-        android:contentDescription="@string/background_template" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background_template3" />
 
     <ImageView
         android:id="@+id/imageView44"
-        android:layout_width="89dp"
-        android:layout_height="118dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="82dp"
         android:layout_marginEnd="297dp"
         android:layout_marginRight="297dp"
         android:layout_marginBottom="531dp"
+        android:contentDescription="@string/user_profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/user_profile"
-        android:contentDescription="@string/user_profile" />
+        app:layout_constraintVertical_bias="0.338"
+        app:srcCompat="@drawable/user_profile" />
 
     <TextView
         android:id="@+id/textView52"
-        android:layout_width="235dp"
-        android:layout_height="61dp"
+        android:layout_width="206dp"
+        android:layout_height="45dp"
         android:layout_marginStart="136dp"
         android:layout_marginLeft="136dp"
         android:layout_marginTop="114dp"
@@ -174,8 +178,10 @@
         android:textColor="#EFEBEB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView53"
