@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="738dp"
+        android:contentDescription="@string/background_template"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_template" />
+
     <ImageView
         android:id="@+id/hos_logo"
         android:layout_width="804dp"
@@ -36,37 +48,36 @@
         app:srcCompat="@drawable/footer" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/btn1"
+        android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -103,7 +114,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -115,7 +126,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,9 +140,14 @@
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="16dp"
-        android:background="#DDD5D5"
+        android:background="F3E8E8"
         app:layout_constraintStart_toEndOf="@+id/cardlabel2"
-        app:layout_constraintTop_toBottomOf="@+id/et_cardlabel3" />
+        app:layout_constraintTop_toBottomOf="@+id/et_cardlabel3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
 
     <com.google.android.material.chip.Chip
         android:id="@+id/bton2"
@@ -143,12 +161,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/hos_logo1"
         android:layout_width="48dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="77dp"
+        android:contentDescription="@string/hos_heading"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hospital" />
@@ -294,12 +313,12 @@
         android:id="@+id/bton6"
         android:layout_width="125dp"
         android:layout_height="38dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginRight="52dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
         android:layout_marginBottom="44dp"
         android:contentDescription="@string/bton6"
         android:text="CARD PAY"
-        app:iconTint="@color/teal_700"
+        app:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="@+id/profbar9"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -312,18 +331,7 @@
         android:layout_marginTop="36dp"
         android:background="#F3E8E8"
         app:layout_constraintStart_toEndOf="@+id/cardlabel2"
-        app:layout_constraintTop_toBottomOf="@+id/card_head">
-
-        <ImageView
-            android:id="@+id/hos_logo"
-            android:layout_width="804dp"
-            android:layout_height="1026dp"
-            android:layout_marginTop="-15dp"
-            android:layout_marginBottom="-75dp"
-            android:contentDescription="@string/background_template"
-            android:rotation="90"
-            app:srcCompat="@drawable/background_template" />
-    </TableRow>
+        app:layout_constraintTop_toBottomOf="@+id/card_head"/>
 
     <TableRow
         android:id="@+id/et_cardlabel2"

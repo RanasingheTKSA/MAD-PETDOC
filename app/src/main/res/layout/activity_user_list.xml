@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserListActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="415dp"
+        android:layout_height="730dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background_template" />
+
+    <ImageView
+        android:id="@+id/adminNavBar"
+        android:layout_width="386dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/footer" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip10"
+        android:layout_width="44dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/sidebarbutton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip11"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/sidebarbutton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/adminDashbordlogo"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pet_doc_2" />
+
+    <ImageView
+        android:id="@+id/adminUserIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usericonwhite" />
+
+    <TextView
+        android:id="@+id/userListAdminUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/userListAdminUserName"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="384dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="75dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="377dp"
+        android:layout_height="585dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/admin_bacground_card" />
+
+    <TextView
+        android:id="@+id/userListText"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="176dp"
+        android:text="@string/userListText"
+        android:textColor="@color/black"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView49" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="96dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userListText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/usericon" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="400dp"
+        android:layout_height="393dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adminNavBar"
+        app:layout_constraintVertical_bias="0.69">
+
+        <TableRow
+            android:background=""
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/medicalCenterId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:shadowColor="#B69191"
+                android:text="@string/userId"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicalCentercolName"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/usercolName"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicalcenterColEmail"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/userColEmail"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userColAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/userColAction"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="374dp"
+            android:layout_height="57dp"
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/userRecordId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/userRecordId" />
+
+            <TextView
+                android:id="@+id/userRecordName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="@string/userRecordName" />
+
+            <TextView
+                android:id="@+id/userRecordEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User1@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn1"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+
+        </TableRow>
+
+        <TableRow
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User2@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn2"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+        </TableRow>
+
+        <TableRow
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User3@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn3"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+        </TableRow>
+
+        <TableRow
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User4@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn4"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+        </TableRow>
+
+        <TableRow
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User5@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn5"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+        </TableRow>
+
+        <TableRow
+            android:background=""
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="User6@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/deletebtn6"
+                android:layout_width="39dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/deleteicon" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/navright"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/navnext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

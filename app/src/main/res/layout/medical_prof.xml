@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/hos_logo"
+        android:id="@+id/imageView"
         android:layout_width="804dp"
         android:layout_height="1026dp"
         android:layout_marginTop="-15dp"
@@ -24,49 +24,49 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
+        android:layout_width="404dp"
+        android:layout_height="60dp"
         android:layout_marginStart="13dp"
         android:layout_marginLeft="13dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/footer"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/footer" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/btn1"
+        android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -105,7 +105,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/user_icon" />
+        app:srcCompat="@drawable/usericonwhite" />
 
     <TextView
         android:id="@+id/textView2"
@@ -117,7 +117,9 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="665dp"
-        android:text="MAD NAME"
+        android:text="USER NAME"
+        android:textColor="@color/white"
+        app:drawableTint="#FBF6F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,19 +129,15 @@
         android:id="@+id/bton2"
         android:layout_width="40dp"
         android:layout_height="21dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:contentDescription="@string/bton2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
-        app:layout_constraintStart_toEndOf="@+id/cont_heading"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/hos_logo1"
         android:layout_width="48dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -149,38 +147,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hospital" />
 
-    <TextView
-        android:id="@+id/cont_heading"
-        android:layout_width="308dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="314dp"
-        android:layout_marginRight="314dp"
-        android:contentDescription="@string/hos_heading"
-        android:fontFamily="sans-serif"
-        android:hint="hos_heading"
-        android:text="              M+  Medical Center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="@+id/hos_logo"
-        app:layout_constraintHorizontal_bias="0.872"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <com.google.android.material.chip.Chip
         android:id="@+id/bton1"
         android:layout_width="39dp"
         android:layout_height="20dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:contentDescription="@string/bton1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toEndOf="@+id/cont_heading"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -202,7 +180,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="92dp"
         android:layout_marginLeft="92dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="204dp"
         android:layout_marginEnd="92dp"
         android:layout_marginRight="92dp"
         android:contentDescription="@string/bar1_name"
@@ -211,14 +189,14 @@
         android:text="Appointments"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/bar1_photo"
-        android:layout_width="73dp"
-        android:layout_height="41dp"
+        android:layout_width="82dp"
+        android:layout_height="50dp"
         android:layout_marginTop="156dp"
         android:contentDescription="@string/bar1_photo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -229,8 +207,8 @@
 
     <ImageView
         android:id="@+id/profbar2"
-        android:layout_width="407dp"
-        android:layout_height="131dp"
+        android:layout_width="410dp"
+        android:layout_height="125dp"
         android:layout_marginBottom="332dp"
         android:contentDescription="@string/profbar2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -265,7 +243,7 @@
         android:layout_marginLeft="143dp"
         android:layout_marginEnd="171dp"
         android:layout_marginRight="171dp"
-        android:layout_marginBottom="408dp"
+        android:layout_marginBottom="392dp"
         android:contentDescription="@string/bar2_photo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -275,13 +253,12 @@
 
     <ImageView
         android:id="@+id/profbar3"
-        android:layout_width="400dp"
-        android:layout_height="137dp"
-        android:layout_marginBottom="184dp"
+        android:layout_width="397dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="188dp"
         android:contentDescription="@string/profbar3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/prof_bar3" />
 
@@ -321,13 +298,13 @@
 
     <ImageView
         android:id="@+id/profbar4"
-        android:layout_width="400dp"
-        android:layout_height="156dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="396dp"
+        android:layout_height="144dp"
+        android:layout_marginBottom="28dp"
         android:contentDescription="@string/profbar4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/prof_bar4" />
 
@@ -337,7 +314,7 @@
         android:layout_height="43dp"
         android:layout_marginStart="117dp"
         android:layout_marginLeft="117dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="99dp"
         android:layout_marginRight="99dp"
         android:contentDescription="@string/bar4_name"
@@ -355,13 +332,28 @@
         android:layout_height="58dp"
         android:layout_marginStart="173dp"
         android:layout_marginLeft="173dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="155dp"
         android:layout_marginRight="155dp"
         android:contentDescription="@string/bar4_photo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profbar3"
         app:srcCompat="@drawable/docreg" />
+
+    <TextView
+        android:id="@+id/med_heading"
+        android:layout_width="227dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/med_heading"
+        android:fontFamily="sans-serif-black"
+        android:text="M+ Medical Center"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toEndOf="@+id/hos_logo1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
