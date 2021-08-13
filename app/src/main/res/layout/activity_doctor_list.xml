@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserListActivity">
+    tools:context=".DoctorListActivity">
 
 
     <ImageView
@@ -110,29 +110,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/admin_bacground_card" />
 
-    <TextView
-        android:id="@+id/userListText"
-        android:layout_width="91dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="176dp"
-        android:text="@string/userListText"
-        android:textColor="@color/black"
-        android:textSize="80px"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView49" />
-
-    <ImageView
-        android:id="@+id/imageView54"
-        android:layout_width="96dp"
-        android:layout_height="72dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="@+id/userListText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/usericon" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -165,7 +142,7 @@
                 android:layout_width="103dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/usercolName"
+                android:text="@string/doctorcolName"
                 android:textStyle="bold" />
 
             <TextView
@@ -173,7 +150,7 @@
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/userColEmail"
+                android:text="@string/doctorColEmail"
                 android:textStyle="bold" />
 
             <TextView
@@ -210,7 +187,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User1@gmail.com" />
+                android:text="Doctor1@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -240,13 +217,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User2" />
+                android:text="Doctor2" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User2@gmail.com" />
+                android:text="Doctor2@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -275,13 +252,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User3" />
+                android:text="Doctor3" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User3@gmail.com" />
+                android:text="Doctor3@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -310,13 +287,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User4" />
+                android:text="Doctor4" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User4@gmail.com" />
+                android:text="Doctor4@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -345,13 +322,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User5" />
+                android:text="Doctor5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User5@gmail.com" />
+                android:text="Doctor@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -380,13 +357,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User6" />
+                android:text="Doctor6" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="User6@gmail.com" />
+                android:text="Doctor6@gmail.com" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -415,5 +392,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/navnext" />
 
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doctoradminavatar" />
+
+    <TextView
+        android:id="@+id/docltorListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/docltorListText"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adminNavBar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

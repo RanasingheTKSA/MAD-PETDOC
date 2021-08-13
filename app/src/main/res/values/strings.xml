@@ -225,6 +225,9 @@
     <string name="userColAction">Action</string>
     <string name="userRecordId">1</string>
     <string name="userRecordName">User1</string>
+    <string name="docltorListText">Doctors</string>
+    <string name="doctorcolName">Doctor Name</string>
+    <string name="doctorColEmail">Email</string>
 
 
 </resources>
