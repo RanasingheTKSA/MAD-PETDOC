@@ -173,23 +173,6 @@
     <string name="vdvaccinedate">VDVaccineDate</string>
     <string name="vdvaccineprice">VDVaccinePrice</string>
 
-    <string name="auth_proceedWithYou">Proceed With You</string>
-    <string name="auth_loginText">Login</string>
-    <string name="auth_emailText">Email</string>
-    <string name="auth_emailEditText" />
-    <string name="auth_passwordText">Password</string>
-    <string name="auth_passwordEditText" />
-    <string name="createAcc_textView">Create Account</string>
-    <string name="createAcc_nameText">Name</string>
-    <string name="createAcc_nameEditText" />
-    <string name="createAcc_emailText">Email</string>
-    <string name="createAcc_emailEditText" />
-    <string name="createAcc_mobileNoText">Mobile Number</string>
-    <string name="createAcc_mobileNoEditText" />
-    <string name="createAcc_passwordText">Password</string>
-    <string name="createAcc_passwordEditTest" />
-    <string name="createAccbtn">Create</string>
-
     <string name="pcownernames">PCOwnerNames</string>
     <string name="pcpetid">PCPetId</string>
     <string name="pcweights">PCWeight</string>
@@ -212,6 +195,24 @@
     <string name="blogs">Blogs</string>
     <string name="contactus">ContactUs</string>
     <string name="logout">LogOut</string>
+
+
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText" />
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText" />
+    <string name="createAcc_textView">Create Account</string>
+    <string name="createAcc_nameText">Name</string>
+    <string name="createAcc_nameEditText" />
+    <string name="createAcc_emailText">Email</string>
+    <string name="createAcc_emailEditText" />
+    <string name="createAcc_mobileNoText">Mobile Number</string>
+    <string name="createAcc_mobileNoEditText" />
+    <string name="createAcc_passwordText">Password</string>
+    <string name="createAcc_passwordEditTest" />
+    <string name="createAccbtn">Create</string>
 
 
 </resources>
