@@ -138,8 +138,8 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="129dp"
-        android:layout_height="35dp"
+        android:layout_width="223dp"
+        android:layout_height="38dp"
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="96dp"
@@ -148,6 +148,8 @@
         android:layout_marginBottom="601dp"
         android:contentDescription="@string/vaccine_report"
         android:text="PET CARD DETAILS"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -171,14 +173,15 @@
         app:srcCompat="@drawable/icons8_report_64" />
 
     <SearchView
-        android:layout_width="389dp"
+        android:layout_width="370dp"
         android:layout_height="34dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="476dp"
+        android:background="#858383"
         android:contentDescription="@string/petcarddetailssearchbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -186,5 +189,301 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <TableLayout
+        android:id="@+id/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:contentDescription="@string/table1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/TableRow"
+            android:background="#aaaaaa"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:shadowColor="#B69191"
+                android:text="ID"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tablecoloum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="PET NAME"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tablecoloum3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="OWNER NAME"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tablecoloum4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/tablecoloum6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#fefac0"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tablecoloum11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tablecoloum16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#fefac0"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/tablecoloum21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/tablecoloum26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#fefac0"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/tablecoloum31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Blacky" />
+
+            <TextView
+                android:id="@+id/tablecoloum32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ranasinghe" />
+
+            <TextView
+                android:id="@+id/tablecoloum33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tablecoloum34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="UPDATE"
+                android:textSize="10sp" />
+        </TableRow>
+    </TableLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

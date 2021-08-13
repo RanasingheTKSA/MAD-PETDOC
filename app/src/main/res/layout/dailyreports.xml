@@ -34,37 +34,36 @@
         app:srcCompat="@drawable/footer" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/btn1"
+        android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -73,15 +72,11 @@
         android:id="@+id/imageView7"
         android:layout_width="61dp"
         android:layout_height="52dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="177dp"
         android:layout_marginRight="177dp"
         android:contentDescription="@string/Logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/chip5"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pet_doc_2" />
 
@@ -138,7 +133,7 @@
         app:srcCompat="@drawable/background_template2" />
 
     <ImageView
-        android:id="@+id/hos_logo"
+        android:id="@+id/hos_logo1"
         android:layout_width="55dp"
         android:layout_height="48dp"
         android:layout_marginStart="34dp"
@@ -188,5 +183,255 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/qwe" />
+
+    <TableLayout
+        android:id="@+id/dailyreportstable"
+        android:layout_width="364dp"
+        android:layout_height="366dp"
+        android:layout_marginBottom="72dp"
+        android:contentDescription="@string/dailyreportstable"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:background="#84ACBD"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:shadowColor="#B69191"
+                android:text="Reference No"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Animal ID"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Fee"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#fffff"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="12345"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="123"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="2000.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#C6D5DB"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="23456"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="124"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="1500.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:background="#ffffff"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="45678"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="454"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="2500.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#C6D5DB"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="54321"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="543"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="1750.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="43212"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="342"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="2000.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="328dp"
+            android:background="#C6D5DB"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/table19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="sans-serif-black"
+                app:autoSizeTextType="uniform" />
+
+
+            <TextView
+                android:id="@+id/table20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="Total Fee"
+                android:textAlignment="center"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/table21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="9750.00"
+                app:autoSizeTextType="uniform" />
+
+        </TableRow>
+    </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,37 +34,36 @@
         app:srcCompat="@drawable/footer" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/btn1"
+        android:id="@+id/chip4"
         android:layout_width="44dp"
         android:layout_height="26dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="695dp"
+        android:layout_marginBottom="685dp"
         android:contentDescription="@string/sidebarbutton1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
         android:layout_width="44dp"
         android:layout_height="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="342dp"
         android:layout_marginRight="342dp"
-        android:layout_marginBottom="678dp"
+        android:layout_marginBottom="675dp"
         android:contentDescription="@string/sidebarbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -91,7 +90,7 @@
         android:layout_height="38dp"
         android:layout_marginStart="341dp"
         android:layout_marginLeft="341dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:contentDescription="@string/user_icon"
@@ -107,13 +106,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="321dp"
         android:layout_marginLeft="321dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="USER NAME"
         android:textColor="@color/white"
         app:drawableTint="#FBF6F6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -144,5 +144,332 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TableLayout
+        android:id="@+id/scheduleapprovaltable"
+        android:layout_width="362dp"
+        android:layout_height="511dp"
+        android:layout_marginBottom="72dp"
+        android:contentDescription="@string/scheduleapprovalstable"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:background="#84ACBD"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/apptable1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="DocID"/>
+
+
+            <TextView
+                android:id="@+id/apptable2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Doc Name"/>
+
+            <TextView
+                android:id="@+id/apptable3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Date"/>
+
+            <TextView
+                android:id="@+id/apptable4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Time"/>
+
+            <TextView
+                android:id="@+id/apptable33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Status"/>
+
+        </TableRow>
+
+        <TableRow
+
+            android:background="#fffff"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="123" />
+
+
+            <TextView
+                android:id="@+id/apptable6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr Charitha" />
+            <!--android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="sans-serif-black"
+
+                android:text="Dr.Charitha"
+                app:autoSizeTextType="uniform" -->
+
+            <TextView
+                android:id="@+id/apptable7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="06.Dec" />
+
+            <TextView
+                android:id="@+id/apptable34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4-5PM" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#C6D5DB"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="124" />
+
+            <TextView
+                android:id="@+id/apptable10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr Sachin" />
+
+            <TextView
+                android:id="@+id/apptable11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="06.Dec" />
+
+            <TextView
+                android:id="@+id/apptable12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5-6PM" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:background="#ffffff"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="235" />
+
+            <TextView
+                android:id="@+id/apptable14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr.Vimanga" />
+
+            <TextView
+                android:id="@+id/apptable15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="06.Dec" />
+
+            <TextView
+                android:id="@+id/appptable16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6-7PM" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#C6D5DB"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="456" />
+
+            <TextView
+                android:id="@+id/apptable18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr.Hiruni" />
+
+            <TextView
+                android:id="@+id/apptable19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="07.Dec" />
+
+            <TextView
+                android:id="@+id/apptable20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7-8PM" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#ffffff"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="678" />
+
+            <TextView
+                android:id="@+id/apptable22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr.Charitha" />
+
+            <TextView
+                android:id="@+id/apptable23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="08.Dec" />
+
+            <TextView
+                android:id="@+id/apptable24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8-9PM" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="60dp"
+            android:background="#C6D5DB"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/apptable25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="987" />
+
+            <TextView
+                android:id="@+id/apptable26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dr.Sachin" />
+
+            <TextView
+                android:id="@+id/apptable27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="09.Dec" />
+
+            <TextView
+                android:id="@+id/apptable28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4-6PM" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="71dp"
+                android:layout_height="38dp"
+                android:text="Accept"
+                android:textSize="8sp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
