@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Ranasinghe TKSA -->
     <string name="app_name">mad-pet-doctor</string>
     <string name="Logo">LOGO</string>
@@ -172,6 +171,30 @@
     <string name="vdvaccinename">VDVaccineName</string>
     <string name="vdvaccinedate">VDVaccineDate</string>
     <string name="vdvaccineprice">VDVaccinePrice</string>
+
+    <string name="pcownernames">PCOwnerNames</string>
+    <string name="pcpetid">PCPetId</string>
+    <string name="pcweights">PCWeight</string>
+    <string name="pcgender">PCGender</string>
+    <string name="pcages">PCAges</string>
+    <string name="pcdateofbirth">PCDateofBirth</string>
+    <string name="pcbreeds">PCBreeds</string>
+    <string name="pcpetnames">PCPetNames</string>
+    <string name="dopdetailsofpets">DopDetailsOfPets</string>
+    <string name="dopcats">DOPCats</string>
+    <string name="updatebutton">UpdateButton</string>
+    <string name="table1">Table1</string>
+    <string name="table2">Table2</string>
+    <string name="Doctor">Doctor</string>
+    <string name="petcarddetails">PetCardDetails</string>
+    <string name="medicalenter">MedicalCenter</string>
+    <string name="vaccinedetails">VaccineDetails</string>
+    <string name="detailsofpets">DetailsOfPets</string>
+    <string name="accounts">Accounts</string>
+    <string name="blogs">Blogs</string>
+    <string name="contactus">ContactUs</string>
+    <string name="logout">LogOut</string>
+
 
     <!--Ashen-->
     <string name="auth_proceedWithYou">Proceed With You</string>
