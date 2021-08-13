@@ -191,6 +191,7 @@
     <string name="createAccbtn">Create</string>
 
     <string name="pcownernames">PCOwnerNames</string>
+    <string name="pcpetid">PCPetId</string>
     <string name="pcweights">PCWeight</string>
     <string name="pcgender">PCGender</string>
     <string name="pcages">PCAges</string>
