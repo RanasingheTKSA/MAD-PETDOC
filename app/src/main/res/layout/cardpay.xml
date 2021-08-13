@@ -147,7 +147,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/hos_logo"
+        android:id="@+id/hos_logo1"
         android:layout_width="48dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -305,7 +305,6 @@
         android:contentDescription="@string/bton6"
         android:text="CARD PAY"
         app:backgroundTint="@android:color/holo_red_dark"
-        app:iconTint="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="@+id/profbar9"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -318,18 +317,7 @@
         android:layout_marginTop="36dp"
         android:background="#F3E8E8"
         app:layout_constraintStart_toEndOf="@+id/cardlabel2"
-        app:layout_constraintTop_toBottomOf="@+id/card_head">
-
-        <ImageView
-            android:id="@+id/hos_logo"
-            android:layout_width="804dp"
-            android:layout_height="1026dp"
-            android:layout_marginTop="-15dp"
-            android:layout_marginBottom="-75dp"
-            android:contentDescription="@string/background_template"
-            android:rotation="90"
-            app:srcCompat="@drawable/background_template" />
-    </TableRow>
+        app:layout_constraintTop_toBottomOf="@+id/card_head"/>
 
     <TableRow
         android:id="@+id/et_cardlabel2"

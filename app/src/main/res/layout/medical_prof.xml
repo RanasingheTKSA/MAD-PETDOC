@@ -138,7 +138,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/hos_logo"
+        android:id="@+id/hos_logo1"
         android:layout_width="48dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -354,7 +354,7 @@
         android:fontFamily="sans-serif-black"
         android:text="M+ Medical Center"
         app:autoSizeTextType="uniform"
-        app:layout_constraintStart_toEndOf="@+id/hos_logo"
+        app:layout_constraintStart_toEndOf="@+id/hos_logo1"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -141,7 +141,7 @@
         android:text="             CONTACT US"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="@+id/hos_logo"
+        app:layout_constraintEnd_toEndOf="@+id/hos_logo1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
