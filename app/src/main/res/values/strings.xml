@@ -205,6 +205,11 @@
     <string name="adminUserText">Users</string>
     <string name="adminDoctorText">Doctors</string>
     <string name="adminMedicalCenterText">Medical Centers</string>
+    <string name="adminUserText">Users</string>
+    <string name="adminCard_doctorText">Doctors</string>
+    <string name="admin_doctorText">Doctors</string>
+    <string name="admin_medicalCenterText">Medical Centers</string>
+    <string name="admin_userText">Users</string>
 
 
 </resources>
