@@ -173,6 +173,7 @@
     <string name="vdvaccinename">VDVaccineName</string>
     <string name="vdvaccinedate">VDVaccineDate</string>
     <string name="vdvaccineprice">VDVaccinePrice</string>
+    <string name="catImage1">CatImage1</string>
 
     <string name="pcownernames">PCOwnerNames</string>
     <string name="pcpetid">PCPetId</string>
@@ -488,5 +489,8 @@
     <string name="medicalCenterName">Center Name</string>
     <string name="medicalCentercolName">Center Name</string>
     <string name="medicalcenterColEmail">Email</string>
+    <string name="dogbutton">DogButton</string>
+    <string name="catbutton">CatButton</string>
+
 
 </resources>
