@@ -159,7 +159,7 @@
             android:layout_width="57dp"
             android:layout_height="55dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/kisspng_computer_icons_clip_art_portable_network_graphics_siu_th_mebi_vn_mua_bn_gia_dng_t_5c5f0842b1ce17_6022346415497319067283"
+            app:srcCompat="@drawable/kisspng_computer_icon"
             tools:layout_editor_absoluteX="312dp"
             tools:layout_editor_absoluteY="251dp" />
     </SearchView>
@@ -553,7 +553,7 @@
         android:contentDescription="@string/phone_pic1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kisspng_computer_icons_clip_art_portable_network_graphics_siu_th_mebi_vn_mua_bn_gia_dng_t_5c5f0842b1ce17_6022346415497319067283" />
+        app:srcCompat="@drawable/kisspng_computer_icon" />
 
     <ImageView
         android:id="@+id/phone_pic4"
@@ -565,7 +565,7 @@
         android:contentDescription="@string/phone_pic4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/kisspng_computer_icons_clip_art_portable_network_graphics_siu_th_mebi_vn_mua_bn_gia_dng_t_5c5f0842b1ce17_6022346415497319067283" />
+        app:srcCompat="@drawable/kisspng_computer_icon" />
 
     <ImageView
         android:id="@+id/phone_pic"
@@ -577,7 +577,7 @@
         android:contentDescription="@string/phone_pic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kisspng_computer_icons_clip_art_portable_network_graphics_siu_th_mebi_vn_mua_bn_gia_dng_t_5c5f0842b1ce17_6022346415497319067283" />
+        app:srcCompat="@drawable/kisspng_computer_icon" />
 
     <ImageView
         android:id="@+id/phone_pic2"
@@ -589,6 +589,6 @@
         android:contentDescription="@string/phone_pic2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kisspng_computer_icons_clip_art_portable_network_graphics_siu_th_mebi_vn_mua_bn_gia_dng_t_5c5f0842b1ce17_6022346415497319067283" />
+        app:srcCompat="@drawable/kisspng_computer_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -195,7 +195,7 @@
         android:contentDescription="@string/catpagedeasesandvaccines"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_cat_48__1_" />
+        app:srcCompat="@drawable/icons8_cat_48_1" />
 
     <ImageView
         android:id="@+id/imageView30"

@@ -506,16 +506,10 @@
         android:layout_marginBottom="473dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -530,16 +524,10 @@
         android:layout_marginBottom="502dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -554,16 +542,10 @@
         android:layout_marginBottom="445dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -578,16 +560,10 @@
         android:layout_marginBottom="419dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -602,16 +578,10 @@
         android:layout_marginBottom="298dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -626,16 +596,10 @@
         android:layout_marginBottom="324dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -650,16 +614,10 @@
         android:layout_marginBottom="271dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -674,16 +632,10 @@
         android:layout_marginBottom="243dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -698,16 +650,10 @@
         android:layout_marginBottom="149dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -722,16 +668,10 @@
         android:layout_marginBottom="121dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -746,16 +686,10 @@
         android:layout_marginBottom="95dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -770,16 +704,10 @@
         android:layout_marginBottom="69dp"
         android:background="#EFEBEB"
         android:textColorHint="#000000"
-        app:boxBackgroundColor="#000000"
-        app:boxBackgroundMode="outline"
-        app:boxStrokeColor="#000000"
-        app:boxStrokeErrorColor="#000000"
-        app:counterOverflowTextColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleTint="#000000">
+        app:layout_constraintTop_toTopOf="parent">
 
     </com.google.android.material.textfield.TextInputLayout>
 

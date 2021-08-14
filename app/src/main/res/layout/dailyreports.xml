@@ -232,7 +232,7 @@
         </TableRow>
 
         <TableRow
-            android:background="#fffff"
+            android:background="@color/white"
             android:padding="10dp">
 
             <TextView

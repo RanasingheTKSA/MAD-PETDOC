@@ -125,7 +125,7 @@
         app:layout_constraintVertical_bias="0.69">
 
         <TableRow
-            android:background=""
+
             android:padding="20dp">
 
             <TextView
@@ -169,7 +169,7 @@
         <TableRow
             android:layout_width="374dp"
             android:layout_height="57dp"
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -206,12 +206,12 @@
                 android:id="@+id/deletebtn1"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
 
         </TableRow>
 
         <TableRow
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -245,11 +245,11 @@
                 android:id="@+id/deletebtn2"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
         </TableRow>
 
         <TableRow
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -283,11 +283,11 @@
                 android:id="@+id/deletebtn3"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
         </TableRow>
 
         <TableRow
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -321,11 +321,11 @@
                 android:id="@+id/deletebtn4"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
         </TableRow>
 
         <TableRow
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -361,11 +361,11 @@
                 android:layout_width="39dp"
                 android:layout_height="26dp"
                 android:textColor="@color/black"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
         </TableRow>
 
         <TableRow
-            android:background=""
+
             android:padding="15dp">
 
             <TextView
@@ -399,7 +399,7 @@
                 android:id="@+id/deletebtn6"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/deleteicon" />
+                app:srcCompat="@drawable/add_user" />
         </TableRow>
 
 

@@ -207,7 +207,7 @@
 
         <TableRow
 
-            android:background="#fffff"
+            android:background="#ffffff"
             android:padding="20dp">
 
             <TextView
