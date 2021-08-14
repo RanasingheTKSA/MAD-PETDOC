@@ -413,5 +413,6 @@
     <string name="confirm_download">Download Icon</string>
     <string name="dailyreportstable">Daily Reports Table</string>
     <string name="scheduleapprovalstable">Schedule Approval Table</string>
+    <string name="clientProfile_Text">Profile</string>
 
 </resources>
