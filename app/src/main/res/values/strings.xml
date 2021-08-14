@@ -491,6 +491,12 @@
     <string name="medicalcenterColEmail">Email</string>
     <string name="dogbutton">DogButton</string>
     <string name="catbutton">CatButton</string>
+    <string name="button1" />
+    <string name="button01">Button1</string>
+    <string name="button2">button2</string>
+    <string name="button3">Button3</string>
+    <string name="button4">Button4</string>
+    <string name="button001">Button001</string>
 
 
 </resources>

@@ -69,62 +69,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView55" />
 
-    <TextView
-        android:id="@+id/introductions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:contentDescription="@string/dogintro"
-        android:text="INTRODUCTIONS"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dogs" />
-
-    <TextView
-        android:id="@+id/originofbreeds"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:contentDescription="@string/originofbreeds"
-        android:text="ORIGIN OF BREEDS"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.723"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/introductions" />
-
-    <TextView
-        android:id="@+id/nutritionandgrowth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:contentDescription="@string/nutritionandgrowth"
-        android:text="NUTRITION AND GROWTH"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.935"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/originofbreeds" />
-
-
-    <TextView
-        android:id="@+id/diseasesandvaccines"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="75dp"
-        android:contentDescription="@string/diseasesandvaccines"
-        android:text="DISEASES AND VACCINES"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nutritionandgrowth" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -190,5 +134,56 @@
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toEndOf="@+id/imageView55"
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
+
+    <Button
+        android:id="@+id/introduction"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/button001"
+        android:text="INTRODUCTION"
+        app:backgroundTint="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/dogs" />
+
+    <Button
+        android:id="@+id/diseasesandvaccines"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/button001"
+        android:text="DISEASES AND VACCINES"
+        app:backgroundTint="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/nutritionandgrowth" />
+
+    <Button
+        android:id="@+id/nutritionandgrowth"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/button001"
+        android:text="NUTRITION AND GROWTH"
+        app:backgroundTint="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toBottomOf="@+id/originofbreed3" />
+
+    <Button
+        android:id="@+id/originofbreed3"
+        android:layout_width="226dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@string/button001"
+        android:text="ORIGIN OF BREED"
+        app:backgroundTint="#A1A1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/introduction" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
