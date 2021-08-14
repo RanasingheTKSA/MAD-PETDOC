@@ -192,14 +192,6 @@
         app:layout_constraintVertical_bias="0.083"
         app:srcCompat="@drawable/icons8_add_property_24" />
 
-
-
-
-
-
-
-
-    <?xml version="1.0" encoding="utf-8"?>
     <TableLayout
         android:id="@+id/Table2"
         android:layout_width="match_parent"

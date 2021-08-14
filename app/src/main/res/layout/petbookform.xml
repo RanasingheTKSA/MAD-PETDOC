@@ -194,7 +194,7 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toEndOf="@+id/appo_head"
         app:layout_constraintTop_toBottomOf="@+id/chip6"
-        app:srcCompat="@drawable/dog_dressed_doctor_vet_isolated_260nw_156464306" />
+        app:srcCompat="@drawable/dog_dressed_doctor_vet" />
 
     <TextView
         android:id="@+id/pet_label1"
@@ -271,7 +271,7 @@
         android:contentDescription="@string/pet_pic2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dooo" />
+        app:srcCompat="@drawable/add_user" />
 
     <TableRow
         android:id="@+id/tableRow3"
