@@ -198,8 +198,7 @@
     <string name="logout">LogOut</string>
 
 
-
- <!--Chanukshi-->
+    <!--Chanukshi-->
     <string name="hos_logo">Hospital_Logo</string>
     <string name="hos_heading">Hospital_heading</string>
     <string name="bton1">Nav_Btn1</string>
@@ -344,6 +343,20 @@
     <string name="dailyreportstable">Daily Reports Table</string>
     <string name="scheduleapprovalstable">Schedule Approval Table</string>
 
+
+    <string name="usernameId">Username ID</string>
+    <string name="call_btn1">CALL_1</string>
+    <string name="call_btn2">CALL_2</string>
+    <string name="call_btn3">CALL_3</string>
+    <string name="input_1">CardHolder Name</string>
+    <string name="input_2">Card Number</string>
+    <string name="input_3">Expiration Date</string>
+    <string name="input_4">CVC</string>
+    <string name="cont_input_3">Message</string>
+    <string name="cont_input_2">Email</string>
+    <string name="cont_input_1">Name</string>
+
+
     <!-- Nawanjana MH -->
     <string name="mad_name">mad_name</string>
     <string name="bui_cat">bui_cat</string>
@@ -418,7 +431,6 @@
     <string name="health2">ALWAYS KEEP FRESH WATER AVAILABLE.: Maintaining optimal hydration is important for health and energy.</string>
 
 
-
     <!--Ashen-->
     <string name="auth_proceedWithYou">Proceed With You</string>
     <string name="auth_loginText">Login</string>
@@ -488,5 +500,11 @@
     <string name="medicalCenterName">Center Name</string>
     <string name="medicalCentercolName">Center Name</string>
     <string name="medicalcenterColEmail">Email</string>
+    <string name="prof_btn1">SCHEDULES</string>
+    <string name="prof_btn2">DOC REGISTRATION</string>
+    <string name="prof_btn3">DAILY REPORTS</string>
+    <string name="prof_btn4">SEARCH</string>
+    <string name="prof_btn5">APPOINTMENTS</string>
+    <string name="addbtn">Add Button</string>
 
 </resources>
