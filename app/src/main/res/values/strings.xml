@@ -197,7 +197,7 @@
     <string name="logout">LogOut</string>
 
 
-    <!--Ashen-->
+    <!--Dunusinghe A.V. IT20025526-->
     <string name="auth_proceedWithYou">Proceed With You</string>
     <string name="auth_loginText">Login</string>
     <string name="auth_emailText">Email</string>
@@ -220,7 +220,6 @@
     <string name="createAccbtn">Create</string>
 
     <string name="clientProfileUserName">USER NAME</string>
-    <string name="clientProfileText">Edit Profile</string>
     <string name="clientProfile_nameText">Name</string>
     <string name="editProfile_nameEditText" />
     <string name="editProfile_emailText">Email</string>
@@ -230,6 +229,12 @@
     <string name="editProfile_passwordEdit">Password</string>
     <string name="editProfile_passwordEditText" />
     <string name="clientProfileSavebtn">Save</string>
+    <string name="clientProfile_Text">Profile</string>
+    <string name="toolbarUserName">USERNAME</string>
+    <string name="clientName">User 1</string>
+    <string name="clientEmail">user1@gmail.com</string>
+    <string name="clientMobileNo">0703375581</string>
+    <string name="clientPassword">*********</string>
 
     <string name="adminDashboardText">Admin Dashboard</string>
     <string name="adminUsername">USERNAME</string>
@@ -266,6 +271,7 @@
     <string name="medicalCenterName">Center Name</string>
     <string name="medicalCentercolName">Center Name</string>
     <string name="medicalcenterColEmail">Email</string>
+
 
 
 
@@ -413,6 +419,6 @@
     <string name="confirm_download">Download Icon</string>
     <string name="dailyreportstable">Daily Reports Table</string>
     <string name="scheduleapprovalstable">Schedule Approval Table</string>
-    <string name="clientProfile_Text">Profile</string>
+
 
 </resources>
