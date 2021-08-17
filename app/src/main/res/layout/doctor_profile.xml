@@ -229,13 +229,14 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView55"
-        app:srcCompat="@drawable/doc" />
+        app:srcCompat="@drawable/doc"
+        android:contentDescription="@string/doctor" />
 
     <TextView
         android:id="@+id/textView78"
         android:layout_width="198dp"
         android:layout_height="86dp"
-        android:text="Dr.Danusha Sadakelum"
+        android:text="@string/dr_danusha_sadakelum"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
