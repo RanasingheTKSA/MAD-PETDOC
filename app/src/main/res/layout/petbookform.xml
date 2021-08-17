@@ -108,13 +108,13 @@
         android:layout_height="44dp"
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         android:background="#A11F1F"
         android:contentDescription="@string/bton7"
         android:text="NEXT"
         app:backgroundTint="#BF2B2B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/imageView58"
         app:layout_constraintTop_toBottomOf="@+id/pet_input5" />
 

@@ -27,7 +27,7 @@
         android:id="@+id/cont_photo"
         android:layout_width="169dp"
         android:layout_height="96dp"
-        android:contentDescription="@string/cont_photo"
+        android:contentDescription="@string/cont_photi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cont_heading"

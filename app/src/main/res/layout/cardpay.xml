@@ -96,7 +96,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginLeft="52dp"
         android:layout_marginTop="12dp"
-        android:contentDescription="@string/cardlabel"
+        android:contentDescription="@string/cardlabel1"
         android:fontFamily="sans-serif-black"
         android:text="Card Number"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"

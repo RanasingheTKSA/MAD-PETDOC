@@ -289,6 +289,7 @@
     <string name="cont_input_2">Email</string>
     <string name="cont_input_1">Name</string>
     <string name="bton3">SUBMIT</string>
+    <string name="bton9">Unknown</string>
     <string name="date">Date</string>
     <string name="applabel1">Vetdoc</string>
     <string name="applabel2">AppDocNAme</string>
@@ -463,6 +464,24 @@
     <string name="button4">Button4</string>
     <string name="button001">Button001</string>
     <string name="savebutton">SaveButton1</string>
+    <string name="bton10">Confirm and pay</string>
+    <string name="doc_pic1">Pic1</string>
+    <string name="call_btn1">call1</string>
+    <string name="doc_pic04">pic2</string>
+    <string name="call_btn2">call2</string>
+    <string name="doc_pic3">pic3</string>
+    <string name="doc_pic4">pic4</string>
+    <string name="call_btn3">call3</string>
+    <string name="cardpic2">CardPic1</string>
+    <string name="cardpic1">Card Pic2</string>
+    <string name="card_label2">holderName</string>
+    <string name="cardlabel1">HolderNo</string>
+    <string name="cardlabel11">Exp Date</string>
+    <string name="cardlabel4">cvc</string>
+    <string name="cont_photi">cont Photo</string>
+    <string name="cont_label2">Email</string>
+    <string name="cont_label3">message</string>
+    <string name="sched_pic">Schedule Pic</string>
 
 
 </resources>
