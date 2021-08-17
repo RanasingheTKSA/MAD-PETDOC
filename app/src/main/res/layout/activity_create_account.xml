@@ -7,37 +7,12 @@
     tools:context=".CreateAccount">
 
     <ImageView
-        android:id="@+id/imageView40"
-        android:layout_width="413dp"
-        android:layout_height="733dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_template" />
-
-    <ImageView
-        android:id="@+id/imageView41"
-        android:layout_width="372dp"
-        android:layout_height="520dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838"
-        app:srcCompat="@drawable/background_template2" />
-
-    <ImageView
         android:id="@+id/imageView42"
-        android:layout_width="89dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="158dp"
-        android:layout_marginLeft="158dp"
+        android:layout_width="226dp"
+        android:layout_height="136dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginRight="156dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pet_doc_2" />
@@ -46,49 +21,38 @@
         android:id="@+id/createAcc_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="16dp"
         android:text="@string/createAcc_textView"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
+        android:textSize="60px"
         android:textStyle="bold"
-        android:textSize="80px"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView43"
-        android:layout_width="70dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="212dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView40"
-        app:srcCompat="@drawable/add_user" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView42" />
 
     <TextView
         android:id="@+id/createAcc_nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
         android:text="@string/createAcc_nameText"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView55" />
 
     <EditText
         android:id="@+id/createAcc_nameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/createAcc_nameEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createAcc_nameText" />
 
@@ -96,24 +60,25 @@
         android:id="@+id/createAcc_emailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="356dp"
+        android:layout_marginTop="8dp"
         android:text="@string/createAcc_emailText"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/createAcc_nameEditText" />
 
     <EditText
         android:id="@+id/createAcc_emailEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/createAcc_emailEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createAcc_emailText" />
 
@@ -121,24 +86,25 @@
         android:id="@+id/createAcc_mobileNoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="432dp"
+        android:layout_marginTop="8dp"
         android:text="@string/createAcc_mobileNoText"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/createAcc_emailEditText" />
 
     <EditText
         android:id="@+id/createAcc_mobileNoEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/createAcc_mobileNoEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createAcc_mobileNoText" />
 
@@ -146,25 +112,25 @@
         android:id="@+id/createAcc_passwordText"
         android:layout_width="72dp"
         android:layout_height="22dp"
-        android:layout_marginTop="496dp"
+        android:layout_marginTop="16dp"
         android:text="@string/createAcc_passwordText"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/createAcc_mobileNoEditText" />
 
     <EditText
         android:id="@+id/createAcc_passwordEditTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/createAcc_passwordEditTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createAcc_passwordText" />
 
@@ -172,11 +138,23 @@
         android:id="@+id/createAccbtn"
         android:layout_width="147dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="64dp"
         android:text="@string/createAccbtn"
+        app:backgroundTint="#DD4646"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintHorizontal_bias="0.367"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createAcc_textView"
+        app:srcCompat="@drawable/user_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
