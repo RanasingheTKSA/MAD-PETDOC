@@ -198,6 +198,82 @@
     <string name="logout">LogOut</string>
 
 
+    <!--Dunusinghe A.V. IT20025526-->
+    <string name="auth_proceedWithYou">Proceed With You</string>
+    <string name="auth_loginText">Login</string>
+    <string name="auth_emailText">Email</string>
+    <string name="auth_emailEditText" />
+    <string name="auth_passwordText">Password</string>
+    <string name="auth_passwordEditText" />
+    <string name="auth_loginbtn">Login</string>
+    <string name="auth_forgotPasswordText">Forgot Password?</string>
+    <string name="auth_dontHaveanAcc">DONT HAVE AN ACCOUNT SIGN UP</string>
+
+    <string name="createAcc_textView">Create Account</string>
+    <string name="createAcc_nameText">Name</string>
+    <string name="createAcc_nameEditText" />
+    <string name="createAcc_emailText">Email</string>
+    <string name="createAcc_emailEditText" />
+    <string name="createAcc_mobileNoText">Mobile Number</string>
+    <string name="createAcc_mobileNoEditText" />
+    <string name="createAcc_passwordText">Password</string>
+    <string name="createAcc_passwordEditTest" />
+    <string name="createAccbtn">Create</string>
+
+    <string name="clientProfileUserName">USER NAME</string>
+    <string name="clientProfile_nameText">Name</string>
+    <string name="editProfile_nameEditText" />
+    <string name="editProfile_emailText">Email</string>
+    <string name="editProfile_emailEditText" />
+    <string name="editProfile_mobileText">Mobile Number</string>
+    <string name="editProfile_movileNumberEditText" />
+    <string name="editProfile_passwordEdit">Password</string>
+    <string name="editProfile_passwordEditText" />
+    <string name="clientProfileSavebtn">Save</string>
+    <string name="clientProfile_Text">Profile</string>
+    <string name="toolbarUserName">USERNAME</string>
+    <string name="clientName">User 1</string>
+    <string name="clientEmail">user1@gmail.com</string>
+    <string name="clientMobileNo">0703375581</string>
+    <string name="clientPassword">*********</string>
+
+    <string name="adminDashboardText">Admin Dashboard</string>
+    <string name="adminUsername">USERNAME</string>
+    <string name="adminUserText">Users</string>
+    <string name="adminDoctorText">Doctors</string>
+    <string name="adminMedicalCenterText">Medical Centers</string>
+    <string name="adminCard_doctorText">Doctors</string>
+    <string name="admin_doctorText">Doctors</string>
+    <string name="admin_medicalCenterText">Medical Centers</string>
+    <string name="admin_userText">Users</string>
+
+    <string name="changePasswordText">Reset Your Password?</string>
+    <string name="EditTextNewPassword">New Password</string>
+    <string name="chanagePasswordText">Reset Your Password ?</string>
+    <string name="chanagePasswordbtn">Change Password</string>
+    <string name="newPasswordEditText">New Password</string>
+    <string name="confirmPasswordEditText">Confirm Password</string>
+
+    <string name="adminUsername2">USERNAME</string>
+    <string name="userListAdminUserName">USERNAME</string>
+    <string name="userListText">Users</string>
+    <string name="userId">Id</string>
+    <string name="usercolName">Name</string>
+    <string name="userColEmail">Email</string>
+    <string name="userColAction">Action</string>
+    <string name="userRecordId">1</string>
+    <string name="userRecordName">User1</string>
+    <string name="docltorListText">Doctors</string>
+    <string name="doctorcolName">Doctor Name</string>
+    <string name="doctorColEmail">Email</string>
+    <string name="doctorlLstText">Doctors</string>
+    <string name="medicalcenteListText">Medical Centers</string>
+    <string name="medicalCenterId">Id</string>
+    <string name="medicalCenterName">Center Name</string>
+    <string name="medicalCentercolName">Center Name</string>
+    <string name="medicalcenterColEmail">Email</string>
+
+
 
  <!--Chanukshi-->
     <string name="hos_logo">Hospital_Logo</string>
@@ -343,150 +419,5 @@
     <string name="confirm_download">Download Icon</string>
     <string name="dailyreportstable">Daily Reports Table</string>
     <string name="scheduleapprovalstable">Schedule Approval Table</string>
-
-    <!-- Nawanjana MH -->
-    <string name="mad_name">mad_name</string>
-    <string name="bui_cat">bui_cat</string>
-    <string name="upwardsarrow">upwardsarrow</string>
-
-    <string name="doctor">doctor</string>
-    <string name="chat">chat</string>
-
-    <string name="daily_report">Daily Report</string>
-    <string name="total_appointments">Total Appointments</string>
-    <string name="total_patients">Total Patients</string>
-    <string name="dr_charge">Dr. Charge</string>
-    <string name="total_fee">Total Fee</string>
-
-    <string name="full_name">Full Name :</string>
-    <string name="doctor_license_no">Doctor License No :</string>
-    <string name="qualification_specialization">Qualification/ Specialization :</string>
-    <string name="medicalCenter">Medical Center :</string>
-    <string name="address">Address :</string>
-    <string name="tel_no">Tel No :</string>
-    <string name="email">Email :</string>
-    <string name="can_you_make_house_calls">Can you make house calls :</string>
-    <string name="edit">edit</string>
-    <string name="remove">remove</string>
-
-    <string name="doctor_registration">Doctor Registration</string>
-    <string name="add_user">add_user</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="submit">Submit</string>
-    <string name="fullName">Full Name</string>
-    <string name="doctor_licenseNo">Doctor License No</string>
-    <string name="specialization">Specialization</string>
-    <string name="MedicalCenter">Medical Center</string>
-    <string name="Address">Address</string>
-    <string name="telNo">Tel No</string>
-    <string name="Email">Email</string>
-
-    <string name="doctors">Doctors</string>
-    <string name="userprofile">userprofile</string>
-    <string name="my_profile">My Profile</string>
-    <string name="appointments">appointments</string>
-    <string name="my_appointments">My Appointments</string>
-    <string name="chat_with_a_doctor">Chat with a Doctor</string>
-    <string name="tips">tips</string>
-    <string name="health_tips">Health Tips</string>
-
-    <string name="medical_center_registration">Medical Center Registration</string>
-    <string name="addimage">addimage</string>
-    <string name="medical_center_no">Medical Center No :</string>
-    <string name="Name">Name :</string>
-    <string name="medicalCenter_no">Medical Center No</string>
-    <string name="Name_">Name</string>
-
-    <string name="patient_name">Patient Name :</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-
-    <string name="my_appointments_and_report">My Appointments And Report</string>
-    <string name="report">Report</string>
-
-    <string name="user_profile">user_profile</string>
-    <string name="extview">extview</string>
-    <string name="plus">plus</string>
-    <string name="send">send</string>
-
-    <string name="read_more">Read More</string>
-    <string name="_6_ways_to_make_working_from_home_easier_when_you_have_pets">6 Ways to Make Working From Home Easier When You Have Pets</string>
-    <string name="content">Has your cat taken to sitting on your laptop all the time? Let your fur-workers know that you mean business–even though you’re always at home. The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters…</string>
-    <string name="content1">The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters running about–invading your space, poking their whiskers into your Zoom meetings, barking up a storm when you’re on a call with a client…the list goes on. Now that we’ve been relegated to the homestead for quite some time, you’d think most of us would have mastered Work From Home (WFH). The truth is that it’s never easy when it comes to balancing work and your energetic furry friends. To help you out, we’ve narrowed it down to the top 6 tips and tricks to make working from home easier if you’ve got pets.</string>
-    <string name="health1">PROVIDE A PROTECTED AND CLEAN LIVING ENVIRONMENT FOR YOUR DOG: Shelter from the elements and hazards, as well as good hygiene, are basic to a quality life.</string>
-    <string name="health2">ALWAYS KEEP FRESH WATER AVAILABLE.: Maintaining optimal hydration is important for health and energy.</string>
-
-
-
-    <!--Ashen-->
-    <string name="auth_proceedWithYou">Proceed With You</string>
-    <string name="auth_loginText">Login</string>
-    <string name="auth_emailText">Email</string>
-    <string name="auth_emailEditText" />
-    <string name="auth_passwordText">Password</string>
-    <string name="auth_passwordEditText" />
-    <string name="auth_loginbtn">Login</string>
-    <string name="auth_forgotPasswordText">Forgot Password?</string>
-    <string name="auth_dontHaveanAcc">DONT HAVE AN ACCOUNT SIGN UP</string>
-
-    <string name="createAcc_textView">Create Account</string>
-    <string name="createAcc_nameText">Name</string>
-    <string name="createAcc_nameEditText" />
-    <string name="createAcc_emailText">Email</string>
-    <string name="createAcc_emailEditText" />
-    <string name="createAcc_mobileNoText">Mobile Number</string>
-    <string name="createAcc_mobileNoEditText" />
-    <string name="createAcc_passwordText">Password</string>
-    <string name="createAcc_passwordEditTest" />
-    <string name="createAccbtn">Create</string>
-
-    <string name="clientProfileUserName">USER NAME</string>
-    <string name="clientProfileText">Edit Profile</string>
-    <string name="clientProfile_nameText">Name</string>
-    <string name="editProfile_nameEditText" />
-    <string name="editProfile_emailText">Email</string>
-    <string name="editProfile_emailEditText" />
-    <string name="editProfile_mobileText">Mobile Number</string>
-    <string name="editProfile_movileNumberEditText" />
-    <string name="editProfile_passwordEdit">Password</string>
-    <string name="editProfile_passwordEditText" />
-    <string name="clientProfileSavebtn">Save</string>
-
-    <string name="adminDashboardText">Admin Dashboard</string>
-    <string name="adminUsername">USERNAME</string>
-    <string name="adminUserText">Users</string>
-    <string name="adminDoctorText">Doctors</string>
-    <string name="adminMedicalCenterText">Medical Centers</string>
-    <string name="adminCard_doctorText">Doctors</string>
-    <string name="admin_doctorText">Doctors</string>
-    <string name="admin_medicalCenterText">Medical Centers</string>
-    <string name="admin_userText">Users</string>
-
-    <string name="changePasswordText">Reset Your Password?</string>
-    <string name="EditTextNewPassword">New Password</string>
-    <string name="chanagePasswordText">Reset Your Password ?</string>
-    <string name="chanagePasswordbtn">Change Password</string>
-    <string name="newPasswordEditText">New Password</string>
-    <string name="confirmPasswordEditText">Confirm Password</string>
-
-    <string name="adminUsername2">USERNAME</string>
-    <string name="userListAdminUserName">USERNAME</string>
-    <string name="userListText">Users</string>
-    <string name="userId">Id</string>
-    <string name="usercolName">Name</string>
-    <string name="userColEmail">Email</string>
-    <string name="userColAction">Action</string>
-    <string name="userRecordId">1</string>
-    <string name="userRecordName">User1</string>
-    <string name="docltorListText">Doctors</string>
-    <string name="doctorcolName">Doctor Name</string>
-    <string name="doctorColEmail">Email</string>
-    <string name="doctorlLstText">Doctors</string>
-    <string name="medicalcenteListText">Medical Centers</string>
-    <string name="medicalCenterId">Id</string>
-    <string name="medicalCenterName">Center Name</string>
-    <string name="medicalCentercolName">Center Name</string>
-    <string name="medicalcenterColEmail">Email</string>
 
 </resources>
