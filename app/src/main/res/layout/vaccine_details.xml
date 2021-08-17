@@ -30,20 +30,6 @@
         app:srcCompat="@drawable/nurse" />
 
     <TextView
-        android:id="@+id/vaccinedetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@string/vrheading"
-        android:text="VACCINE DETAILS"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
-
-    <TextView
         android:id="@+id/petid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,38 +90,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinepriceinput" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@color/LightGrey"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip9"
-        android:layout_width="48dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip13"
-        android:layout_width="48dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="38dp"
-        android:background="#5A0F0F"
-        app:layout_constraintEnd_toStartOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.0"
+    <TextView
+        android:id="@+id/vaccinedetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/vrheading"
+        android:text="VACCINE DETAILS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/view" />
 
     <EditText
         android:id="@+id/vaccinepriceinput"
@@ -190,11 +167,12 @@
         android:id="@+id/toolbar2"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@color/Beige"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -203,6 +181,7 @@
         android:layout_width="48dp"
         android:layout_height="28dp"
         android:layout_marginTop="20dp"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toStartOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -212,8 +191,9 @@
         android:id="@+id/chip13"
         android:layout_width="48dp"
         android:layout_height="28dp"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="36dp"
         android:background="#5A0F0F"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toStartOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -221,8 +201,8 @@
 
     <ImageView
         android:id="@+id/imageView55"
-        android:layout_width="70dp"
-        android:layout_height="58dp"
+        android:layout_width="69dp"
+        android:layout_height="54dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -235,8 +215,8 @@
         android:layout_width="31dp"
         android:layout_height="25dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toEndOf="@+id/imageView55"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user_icon" />
@@ -246,8 +226,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TKSAR"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toEndOf="@+id/imageView55"
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
 

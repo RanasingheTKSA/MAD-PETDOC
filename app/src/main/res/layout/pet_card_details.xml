@@ -11,7 +11,7 @@
         android:id="@+id/catdiseasesandvaccinesheading"
         android:layout_width="223dp"
         android:layout_height="38dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/vaccine_report"
         android:text="PET CARD DETAILS"
         android:textSize="24sp"
@@ -34,7 +34,7 @@
         android:id="@+id/searchView2"
         android:layout_width="370dp"
         android:layout_height="34dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:background="#858383"
         android:contentDescription="@string/petcarddetailssearchbar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,8 +48,8 @@
         android:layout_height="395dp"
         android:layout_marginTop="5dp"
         android:contentDescription="@string/table1"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
                 android:id="@+id/tablecoloum1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.4"
+                android:layout_weight="0.1"
                 android:shadowColor="#B69191"
                 android:text="ID"
                 android:textStyle="bold" />
@@ -73,7 +73,7 @@
                 android:id="@+id/tablecoloum2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.2"
+                android:layout_weight="0.1"
                 android:text="PET NAME"
                 android:textStyle="bold" />
 
@@ -127,11 +127,20 @@
 
             <Button
                 android:id="@+id/tablecoloum9"
-                android:layout_width="wrap_content"
+                android:layout_width="64dp"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/tablecoloum35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
 
         <TableRow
@@ -172,6 +181,14 @@
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+            <Button
+                android:id="@+id/tablecoloum36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
 
         <TableRow
@@ -212,6 +229,14 @@
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+            <Button
+                android:id="@+id/tablecoloum37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
 
         <TableRow
@@ -252,6 +277,14 @@
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+            <Button
+                android:id="@+id/tablecoloum38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
 
         <TableRow
@@ -292,6 +325,14 @@
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+            <Button
+                android:id="@+id/tablecoloum39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
 
         <TableRow
@@ -332,6 +373,14 @@
                 android:contentDescription="@string/updatebutton"
                 android:text="UPDATE"
                 android:textSize="10sp" />
+            <Button
+                android:id="@+id/tablecoloum40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/updatebutton"
+                android:text="DELETE"
+                android:textSize="10sp"
+                app:backgroundTint="#F40909" />
         </TableRow>
     </TableLayout>
 
@@ -339,19 +388,28 @@
         android:id="@+id/toolbar4"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@color/Beige"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip16"
         android:layout_width="49dp"
         android:layout_height="30dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="20dp"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.002"
         app:layout_constraintStart_toStartOf="parent"
@@ -362,6 +420,7 @@
         android:layout_width="49dp"
         android:layout_height="30dp"
         android:layout_marginTop="35dp"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.002"
         app:layout_constraintStart_toStartOf="parent"
@@ -371,7 +430,7 @@
         android:id="@+id/imageView56"
         android:layout_width="71dp"
         android:layout_height="54dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="11dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -379,8 +438,8 @@
 
     <ImageView
         android:id="@+id/usericon3"
-        android:layout_width="39dp"
-        android:layout_height="33dp"
+        android:layout_width="30dp"
+        android:layout_height="24dp"
         android:layout_marginStart="112dp"
         android:layout_marginLeft="112dp"
         android:layout_marginTop="20dp"
