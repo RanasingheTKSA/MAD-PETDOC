@@ -6,189 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="415dp"
-        android:layout_height="738dp"
-        android:contentDescription="@string/background_template"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"
-        app:srcCompat="@drawable/background_template" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="407dp"
-        android:layout_height="68dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="10dp"
-        android:contentDescription="@string/footer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/footer" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
-        android:layout_width="44dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginEnd="342dp"
-        android:layout_marginRight="342dp"
-        android:layout_marginBottom="685dp"
-        android:contentDescription="@string/sidebarbutton1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip5"
-        android:layout_width="44dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="342dp"
-        android:layout_marginRight="342dp"
-        android:layout_marginBottom="675dp"
-        android:contentDescription="@string/sidebarbutton2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="61dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginRight="177dp"
-        android:contentDescription="@string/Logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/chip5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pet_doc_2" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="42dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="341dp"
-        android:layout_marginLeft="341dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="664dp"
-        android:contentDescription="@string/user_icon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/usericonwhite" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="321dp"
-        android:layout_marginLeft="321dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="665dp"
-        android:text="USER NAME"
-        android:textColor="@color/white"
-        app:drawableTint="#FBF6F6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/profbar11"
-        android:layout_width="384dp"
-        android:layout_height="596dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/profbar11"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/prof_bar6" />
-
-    <ImageView
-        android:id="@+id/hos_logo1"
-        android:layout_width="43dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginTop="110dp"
-        android:contentDescription="@string/hos_heading"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hospital" />
 
     <TextView
         android:id="@+id/dailyrep_1"
-        android:layout_width="185dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="245dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
         android:contentDescription="@string/confirm_1"
         android:fontFamily="sans-serif-black"
         android:text="M+ Medical Center"
         android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profbar11" />
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/hos_logo1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
 
     <TextView
         android:id="@+id/confirm_7"
-        android:layout_width="213dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="241dp"
+        android:layout_width="260dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/confirm_7"
         android:fontFamily="sans-serif-black"
         android:text="BOOKING CONFIRMATION"
         android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.403"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@+id/confirm_6" />
 
     <TableLayout
         android:id="@+id/bookingconfirmtable"
-        android:layout_width="348dp"
-        android:layout_height="234dp"
-        android:layout_marginBottom="208dp"
+        android:layout_width="352dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="12dp"
         android:contentDescription="@string/bookingconfirmtable"
         android:paddingLeft="45dp"
         android:paddingRight="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_7">
 
         <TableRow
             android:background="#ffffff"
@@ -364,100 +224,192 @@
         android:id="@+id/daailyrep_2"
         android:layout_width="132dp"
         android:layout_height="23dp"
-        android:layout_marginTop="134dp"
         android:contentDescription="@string/confirm_2"
         android:fontFamily="sans-serif-black"
         android:text="Treat your pet as family"
         android:textColor="@color/black"
         app:autoSizeTextType="uniform"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/dailyrep_1" />
 
     <TextView
         android:id="@+id/confirm_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="147dp"
         android:contentDescription="@string/confirm_3"
         android:text="10/4,John Donne Road, Pamunwa, Maharagama,"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.688"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/daailyrep_2" />
 
     <TextView
         android:id="@+id/confirm_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="166dp"
         android:contentDescription="@string/confirm_4"
         android:text="SriLanka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/confirm_3" />
 
     <TextView
         android:id="@+id/confirm_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginBottom="527dp"
         android:contentDescription="@string/confirm_5"
         android:text="11-22233432"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_4" />
 
     <TextView
         android:id="@+id/confirm_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="4dp"
         android:contentDescription="@string/confirm_6"
-        android:text="mvet.hospital@gmial.com"
+        android:text="mvet.hospital@gmail.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/confirm_5" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="292dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
-        android:layout_marginBottom="181dp"
+        android:layout_width="307dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingconfirmtable" />
 
     <TextView
         android:id="@+id/confirm_8"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginBottom="134dp"
+        android:layout_width="301dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
         android:contentDescription="@string/confirm_8"
         android:fontFamily="sans-serif-black"
         android:text="Please keep this reference receipt with you"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView56"
+        app:chipBackgroundColor="#000000"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/chip9" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        app:chipBackgroundColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/imageView56"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/confirm_download"
+        android:id="@+id/hos_logo1"
+        android:layout_width="73dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/hos_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip5"
+        app:srcCompat="@drawable/hospital" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="49dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView56"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon" />
+
+    <TextView
+        android:id="@+id/usernameId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:contentDescription="@string/confirm_download"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/usernameId"
+        android:text="J.G.A.C.H"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pet_doc_2" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="23dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:background="#232222"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameId"
         app:srcCompat="@drawable/icons8_download_24" />
 
 
