@@ -353,12 +353,22 @@
         android:id="@+id/toolbar3"
         android:layout_width="411dp"
         android:layout_height="70dp"
-        android:background="@color/Beige"
+        android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip5"
@@ -369,6 +379,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="112dp"
         android:layout_marginRight="112dp"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toStartOf="@+id/imageView56"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
@@ -381,7 +392,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
-        app:checkedIconTint="@color/black"
+        app:chipBackgroundColor="#000000"
         app:layout_constraintEnd_toStartOf="@+id/imageView56"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
