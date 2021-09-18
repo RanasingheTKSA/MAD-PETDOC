@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
         <activity android:name=".ChatWindow">
+        <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

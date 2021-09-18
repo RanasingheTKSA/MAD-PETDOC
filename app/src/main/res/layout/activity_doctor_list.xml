@@ -6,110 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".DoctorListActivity">
 
-
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="415dp"
-        android:layout_height="730dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="408dp"
+        android:layout_height="51dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/background_template" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/adminNavBar"
-        android:layout_width="386dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@string/footer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/footer" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip10"
+        android:id="@+id/chip9"
         android:layout_width="44dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/sidebarbutton1"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        app:chipSurfaceColor="#1E1C1C"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip11"
-        android:layout_width="44dp"
+        android:id="@+id/chip13"
+        android:layout_width="45dp"
         android:layout_height="25dp"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/sidebarbutton2"
+        android:layout_marginTop="24dp"
+        android:background="@color/black"
+        app:chipBackgroundColor="#2B2828"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/toolbarUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/toolbarUserName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/adminDashbordlogo"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/imageView58"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pet_doc_2" />
-
-    <ImageView
-        android:id="@+id/adminUserIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usericonwhite" />
-
-    <TextView
-        android:id="@+id/userListAdminUserName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/userListAdminUserName"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="384dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="75dp"
-        android:background="#FFFFFF"
+        android:layout_width="402dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/WhiteSmoke"
         android:contentDescription="@string/search"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView53"
-        android:layout_width="377dp"
-        android:layout_height="585dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.617"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/admin_bacground_card" />
-
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -117,12 +99,13 @@
         android:layout_height="393dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
+        android:layout_marginBottom="100dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adminNavBar"
-        app:layout_constraintVertical_bias="0.69">
+        app:layout_constraintTop_toBottomOf="@+id/docltorListText"
+        app:layout_constraintVertical_bias="1.0">
 
         <TableRow
 
@@ -134,8 +117,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:shadowColor="#B69191"
-                android:textColor="@color/black"
                 android:text="@string/userId"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -143,8 +126,8 @@
                 android:layout_width="103dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
                 android:text="@string/doctorcolName"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -164,6 +147,7 @@
                 android:text="@string/userColAction"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
+
         </TableRow>
 
         <TableRow
@@ -177,24 +161,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="@string/userRecordId" />
+                android:text="@string/userRecordId"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/userRecordName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="@string/userRecordName" />
+                android:text="@string/userRecordName"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/userRecordEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor1@gmail.com" />
+                android:text="Doctor1@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -206,7 +190,7 @@
                 android:id="@+id/deletebtn1"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
 
         </TableRow>
 
@@ -218,22 +202,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="2" />
+                android:text="2"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor2" />
+                android:text="Doctor2"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor2@gmail.com" />
+                android:text="Doctor2@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -245,7 +229,7 @@
                 android:id="@+id/deletebtn2"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
         </TableRow>
 
         <TableRow
@@ -256,22 +240,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="3" />
+                android:text="3"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor3" />
+                android:text="Doctor3"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor3@gmail.com" />
+                android:text="Doctor3@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -283,7 +267,7 @@
                 android:id="@+id/deletebtn3"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
         </TableRow>
 
         <TableRow
@@ -294,22 +278,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="4" />
+                android:text="4"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor4" />
+                android:text="Doctor4"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor4@gmail.com" />
+                android:text="Doctor4@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -321,7 +305,7 @@
                 android:id="@+id/deletebtn4"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
         </TableRow>
 
         <TableRow
@@ -332,36 +316,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="5" />
+                android:text="5"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor5" />
+                android:text="Doctor5"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor@gmail.com" />
+                android:text="Doctor@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="" />
+                android:text=""
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/deletebtn5"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
                 android:textColor="@color/black"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
         </TableRow>
 
         <TableRow
@@ -372,22 +356,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="6" />
+                android:text="6"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor6" />
+                android:text="Doctor6"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="Doctor6@gmail.com" />
+                android:text="Doctor6@gmail.com"
+                android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -399,7 +383,7 @@
                 android:id="@+id/deletebtn6"
                 android:layout_width="39dp"
                 android:layout_height="26dp"
-                app:srcCompat="@drawable/add_user" />
+                app:srcCompat="@drawable/delete_btn" />
         </TableRow>
 
 
@@ -409,34 +393,42 @@
         android:id="@+id/navright"
         android:layout_width="35dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         app:srcCompat="@drawable/navnext" />
 
     <ImageView
         android:id="@+id/imageView50"
         android:layout_width="85dp"
         android:layout_height="53dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
         app:srcCompat="@drawable/doctoradminavatar" />
 
     <TextView
         android:id="@+id/docltorListText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="32dp"
         android:text="@string/docltorListText"
         android:textSize="80px"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView50"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adminNavBar" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
