@@ -381,30 +381,49 @@
 
 
     <!-- Nawanjana MH -->
+    <string name="mhn">MHN</string>
+    <string name="pet_doc_2">pet_doc_2</string>
     <string name="mad_name">mad_name</string>
     <string name="bui_cat">bui_cat</string>
     <string name="upwardsarrow">upwardsarrow</string>
-
+    <string name="message">Type a message</string>
     <string name="doctor">doctor</string>
     <string name="chat">chat</string>
-
+    <string name="keyboard">Type a message</string>
+    <string name="girl">girl</string>
+    <string name="rihana">Rihana D.Susa</string>
     <string name="daily_report">Daily Report</string>
     <string name="total_appointments">Total Appointments</string>
     <string name="total_patients">Total Patients</string>
     <string name="dr_charge">Dr. Charge</string>
     <string name="total_fee">Total Fee</string>
-
-    <string name="full_name">Full Name :</string>
-    <string name="doctor_license_no">Doctor License No :</string>
-    <string name="qualification_specialization">Qualification/ Specialization :</string>
-    <string name="medicalCenter">Medical Center :</string>
-    <string name="address">Address :</string>
-    <string name="tel_no">Tel No :</string>
-    <string name="email">Email :</string>
-    <string name="can_you_make_house_calls">Can you make house calls :</string>
+    <string name="_2021_08_18">2021 - 08 - 18</string>
+    <string name="_2021_08_17">2021 - 08 - 17</string>
+    <string name="_27">27</string>
+    <string name="_25">25</string>
+    <string name="rs_1500_00">Rs.1500.00</string>
+    <string name="rs_37500_00">Rs.37500.00</string>
+    <string name="_17">17</string>
+    <string name="_15">15</string>
+    <string name="rs_22500_00">Rs.22500.00</string>
+    <string name="full_name">Full Name : Dr.Danusha Sadakelum</string>
+    <string name="doctor_license_no">Doctor License No : DC09F45</string>
+    <string name="qualification_specialization">Qualification/ Specialization : Bachelor of Veterinary Science (BVSc)</string>
+    <string name="medicalCenter">Medical Center : M+ Hospital</string>
+    <string name="address">Address : Colombo</string>
+    <string name="tel_no">Tel No : +94715648926</string>
+    <string name="email">Email : danusha@gmail.com</string>
+    <string name="can_you_make_house_calls">Can you make house calls : Yes</string>
+    <string name="full_name1">Full Name : </string>
+    <string name="doctor_license_no1">Doctor License No : </string>
+    <string name="qualification_specialization1">Qualification/ Specialization : </string>
+    <string name="medicalCenter1">Medical Center : </string>
+    <string name="address1">Address : </string>
+    <string name="tel_no1">Tel No : </string>
+    <string name="email1">Email : </string>
+    <string name="can_you_make_house_calls1">Can you make house calls : </string>
     <string name="edit">edit</string>
     <string name="remove">remove</string>
-
     <string name="doctor_registration">Doctor Registration</string>
     <string name="add_user">add_user</string>
     <string name="yes">Yes</string>
@@ -417,7 +436,6 @@
     <string name="Address">Address</string>
     <string name="telNo">Tel No</string>
     <string name="Email">Email</string>
-
     <string name="doctors">Doctors</string>
     <string name="userprofile">userprofile</string>
     <string name="my_profile">My Profile</string>
@@ -426,33 +444,39 @@
     <string name="chat_with_a_doctor">Chat with a Doctor</string>
     <string name="tips">tips</string>
     <string name="health_tips">Health Tips</string>
-
     <string name="medical_center_registration">Medical Center Registration</string>
     <string name="addimage">addimage</string>
     <string name="medical_center_no">Medical Center No :</string>
     <string name="Name">Name :</string>
     <string name="medicalCenter_no">Medical Center No</string>
     <string name="Name_">Name</string>
-
     <string name="patient_name">Patient Name :</string>
+    <string name="sachin">Sachin</string>
+    <string name="chanukshi">Chanukshi</string>
+    <string name="ashen">Ashen</string>
+    <string name="m_hospital">+M Hospital</string>
+    <string name="_2021_08_181">2021-08-18</string>
+    <string name="_8_00_p_m">8.00 P.M</string>
+    <string name="_8_10_p_m">8.10 P.M</string>
+    <string name="_8_20_p_m">8.20 P.M</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
-
     <string name="my_appointments_and_report">My Appointments And Report</string>
     <string name="report">Report</string>
-
     <string name="user_profile">user_profile</string>
     <string name="extview">extview</string>
     <string name="plus">plus</string>
     <string name="send">send</string>
-
     <string name="read_more">Read More</string>
     <string name="_6_ways_to_make_working_from_home_easier_when_you_have_pets">6 Ways to Make Working From Home Easier When You Have Pets</string>
     <string name="content">Has your cat taken to sitting on your laptop all the time? Let your fur-workers know that you mean business–even though you’re always at home. The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters…</string>
-    <string name="content1">The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters running about–invading your space, poking their whiskers into your Zoom meetings, barking up a storm when you’re on a call with a client…the list goes on. Now that we’ve been relegated to the homestead for quite some time, you’d think most of us would have mastered Work From Home (WFH). The truth is that it’s never easy when it comes to balancing work and your energetic furry friends. To help you out, we’ve narrowed it down to the top 6 tips and tricks to make working from home easier if you’ve got pets.</string>
+    <string name="content1">The COVID-19 Pandemic brought with it a lot of adversity, but your pets have probably never been happier to have you at home. Working from home can be tough when you’ve got little critters running about–invading your space, poking their whiskers into your Zoom meetings, barking up a storm when you’re on a call with a client…the list goes on.</string>
+    <string name="content2">Now that we’ve been relegated to the homestead for quite some time, you’d think most of us would have mastered Work From Home (WFH). The truth is that it’s never easy when it comes to balancing work and your energetic furry friends. To help you out, we’ve narrowed it down to the top 6 tips and tricks to make working from home easier if you’ve got pets.</string>
+    <string name="content3">1. Give yourself- and your pet- some space!</string>
+    <string name="content4">Establishing a designated workspace in your home might just be the key to making sure your pets know their boundaries. A separate room would be ideal, if the space is available. This would allow you to gently close the door to minimize distraction. If you’re a dog-owner and your pup is vocally insistent against closed doors, allow them their own little designated space near you.</string>
     <string name="health1">PROVIDE A PROTECTED AND CLEAN LIVING ENVIRONMENT FOR YOUR DOG: Shelter from the elements and hazards, as well as good hygiene, are basic to a quality life.</string>
     <string name="health2">ALWAYS KEEP FRESH WATER AVAILABLE.: Maintaining optimal hydration is important for health and energy.</string>
-
+    <string name="dr_danusha_sadakelum">Dr.Danusha Sadakelum</string>
 
 
     <string name="dogbutton">DogButton</string>
@@ -482,6 +506,7 @@
     <string name="cont_label2">Email</string>
     <string name="cont_label3">message</string>
     <string name="sched_pic">Schedule Pic</string>
+
 
 
 </resources>
