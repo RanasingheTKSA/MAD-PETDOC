@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/icons8_dog_100" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/detailsofpetpageimage2"
         android:layout_width="188dp"
         android:layout_height="184dp"
         android:layout_marginTop="8dp"
@@ -140,6 +140,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

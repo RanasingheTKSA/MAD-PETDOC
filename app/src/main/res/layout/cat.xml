@@ -147,7 +147,7 @@
         app:srcCompat="@drawable/icons8_cat_50" />
 
     <Button
-        android:id="@+id/CATINTRO"
+        android:id="@+id/catIntroduction"
         android:layout_width="242dp"
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
@@ -161,48 +161,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cats" />
 
     <Button
-        android:id="@+id/CATINTRO2"
-        android:layout_width="242dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="32dp"
-        android:contentDescription="@string/button01"
-        android:text="INTRODUCTION"
-        app:backgroundTint="#AFAFAF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/cats" />
-
-    <Button
-        android:id="@+id/CATINTRO3"
-        android:layout_width="242dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="64dp"
-        android:contentDescription="@string/button3"
-        android:text="NUTRITION AND GROWTH"
-        app:backgroundTint="#AFAFAF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toBottomOf="@+id/CATINTRO4" />
-
-    <Button
-        android:id="@+id/CATINTRO5"
-        android:layout_width="242dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="172dp"
-        android:contentDescription="@string/button4"
-        android:text="DISEASES AND VACCINES"
-        app:backgroundTint="#AFAFAF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toBottomOf="@+id/CATINTRO4" />
-
-    <Button
-        android:id="@+id/CATINTRO4"
+        android:id="@+id/catOridinOfBreed"
         android:layout_width="242dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
@@ -212,6 +171,34 @@
         android:text="ORIGIN OF BREED"
         app:backgroundTint="#AFAFAF"
         app:layout_constraintStart_toEndOf="@+id/imageView30"
-        app:layout_constraintTop_toBottomOf="@+id/CATINTRO" />
+        app:layout_constraintTop_toBottomOf="@+id/catIntroduction" />
+
+    <Button
+        android:id="@+id/catNutritionAndGrowth"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/button3"
+        android:text="NUTRITION AND GROWTH"
+        app:backgroundTint="#AFAFAF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/catOridinOfBreed" />
+
+    <Button
+        android:id="@+id/catDiseasesAndVaccines"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/button4"
+        android:text="DISEASES AND VACCINES"
+        app:backgroundTint="#AFAFAF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/catNutritionAndGrowth" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
