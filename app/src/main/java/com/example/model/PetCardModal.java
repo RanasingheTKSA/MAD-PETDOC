@@ -13,9 +13,7 @@ public class PetCardModal implements Parcelable {
     private String Pet_Weight;
     private String Pet_OwnerName;
 
-    public PetCardModal (){
-
-    }
+    public PetCardModal (){}
 
     public PetCardModal(String pet_ID, String pet_Name, String pet_Breed, String pet_DateOfBirth, String pet_Age, String pet_Gender, String pet_Weight, String pet_OwnerName) {
         Pet_ID = pet_ID;

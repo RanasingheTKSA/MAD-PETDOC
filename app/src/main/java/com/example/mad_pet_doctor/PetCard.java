@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,7 +21,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class PetCard extends AppCompatActivity {
 
-
+    private TextView PetCardHeading;
+    private ImageView PetCardImage;
     private TextView petid, petname, breed, petdateofbirth, petage, petgender, petweight,petownername;
     private EditText PetID , PetName, Breed, PetDateOfBirth, PetAge,PetGender, PetWeight, PetOwnerName;
     private Button SAVE;
@@ -34,7 +36,13 @@ public class PetCard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pet_card);
 
-        //Text View
+        //Text View for Headings
+        PetCardHeading = findViewById(R.id.petcard);
+
+        //Image View for picture
+        PetCardImage = findViewById(R.id.imageView17);
+
+        //Text View for labels
         petid = findViewById(R.id.petids);
         petname = findViewById(R.id.pcpetnames);
         breed = findViewById(R.id.pcbreeds);
@@ -71,8 +79,8 @@ public class PetCard extends AppCompatActivity {
                 String Pet_OwnerName = PetOwnerName.getText().toString();
                 petId = Pet_ID;
 
-               PetCardModal petcardModal = new PetCardModal(Pet_Name,Pet_Breed,Pet_DateOfBirth,Pet_Age,Pet_Gender,Pet_Weight,Pet_OwnerName,petId);
-                databaseReference.addValueEventListener(new ValueEventListener() {
+                PetCardModal petcardModal = new PetCardModal(Pet_Name,Pet_Breed,Pet_DateOfBirth,Pet_Age,Pet_Gender,Pet_Weight,Pet_OwnerName,petId);
+                    databaseReference.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         databaseReference.child(petId).setValue(petcardModal);
