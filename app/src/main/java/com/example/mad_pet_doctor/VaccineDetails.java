@@ -42,6 +42,9 @@ public class VaccineDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine_details);
 
+        //FirebaseDatabase Connection get details
+        firebaseDatabase = FirebaseDatabase.getInstance();
+
         //Text View for Heading
         VaccineDetailsHeading = findViewById(R.id.vaccinedetail);
 
@@ -66,7 +69,6 @@ public class VaccineDetails extends AppCompatActivity {
 
         //Save button
         SAVE = findViewById(R.id.SAVE);
-        firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("VaccineDetails");
 
         SAVE.setOnClickListener(new View.OnClickListener() {
@@ -89,7 +91,7 @@ public class VaccineDetails extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             databaseReference.child(petID).setValue(vaccineDetailsModal);
                             Toast.makeText(VaccineDetails.this, "Vaccine Details Added.....", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(VaccineDetails.this, MainActivity.class));
+                            startActivity(new Intent(VaccineDetails.this, VaccineReport.class));
                         }
 
                         @Override

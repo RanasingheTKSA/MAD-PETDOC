@@ -23,12 +23,12 @@
         android:id="@+id/mapView"
         android:layout_width="404dp"
         android:layout_height="178dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="@string/mapview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/hospitalButton2" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView2"
@@ -124,7 +124,7 @@
         android:id="@+id/toolbar2"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -167,7 +167,7 @@
     <ImageView
         android:id="@+id/imageView55"
         android:layout_width="70dp"
-        android:layout_height="58dp"
+        android:layout_height="55dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -197,7 +197,7 @@
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/locationButton2"
         android:layout_width="103dp"
         android:layout_height="68dp"
         android:layout_marginTop="44dp"
@@ -205,20 +205,20 @@
         app:layout_constraintHorizontal_bias="0.935"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView4"
-        app:srcCompat="@drawable/icons8_user_location_30" />
+        app:srcCompat="@drawable/home_location" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/hospitalButton2"
         android:layout_width="100dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/icons8_hospital_30" />
+        app:layout_constraintTop_toBottomOf="@+id/locationButton2"
+        app:srcCompat="@drawable/home_hospital" />
 
-    <ImageButton
+   <!-- <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="100dp"
         android:layout_height="67dp"
@@ -226,8 +226,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@drawable/icons8_down_button_30" />
+        app:layout_constraintTop_toBottomOf="@+id/hospitalButton2"
+        app:srcCompat="@drawable/icons8_down_button_30" /> -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
