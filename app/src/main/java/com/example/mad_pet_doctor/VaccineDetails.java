@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,7 @@ public class VaccineDetails extends AppCompatActivity {
     private TextView PetID, VaccineName, VaccineDate, VaccinePrice, Vaccinated;
     private EditText PetIdEdt, VaccineNameEdt, VaccineDateEdt, VaccinePriceEdt;
     private RadioGroup VaccinatedOrNot;
+    private RadioButton VaccinatedOrNotBtn;
     private Button SAVE;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
@@ -76,6 +78,10 @@ public class VaccineDetails extends AppCompatActivity {
                 String Vaccine_Price_Edt = VaccinePriceEdt.getText().toString();
                 RadioGroup Vaccinated_Or_Not = (RadioGroup) findViewById(R.id.radioGroup);
                 petID = Pet_Id_Edt;
+
+                int VaccinatedValue = VaccinatedOrNot.getCheckedRadioButtonId();
+                VaccinatedOrNotBtn = (RadioButton) findViewById(VaccinatedValue);
+                Toast.makeText(VaccineDetails.this,VaccinatedOrNotBtn.getText(),Toast.LENGTH_SHORT).show();
 
                 VaccineDetailsModal vaccine_details_Model = new VaccineDetailsModal(Vaccine_Name_Edt,Vaccine_Date_Edt,Vaccine_Price_Edt,Vaccinated_Or_Not,petID);
                     databaseReference.addValueEventListener(new ValueEventListener() {
