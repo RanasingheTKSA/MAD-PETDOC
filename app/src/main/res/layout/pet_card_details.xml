@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/catdiseasesandvaccinesheading"
+        android:id="@+id/PetCardHeading"
         android:layout_width="223dp"
         android:layout_height="38dp"
         android:layout_marginTop="8dp"
@@ -21,17 +21,17 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
 
     <ImageView
-        android:id="@+id/petcarddetailsimage1"
+        android:id="@+id/PetCardImage"
         android:layout_width="113dp"
         android:layout_height="67dp"
         android:contentDescription="@string/petcarddetailsimage1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading"
+        app:layout_constraintTop_toBottomOf="@+id/PetCardHeading"
         app:srcCompat="@drawable/icons8_report_64" />
 
     <SearchView
-        android:id="@+id/searchView2"
+        android:id="@+id/SearchBar"
         android:layout_width="370dp"
         android:layout_height="34dp"
         android:layout_marginTop="4dp"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petcarddetailsimage1" />
+        app:layout_constraintTop_toBottomOf="@+id/PetCardImage" />
 
     <TableLayout
         android:id="@+id/Table"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView2">
+        app:layout_constraintTop_toBottomOf="@+id/SearchBar">
 
         <TableRow
             android:id="@+id/TableRow"
@@ -64,7 +64,7 @@
                 android:id="@+id/tablecoloum1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.1"
+                android:layout_weight="0.5"
                 android:shadowColor="#B69191"
                 android:text="ID"
                 android:textStyle="bold" />
@@ -73,7 +73,7 @@
                 android:id="@+id/tablecoloum2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.1"
+                android:layout_weight="0.5"
                 android:text="PET NAME"
                 android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                 android:id="@+id/tablecoloum3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.4"
+                android:layout_weight="0.5"
                 android:text="OWNER NAME"
                 android:textStyle="bold" />
 
@@ -99,48 +99,50 @@
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/tablecoloum5"
+                android:id="@+id/petIdColumn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="1" />
 
             <TextView
-                android:id="@+id/tablecoloum6"
+                android:id="@+id/PetNameColumn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="Blacky" />
 
             <TextView
-                android:id="@+id/tablecoloum7"
+                android:id="@+id/OwnerNameColumn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="Ranasinghe" />
 
-            <TextView
-                android:id="@+id/tablecoloum8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+            <ImageButton
+                android:id="@+id/PCDEditImageButton1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/edit_button" />
 
-            <Button
-                android:id="@+id/tablecoloum9"
-                android:layout_width="64dp"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-
-            <Button
-                android:id="@+id/tablecoloum35"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
+            <ImageButton
+                android:id="@+id/PCDDeleteImageButton1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/delete_button" />
         </TableRow>
 
         <TableRow
@@ -152,6 +154,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="2" />
 
             <TextView
@@ -159,6 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="Blacky" />
 
             <TextView
@@ -166,221 +170,132 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="Ranasinghe" />
 
-            <TextView
-                android:id="@+id/tablecoloum13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+            <ImageButton
+                android:id="@+id/PCDEditImageButton2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/edit_button" />
 
-            <Button
-                android:id="@+id/tablecoloum14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-            <Button
-                android:id="@+id/tablecoloum36"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
+            <ImageButton
+                android:id="@+id/PCDDeleteImageButton2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/delete_button" />
         </TableRow>
 
         <TableRow
             android:background="#ffffff"
             android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tablecoloum13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tablecoloum14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="Blacky" />
 
             <TextView
                 android:id="@+id/tablecoloum15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="3" />
+                android:layout_marginTop="10dp"
+                android:text="Ranasinghe" />
+
+            <ImageButton
+                android:id="@+id/PCDEditImageButton3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/edit_button" />
+
+            <ImageButton
+                android:id="@+id/PCDDeleteImageButton3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/delete_button" />
+        </TableRow>
+
+        <TableRow
+            android:background="#fefac0"
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tablecoloum16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Blacky" />
+                android:layout_marginTop="10dp"
+                android:text="2" />
 
             <TextView
                 android:id="@+id/tablecoloum17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Ranasinghe" />
+                android:layout_marginTop="10dp"
+                android:text="Blacky" />
 
             <TextView
                 android:id="@+id/tablecoloum18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:id="@+id/tablecoloum19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-            <Button
-                android:id="@+id/tablecoloum37"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
-        </TableRow>
-
-        <TableRow
-            android:background="#fefac0"
-            android:padding="5dp">
-
-            <TextView
-                android:id="@+id/tablecoloum20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="4" />
-
-            <TextView
-                android:id="@+id/tablecoloum21"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Blacky" />
-
-            <TextView
-                android:id="@+id/tablecoloum22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_marginTop="10dp"
                 android:text="Ranasinghe" />
 
-            <TextView
-                android:id="@+id/tablecoloum23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+            <ImageButton
+                android:id="@+id/PCDEditImageButton4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/edit_button" />
 
-            <Button
-                android:id="@+id/tablecoloum24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-            <Button
-                android:id="@+id/tablecoloum38"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
-        </TableRow>
-
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
-
-            <TextView
-                android:id="@+id/tablecoloum25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="5" />
-
-            <TextView
-                android:id="@+id/tablecoloum26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Blacky" />
-
-            <TextView
-                android:id="@+id/tablecoloum27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ranasinghe" />
-
-            <TextView
-                android:id="@+id/tablecoloum28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:id="@+id/tablecoloum29"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-            <Button
-                android:id="@+id/tablecoloum39"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
-        </TableRow>
-
-        <TableRow
-            android:background="#fefac0"
-            android:padding="5dp">
-
-            <TextView
-                android:id="@+id/tablecoloum30"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="6" />
-
-            <TextView
-                android:id="@+id/tablecoloum31"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Blacky" />
-
-            <TextView
-                android:id="@+id/tablecoloum32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Ranasinghe" />
-
-            <TextView
-                android:id="@+id/tablecoloum33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <Button
-                android:id="@+id/tablecoloum34"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="UPDATE"
-                android:textSize="10sp" />
-            <Button
-                android:id="@+id/tablecoloum40"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/updatebutton"
-                android:text="DELETE"
-                android:textSize="10sp"
-                app:backgroundTint="#F40909" />
+            <ImageButton
+                android:id="@+id/PCDDeleteImageButton4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toEndOf="@+id/DocID01"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/delete_button" />
         </TableRow>
     </TableLayout>
 

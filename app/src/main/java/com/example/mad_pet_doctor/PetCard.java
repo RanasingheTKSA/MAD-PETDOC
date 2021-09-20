@@ -85,7 +85,7 @@ public class PetCard extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         databaseReference.child(petId).setValue(petcardModal);
                         Toast.makeText(PetCard.this, "Pet Card Added.....", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(PetCard.this, MainActivity.class));
+                        startActivity(new Intent(PetCard.this, PetCardDetails.class));
                     }
 
                     @Override

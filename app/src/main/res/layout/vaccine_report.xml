@@ -406,7 +406,7 @@
         android:layout_width="128dp"
         android:layout_height="51dp"
         android:contentDescription="@string/savebutton"
-        android:text="SAVE"
+        android:text="DONE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
