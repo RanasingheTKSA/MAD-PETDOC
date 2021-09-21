@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DetailsOfPets extends AppCompatActivity {
 
@@ -30,7 +31,7 @@ public class DetailsOfPets extends AppCompatActivity {
         DogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(DetailsOfPets.this, Dog.class);
+                startActivity(new Intent(DetailsOfPets.this, Dog.class));
             }
         });
 
@@ -38,7 +39,7 @@ public class DetailsOfPets extends AppCompatActivity {
         CatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(DetailsOfPets.this, Cat.class);
+                startActivity(new Intent(DetailsOfPets.this, Cat.class));
             }
         });
     }

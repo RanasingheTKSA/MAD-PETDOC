@@ -16,7 +16,7 @@
         app:backgroundTint="#EF0E0E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/vaccinepriceinput" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -37,7 +37,7 @@
         android:text="PET ID"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -50,7 +50,7 @@
         android:text="VACCINE NAME"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/petidinput" />
 
@@ -63,7 +63,7 @@
         android:text="VACCINE DATE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinenameinput" />
 
@@ -74,21 +74,9 @@
         android:text="VACCINE PRICE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinedateinput" />
-
-    <TextView
-        android:id="@+id/vaccinated"
-        android:layout_width="80dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="20dp"
-        android:text="VACCINETD"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vaccinepriceinput" />
 
     <View
         android:id="@+id/view"
@@ -120,10 +108,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:contentDescription="@string/vdvaccineprice"
-        android:ems="10"
+        android:ems="12"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccineprice" />
 
@@ -132,10 +120,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:ems="10"
+        android:ems="12"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinedate" />
 
@@ -144,10 +132,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:ems="10"
+        android:ems="12"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinename" />
 
@@ -156,10 +144,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:ems="10"
+        android:ems="12"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/petid" />
 
@@ -231,7 +219,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView55"
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
 
-    <RadioGroup
+    <!-- <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="91dp"
         android:layout_height="39dp"
@@ -241,4 +229,16 @@
         app:layout_constraintStart_toEndOf="@+id/vaccinated"
         app:layout_constraintTop_toBottomOf="@+id/vaccinepriceinput" />
 
+        <TextView
+        android:id="@+id/vaccinated"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:text="VACCINETD"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vaccinepriceinput" />
+        -->
 </androidx.constraintlayout.widget.ConstraintLayout>

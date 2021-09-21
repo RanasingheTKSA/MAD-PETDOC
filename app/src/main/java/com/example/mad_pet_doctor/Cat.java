@@ -37,6 +37,7 @@ public class Cat extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent_one = new Intent(Cat.this, IntroductionCat.class);
+                startActivity(new Intent(Cat.this, IntroductionCat.class));
             }
         });
 
@@ -44,7 +45,7 @@ public class Cat extends AppCompatActivity {
         CatBreedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(Cat.this, CatOriginOfBreed.class);
+                startActivity(new Intent(Cat.this, CatOriginOfBreed.class));
             }
         });
 
@@ -52,7 +53,7 @@ public class Cat extends AppCompatActivity {
         CatGrowthButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_three = new Intent(Cat.this, CatNutritionAndGrowth.class);
+                startActivity(new Intent(Cat.this, CatNutritionAndGrowth.class));
             }
         });
 
@@ -60,7 +61,7 @@ public class Cat extends AppCompatActivity {
         CatDiseasesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_four = new Intent(Cat.this, CatDiseasesAndVaccines.class);
+                startActivity(new Intent(Cat.this, CatDiseasesAndVaccines.class));
             }
         });
     }

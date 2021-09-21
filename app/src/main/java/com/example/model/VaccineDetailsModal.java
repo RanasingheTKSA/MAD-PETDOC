@@ -4,21 +4,19 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.widget.RadioGroup;
 
-public class VaccineDetailsModal implements Parcelable {
+public class VaccineDetailsModal implements Parcelable{
     String Pet_Id_Edt ;
     String Vaccine_Name_Edt ;
     String Vaccine_Date_Edt ;
     String Vaccine_Price_Edt ;
-    RadioGroup Vaccinated_Or_Not;
 
     public VaccineDetailsModal(){}
 
-    public VaccineDetailsModal(String pet_Id_Edt, String vaccine_Name_Edt, String vaccine_Date_Edt, String vaccine_Price_Edt, RadioGroup vaccinated_Or_Not) {
+    public VaccineDetailsModal(String pet_Id_Edt, String vaccine_Name_Edt, String vaccine_Date_Edt, String vaccine_Price_Edt) {
         Pet_Id_Edt = pet_Id_Edt;
         Vaccine_Name_Edt = vaccine_Name_Edt;
         Vaccine_Date_Edt = vaccine_Date_Edt;
         Vaccine_Price_Edt = vaccine_Price_Edt;
-        Vaccinated_Or_Not = vaccinated_Or_Not;
     }
 
     protected VaccineDetailsModal(Parcel in) {
@@ -26,7 +24,6 @@ public class VaccineDetailsModal implements Parcelable {
         Vaccine_Name_Edt = in.readString();
         Vaccine_Date_Edt = in.readString();
         Vaccine_Price_Edt = in.readString();
-        
     }
 
     public static final Creator<VaccineDetailsModal> CREATOR = new Creator<VaccineDetailsModal>() {
@@ -40,9 +37,6 @@ public class VaccineDetailsModal implements Parcelable {
             return new VaccineDetailsModal[size];
         }
     };
-
-    public VaccineDetailsModal(String vaccine_name_edt, String vaccine_date_edt, String vaccine_price_edt, RadioGroup vaccinated_or_not, String petID) {
-    }
 
     public String getPet_Id_Edt() {
         return Pet_Id_Edt;
@@ -74,14 +68,6 @@ public class VaccineDetailsModal implements Parcelable {
 
     public void setVaccine_Price_Edt(String vaccine_Price_Edt) {
         Vaccine_Price_Edt = vaccine_Price_Edt;
-    }
-
-    public RadioGroup getVaccinated_Or_Not() {
-        return Vaccinated_Or_Not;
-    }
-
-    public void setVaccinated_Or_Not(RadioGroup vaccinated_Or_Not) {
-        Vaccinated_Or_Not = vaccinated_Or_Not;
     }
 
     @Override

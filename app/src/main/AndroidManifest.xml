@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".PetCard">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,6 +17,25 @@
             </intent-filter>
         </activity>
         <activity android:name=".PetCardDetails"></activity>
+         <activity android:name=".VaccineDetails"></activity>
+        <activity android:name=".PetCard"></activity>
+        <activity android:name=".VaccineReport"></activity>
+        <activity android:name=".DetailsOfPets"></activity>
+        <activity android:name=".ActivityMainSideBar"></activity>
+        <activity android:name=".IntroductionDog"></activity>
+        <activity android:name=".DogDiseasesAndVaccines"></activity>
+        <activity android:name=".DogNutritionAndGrowth"></activity>
+        <activity android:name=".DogOrignAndBreed"></activity>
+        <activity android:name=".Dog"></activity>
+        <activity android:name=".Cat"></activity>
+        <activity android:name=".CatDiseasesAndVaccines"></activity>
+        <activity android:name=".CatNutritionAndGrowth"></activity>
+        <activity android:name=".CatOriginOfBreed"></activity>
+        <activity android:name=".IntroductionCat"></activity>
+        <activity android:name=".Doctors"></activity>
+        <activity android:name=".MedicalProfActivity"></activity>
+        <activity android:name=".MedicalCenterList"></activity>
+
     </application>
 
 </manifest>

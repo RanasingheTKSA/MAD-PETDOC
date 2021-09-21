@@ -36,13 +36,8 @@ public class PetCard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pet_card);
 
-        //Text View for Headings
         PetCardHeading = findViewById(R.id.petcard);
-
-        //Image View for picture
         PetCardImage = findViewById(R.id.imageView17);
-
-        //Text View for labels
         petid = findViewById(R.id.TVPetId);
         petname = findViewById(R.id.TVPetName);
         breed = findViewById(R.id.TVBreed);
@@ -51,8 +46,6 @@ public class PetCard extends AppCompatActivity {
         petgender = findViewById(R.id.TVPetGender);
         petweight = findViewById(R.id.TVPetWeight);
         petownername = findViewById( R.id.TVPetOwnerName);
-
-        //Edit Text
         PetID = findViewById(R.id.ETPetId);
         PetName = findViewById(R.id.ETPetName);
         Breed = findViewById(R.id.ETPetBreed);

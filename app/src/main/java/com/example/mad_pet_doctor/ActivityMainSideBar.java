@@ -59,35 +59,35 @@ public class ActivityMainSideBar extends AppCompatActivity {
         NavButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(ActivityMainSideBar.this, Doctors.class);
+                startActivity(new Intent(ActivityMainSideBar.this, Doctors.class));
             }
         });
 
         NavButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(ActivityMainSideBar.this, PetCardDetails.class);
+                startActivity(new Intent(ActivityMainSideBar.this, PetCardDetails.class));
             }
         });
 
         NavButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_three = new Intent(ActivityMainSideBar.this, MedicalCenterList.class);
+                startActivity(new Intent(ActivityMainSideBar.this, MedicalCenterList.class));
             }
         });
 
         NavButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_four = new Intent(ActivityMainSideBar.this, VaccineReport.class);
+                startActivity(new Intent(ActivityMainSideBar.this, VaccineReport.class));
             }
         });
 
         NavButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_five = new Intent(ActivityMainSideBar.this, DetailsOfPets.class);
+                startActivity(new Intent(ActivityMainSideBar.this, DetailsOfPets.class));
             }
         });
 
@@ -95,28 +95,28 @@ public class ActivityMainSideBar extends AppCompatActivity {
         NavButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_six = new Intent(ActivityMainSideBar.this, Doctors.class);
+                startActivity(new Intent(ActivityMainSideBar.this, Doctors.class));
             }
         });*/
 
         NavButton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_seven = new Intent(ActivityMainSideBar.this, BlogMenu.class);
+                startActivity(new Intent(ActivityMainSideBar.this, BlogMenu.class));
             }
         });
 
         NavButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_eight = new Intent(ActivityMainSideBar.this, ContactUsActivity.class);
+                startActivity(new Intent(ActivityMainSideBar.this, ContactUsActivity.class));
             }
         });
 
         NavButton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_night = new Intent(ActivityMainSideBar.this, AuthActivity.class);
+                startActivity(new Intent(ActivityMainSideBar.this, AuthActivity.class));
             }
         });
     }

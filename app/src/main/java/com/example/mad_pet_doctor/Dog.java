@@ -38,7 +38,7 @@ public class Dog extends AppCompatActivity {
         DogIntroButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(Dog.this, IntroductionDog.class);
+                startActivity(new Intent(Dog.this, IntroductionDog.class));
             }
         });
 
@@ -46,7 +46,7 @@ public class Dog extends AppCompatActivity {
         DogBreedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(Dog.this, DogOrignAndBreed.class);
+                startActivity(new Intent(Dog.this, DogOrignAndBreed.class));
             }
         });
 
@@ -54,7 +54,7 @@ public class Dog extends AppCompatActivity {
         DogGrowthButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_three = new Intent(Dog.this, DogNutritionAndGrowth.class);
+                startActivity(new Intent(Dog.this, DogNutritionAndGrowth.class));
             }
         });
 
@@ -62,7 +62,7 @@ public class Dog extends AppCompatActivity {
         DogDiseasesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_four = new Intent(Dog.this, DogDiseasesAndVaccines.class);
+                startActivity(new Intent(Dog.this, DogDiseasesAndVaccines.class));
             }
         });
     }

@@ -18,7 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Toolbar Toolbar;
+    //private Toolbar Toolbar;
     private View View_bar;
     private Chip HomeChip1, HomeChip2;
     private ImageView HomeImage, UserIcon;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
 
         //Home page Tool bar
-        Toolbar = findViewById(R.id.toolbar2);
+        //Toolbar = findViewById(R.id.toolbar2);
         View_bar = findViewById(R.id.view);
         HomeChip1 = findViewById(R.id.chip9);
         HomeChip2 = findViewById(R.id.chip13);
@@ -67,13 +67,13 @@ public class MainActivity extends AppCompatActivity {
         HomeChip1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(MainActivity.this, ActivityMainSideBar.class);
+                startActivity(new Intent(MainActivity.this, ActivityMainSideBar.class));
             }
         });
         HomeChip2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(MainActivity.this, ActivityMainSideBar.class);
+                startActivity(new Intent(MainActivity.this, ActivityMainSideBar.class));
             }
         });
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         LocationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(MainActivity.this, Doctors.class);
+                startActivity(new Intent(MainActivity.this, Doctors.class));
             }
         });
 
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         HospitalButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(MainActivity.this, MedicalProfActivity.class);
+                startActivity(new Intent(MainActivity.this, MedicalProfActivity.class));
             }
         });
 

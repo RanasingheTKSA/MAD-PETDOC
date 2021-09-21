@@ -27,10 +27,8 @@ public class VaccineDetails extends AppCompatActivity {
 
     private TextView VaccineDetailsHeading;
     private ImageView VaccineDetailsPageImage;
-    private TextView PetID, VaccineName, VaccineDate, VaccinePrice, Vaccinated;
+    private TextView PetID, VaccineName, VaccineDate, VaccinePrice;
     private EditText PetIdEdt, VaccineNameEdt, VaccineDateEdt, VaccinePriceEdt;
-    private RadioGroup VaccinatedOrNot;
-    private RadioButton VaccinatedOrNotBtn;
     private Button SAVE;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
@@ -42,33 +40,19 @@ public class VaccineDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine_details);
 
-        //FirebaseDatabase Connection get details
-        firebaseDatabase = FirebaseDatabase.getInstance();
-
-        //Text View for Heading
         VaccineDetailsHeading = findViewById(R.id.vaccinedetail);
-
-        //Image View for Vaccine Detail Page
         VaccineDetailsPageImage = findViewById(R.id.imageView10);
-
-        //Text View for the content heading
         PetID = findViewById(R.id.petid);
         VaccineName = findViewById(R.id.vaccinename);
         VaccineDate = findViewById(R.id.vaccinedate);
         VaccinePrice = findViewById(R.id.vaccineprice);
-        Vaccinated = findViewById(R.id.vaccinated);
-
-        //Edit input text
         PetIdEdt = findViewById(R.id.petidinput);
         VaccineNameEdt = findViewById(R.id.vaccinenameinput);
         VaccineDateEdt = findViewById(R.id.vaccinedateinput);
         VaccinePriceEdt = findViewById(R.id.vaccinepriceinput);
-
-        //Radio group
-        VaccinatedOrNot = findViewById(R.id.radioGroup);
-
-        //Save button
         SAVE = findViewById(R.id.SAVE);
+
+        firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("VaccineDetails");
 
         SAVE.setOnClickListener(new View.OnClickListener() {
@@ -78,14 +62,9 @@ public class VaccineDetails extends AppCompatActivity {
                 String Vaccine_Name_Edt = VaccineNameEdt.getText().toString();
                 String Vaccine_Date_Edt = VaccineDateEdt.getText().toString();
                 String Vaccine_Price_Edt = VaccinePriceEdt.getText().toString();
-                RadioGroup Vaccinated_Or_Not = (RadioGroup) findViewById(R.id.radioGroup);
                 petID = Pet_Id_Edt;
 
-                int VaccinatedValue = VaccinatedOrNot.getCheckedRadioButtonId();
-                VaccinatedOrNotBtn = (RadioButton) findViewById(VaccinatedValue);
-                Toast.makeText(VaccineDetails.this,VaccinatedOrNotBtn.getText(),Toast.LENGTH_SHORT).show();
-
-                VaccineDetailsModal vaccine_details_Model = new VaccineDetailsModal(Vaccine_Name_Edt,Vaccine_Date_Edt,Vaccine_Price_Edt,Vaccinated_Or_Not,petID);
+                VaccineDetailsModal vaccine_details_Model = new VaccineDetailsModal(Vaccine_Name_Edt,Vaccine_Date_Edt,Vaccine_Price_Edt,petID);
                     databaseReference.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
