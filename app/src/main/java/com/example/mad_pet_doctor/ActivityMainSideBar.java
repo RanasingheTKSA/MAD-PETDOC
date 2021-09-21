@@ -2,7 +2,9 @@ package com.example.mad_pet_doctor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.SearchView;
@@ -33,5 +35,89 @@ public class ActivityMainSideBar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_sidebar);
+
+        HPToolBar = findViewById(R.id.toolbar2);
+        HomeChip3 = findViewById(R.id.chip9);
+        HomeChip4 = findViewById(R.id.chip13);
+        HomeImage2 = findViewById(R.id.HomeHeadingImage);
+        UserIcon2 = findViewById(R.id.usericon);
+        UserName2 = findViewById(R.id.usernameid);
+        NavigationViewBar = findViewById(R.id.NavigationBar);
+        NavigationImage = findViewById(R.id.navigationimage);
+        NavButton1 = findViewById(R.id.navButton1);
+        NavButton2 = findViewById(R.id.navButton2);
+        NavButton3 = findViewById(R.id.navButton3);
+        NavButton4 = findViewById(R.id.navButton4);
+        NavButton5 = findViewById(R.id.navButton5);
+        NavButton6 = findViewById(R.id.navButton6);
+        NavButton7 = findViewById(R.id.navButton7);
+        NavButton8 = findViewById(R.id.navButton8);
+        NavButton9 = findViewById(R.id.navButton9);
+
+
+        //Navigation Button Implementations
+        NavButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_one = new Intent(ActivityMainSideBar.this, Doctors.class);
+            }
+        });
+
+        NavButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_two = new Intent(ActivityMainSideBar.this, PetCardDetails.class);
+            }
+        });
+
+        NavButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_three = new Intent(ActivityMainSideBar.this, MedicalCenterList.class);
+            }
+        });
+
+        NavButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_four = new Intent(ActivityMainSideBar.this, VaccineReport.class);
+            }
+        });
+
+        NavButton5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_five = new Intent(ActivityMainSideBar.this, DetailsOfPets.class);
+            }
+        });
+
+        /*
+        NavButton6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_six = new Intent(ActivityMainSideBar.this, Doctors.class);
+            }
+        });*/
+
+        NavButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_seven = new Intent(ActivityMainSideBar.this, BlogMenu.class);
+            }
+        });
+
+        NavButton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_eight = new Intent(ActivityMainSideBar.this, ContactUsActivity.class);
+            }
+        });
+
+        NavButton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_night = new Intent(ActivityMainSideBar.this, AuthActivity.class);
+            }
+        });
     }
 }

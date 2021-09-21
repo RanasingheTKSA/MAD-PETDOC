@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/SAVE"
-        android:layout_width="135dp"
-        android:layout_height="41dp"
-        android:contentDescription="@string/petcardsave"
-        android:text="SAVE"
-        app:backgroundTint="#EF0E0E"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/psownername" />
-
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="62dp"
@@ -43,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
 
     <TextView
-        android:id="@+id/petids"
+        android:id="@+id/TVPetId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -51,12 +40,24 @@
         android:text="PET ID"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/petcard" />
 
+    <EditText
+        android:id="@+id/ETPetId"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/pcpetid"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetId" />
+
     <TextView
-        android:id="@+id/pcpetnames"
+        android:id="@+id/TVPetName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -64,12 +65,23 @@
         android:text="PET NAME"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.245"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petidinputs" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetId" />
+
+    <EditText
+        android:id="@+id/ETPetName"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetName" />
 
     <TextView
-        android:id="@+id/pcbreeds"
+        android:id="@+id/TVBreed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -77,12 +89,23 @@
         android:text="BREED"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcpetname" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetName" />
+
+    <EditText
+        android:id="@+id/ETPetBreed"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVBreed"/>
 
     <TextView
-        android:id="@+id/pcdateofbirths"
+        android:id="@+id/TVPetDOB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -90,146 +113,123 @@
         android:text="DATE OF BIRTH"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcdateofbirth" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetBreed" />
+
+    <EditText
+        android:id="@+id/ETPetDOB"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetDOB" />
 
     <TextView
-        android:id="@+id/pcages"
+        android:id="@+id/TVPetAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/pcages"
         android:text="AGE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcbreed" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetDOB" />
+
+    <EditText
+        android:id="@+id/ETPetAge"
+        android:layout_width="250dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetAge" />
 
     <TextView
-        android:id="@+id/pcgender"
+        android:id="@+id/TVPetGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/pcgender"
         android:text="GENDER"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcgenders" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetAge"/>
+
+    <EditText
+        android:id="@+id/ETPetGender"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetGender"/>
 
     <TextView
-        android:id="@+id/pcweights"
+        android:id="@+id/TVPetWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/pcweights"
         android:text="WEIGHT"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcage" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetGender" />
+
+    <EditText
+        android:id="@+id/ETPetWeight"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPetWeight" />
 
     <TextView
-        android:id="@+id/pcownernames"
+        android:id="@+id/TVPetOwnerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/pcownernames"
         android:text="OWNER NAME"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintHorizontal_bias="0.265"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcweight" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetWeight"/>
 
     <EditText
-        android:id="@+id/petidinputs"
-        android:layout_width="221dp"
-        android:layout_height="32dp"
-        android:contentDescription="@string/pcpetid"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petids" />
-
-    <EditText
-        android:id="@+id/pcpetname"
-        android:layout_width="226dp"
-        android:layout_height="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcpetnames" />
-
-    <EditText
-        android:id="@+id/pcbreed"
-        android:layout_width="234dp"
-        android:layout_height="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.398"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcdateofbirths" />
-
-    <EditText
-        android:id="@+id/pcdateofbirth"
-        android:layout_width="229dp"
-        android:layout_height="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.388"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcbreeds" />
-
-    <EditText
-        android:id="@+id/pcage"
-        android:layout_width="207dp"
+        android:id="@+id/ETPetOwnerName"
+        android:layout_width="250dp"
         android:layout_height="33dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcgender" />
+        app:layout_constraintTop_toBottomOf="@+id/TVPetOwnerName"/>
 
-    <EditText
-        android:id="@+id/pcgenders"
-        android:layout_width="210dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <Button
+        android:id="@+id/SAVE"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+        android:contentDescription="@string/petcardsave"
+        android:text="SAVE"
+        app:backgroundTint="#EF0E0E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcages" />
-
-    <EditText
-        android:id="@+id/pcweight"
-        android:layout_width="205dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcweights" />
-
-    <EditText
-        android:id="@+id/psownername"
-        android:layout_width="207dp"
-        android:layout_height="33dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pcownernames" />
+        app:layout_constraintTop_toBottomOf="@+id/ETPetOwnerName" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"

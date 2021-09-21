@@ -43,24 +43,24 @@ public class PetCard extends AppCompatActivity {
         PetCardImage = findViewById(R.id.imageView17);
 
         //Text View for labels
-        petid = findViewById(R.id.petids);
-        petname = findViewById(R.id.pcpetnames);
-        breed = findViewById(R.id.pcbreeds);
-        petdateofbirth = findViewById(R.id.pcdateofbirths);
-        petage = findViewById(R.id.pcages);
-        petgender = findViewById(R.id.pcgender);
-        petweight = findViewById(R.id.pcweights);
-        petownername = findViewById( R.id.pcownernames);
+        petid = findViewById(R.id.TVPetId);
+        petname = findViewById(R.id.TVPetName);
+        breed = findViewById(R.id.TVBreed);
+        petdateofbirth = findViewById(R.id.TVPetDOB);
+        petage = findViewById(R.id.TVPetAge);
+        petgender = findViewById(R.id.TVPetGender);
+        petweight = findViewById(R.id.TVPetWeight);
+        petownername = findViewById( R.id.TVPetOwnerName);
 
         //Edit Text
-        PetID = findViewById(R.id.petidinputs);
-        PetName = findViewById(R.id.pcpetname);
-        Breed = findViewById(R.id.pcbreed);
-        PetDateOfBirth = findViewById(R.id.pcdateofbirth);
-        PetAge = findViewById(R.id.pcage);
-        PetGender = findViewById(R.id.pcgenders);
-        PetWeight = findViewById(R.id.pcweight);
-        PetOwnerName = findViewById(R.id.psownername);
+        PetID = findViewById(R.id.ETPetId);
+        PetName = findViewById(R.id.ETPetName);
+        Breed = findViewById(R.id.ETPetBreed);
+        PetDateOfBirth = findViewById(R.id.ETPetDOB);
+        PetAge = findViewById(R.id.ETPetAge);
+        PetGender = findViewById(R.id.ETPetGender);
+        PetWeight = findViewById(R.id.ETPetWeight);
+        PetOwnerName = findViewById(R.id.ETPetOwnerName);
         SAVE = findViewById(R.id.SAVE);
 
         firebaseDatabase = FirebaseDatabase.getInstance();

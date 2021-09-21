@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/hospitalButton2" />
 
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navigationView2"
+        android:id="@+id/NavigationBar"
         android:layout_width="259dp"
         android:layout_height="485dp"
         android:layout_marginTop="16dp"
@@ -41,13 +41,13 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar2">
 
         <ImageView
-            android:id="@+id/imageView21"
+            android:id="@+id/navigationimage"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             app:srcCompat="@drawable/auth_logo" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/navButton1"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="80dp"
@@ -55,7 +55,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/navButton2"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="120dp"
@@ -63,7 +63,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/navButton3"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="160dp"
@@ -71,7 +71,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/navButton4"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="200dp"
@@ -79,7 +79,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/navButton5"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="240dp"
@@ -87,7 +87,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button23"
+            android:id="@+id/navButton6"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="280dp"
@@ -95,7 +95,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/navButton7"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="320dp"
@@ -103,7 +103,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button25"
+            android:id="@+id/navButton8"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="360dp"
@@ -111,7 +111,7 @@
             app:backgroundTint="#C18585" />
 
         <Button
-            android:id="@+id/button26"
+            android:id="@+id/navButton9"
             android:layout_width="250dp"
             android:layout_height="70dp"
             android:layout_marginTop="400dp"
@@ -165,7 +165,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView55"
+        android:id="@+id/HomeHeadingImage"
         android:layout_width="70dp"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
@@ -182,7 +182,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintStart_toEndOf="@+id/HomeHeadingImage"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user_icon" />
 
@@ -193,7 +193,7 @@
         android:text="TKSAR"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.901"
-        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintStart_toEndOf="@+id/HomeHeadingImage"
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
 
     <ImageButton
