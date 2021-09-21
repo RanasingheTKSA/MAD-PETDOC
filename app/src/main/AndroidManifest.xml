@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".MainActivity">
+        <activity android:name=".VaccineDetails">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".PetCardDetails"></activity>
-         <activity android:name=".VaccineDetails"></activity>
+        <!-- <activity android:name=".VaccineDetails"></activity> -->
         <activity android:name=".PetCard"></activity>
         <activity android:name=".VaccineReport"></activity>
         <activity android:name=".DetailsOfPets"></activity>

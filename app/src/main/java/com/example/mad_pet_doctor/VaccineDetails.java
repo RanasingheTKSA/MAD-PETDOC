@@ -32,7 +32,7 @@ public class VaccineDetails extends AppCompatActivity {
     private Button SAVE;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-    private String petID;
+    private String petName;
     private VaccineDetailsModal vaccineDetailsModal;
 
     @Override
@@ -42,11 +42,9 @@ public class VaccineDetails extends AppCompatActivity {
 
         VaccineDetailsHeading = findViewById(R.id.vaccinedetail);
         VaccineDetailsPageImage = findViewById(R.id.imageView10);
-        PetID = findViewById(R.id.petid);
         VaccineName = findViewById(R.id.vaccinename);
         VaccineDate = findViewById(R.id.vaccinedate);
         VaccinePrice = findViewById(R.id.vaccineprice);
-        PetIdEdt = findViewById(R.id.petidinput);
         VaccineNameEdt = findViewById(R.id.vaccinenameinput);
         VaccineDateEdt = findViewById(R.id.vaccinedateinput);
         VaccinePriceEdt = findViewById(R.id.vaccinepriceinput);
@@ -58,17 +56,17 @@ public class VaccineDetails extends AppCompatActivity {
         SAVE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String Pet_Id_Edt = PetIdEdt.getText().toString();
+                //String Pet_Id_Edt = PetIdEdt.getText().toString();
                 String Vaccine_Name_Edt = VaccineNameEdt.getText().toString();
                 String Vaccine_Date_Edt = VaccineDateEdt.getText().toString();
                 String Vaccine_Price_Edt = VaccinePriceEdt.getText().toString();
-                petID = Pet_Id_Edt;
+                petName = Vaccine_Name_Edt;
 
-                VaccineDetailsModal vaccine_details_Model = new VaccineDetailsModal(Vaccine_Name_Edt,Vaccine_Date_Edt,Vaccine_Price_Edt,petID);
+                VaccineDetailsModal vaccine_details_Model = new VaccineDetailsModal(petName,Vaccine_Date_Edt,Vaccine_Price_Edt);
                     databaseReference.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            databaseReference.child(petID).setValue(vaccineDetailsModal);
+                            databaseReference.child(petName).setValue(vaccine_details_Model);
                             Toast.makeText(VaccineDetails.this, "Vaccine Details Added.....", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(VaccineDetails.this, VaccineReport.class));
                         }

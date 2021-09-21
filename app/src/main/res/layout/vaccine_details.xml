@@ -21,7 +21,8 @@
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="94dp"
-        android:layout_height="72dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/nurcelogovaccinedetails"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.936"
@@ -30,29 +31,17 @@
         app:srcCompat="@drawable/nurse" />
 
     <TextView
-        android:id="@+id/petid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/vdpetid"
-        android:text="PET ID"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
-
-    <TextView
         android:id="@+id/vaccinename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="45dp"
         android:contentDescription="@string/vdvaccinename"
         android:text="VACCINE NAME"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petidinput" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/vaccinedate"
@@ -92,7 +81,7 @@
         android:id="@+id/vaccinedetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/vrheading"
         android:text="VACCINE DETAILS"
         android:textSize="24sp"
@@ -138,18 +127,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vaccinename" />
-
-    <EditText
-        android:id="@+id/petidinput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:ems="12"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petid" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
