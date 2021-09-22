@@ -52,10 +52,10 @@
             android:layout_height="60dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="180dp"
-            android:fontFamily="sans-serif-black"
             android:text="DOCTOR"
             android:textColor="@color/black"
             app:backgroundTint="#D2B48C"
+            android:fontFamily="sans-serif-black"
             app:iconTint="#4E0808" />
 
         <Button

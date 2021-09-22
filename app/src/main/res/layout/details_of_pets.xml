@@ -126,11 +126,13 @@
         android:layout_marginTop="4dp"
         android:contentDescription="@string/dogbutton"
         android:text="DOGS"
+        app:backgroundTint="#D2B48C"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage1"
-        app:backgroundTint="#191970"/>
+        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage1" />
 
     <Button
         android:id="@+id/catsbutton"
@@ -142,6 +144,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage2"
-        app:backgroundTint="#191970"/>
+        app:backgroundTint="#D2B48C"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
