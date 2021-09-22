@@ -16,12 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PetCardDetails" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".VaccineDetails" />
         <activity android:name=".PetCard" />
         <activity android:name=".VaccineReport" />
         <activity android:name=".DetailsOfPets" />
-        <activity android:name=".MainActivity" />
+        <!-- <activity android:name=".MainActivity" />-->
         <activity android:name=".IntroductionDog" />
         <activity android:name=".DogDiseasesAndVaccines" />
         <activity android:name=".DogNutritionAndGrowth" />

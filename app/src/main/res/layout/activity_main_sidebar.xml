@@ -34,7 +34,7 @@
         android:id="@+id/NavigationBar"
         android:layout_width="400dp"
         android:layout_height="660dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,11 +49,14 @@
         <Button
             android:id="@+id/navButton1"
             android:layout_width="350dp"
-            android:layout_marginLeft="25dp"
             android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="180dp"
+            android:fontFamily="sans-serif-black"
             android:text="DOCTOR"
-            app:backgroundTint="#CD853F" />
+            android:textColor="@color/black"
+            app:backgroundTint="#D2B48C"
+            app:iconTint="#4E0808" />
 
         <Button
             android:id="@+id/navButton2"
@@ -62,7 +65,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="230dp"
             android:text="PET CARD DETAILS"
-            app:backgroundTint="#DC143C" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton3"
@@ -71,7 +76,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="280dp"
             android:text="MEDICAL CENTER"
-            app:backgroundTint="#808080" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton4"
@@ -80,7 +87,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="330dp"
             android:text="VACCINE REPORT"
-            app:backgroundTint="#2F4F4F" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton5"
@@ -89,6 +98,8 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="380dp"
             android:text="DETAILS OF PETS"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
             app:backgroundTint="#D2B48C" />
 
         <Button
@@ -98,7 +109,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="430dp"
             android:text="ACCOUNTS"
-            app:backgroundTint="#191970" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton7"
@@ -107,7 +120,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="480dp"
             android:text="BLOGS"
-            app:backgroundTint="#191970" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton8"
@@ -116,7 +131,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="530dp"
             android:text="CONTACT US"
-            app:backgroundTint="#191970" />
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton9"
@@ -125,6 +142,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="580dp"
             android:text="LOGOUT"
+            android:fontFamily="sans-serif-black"
             app:backgroundTint="#FF0000" />
 
     </com.google.android.material.navigation.NavigationView>
