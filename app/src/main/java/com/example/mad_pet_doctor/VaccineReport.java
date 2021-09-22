@@ -14,6 +14,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.example.model.VaccineDetailsModal;
+import com.google.android.material.chip.Chip;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -29,6 +30,7 @@ public class VaccineReport extends AppCompatActivity {
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
     private VaccineDetailsModal vaccineDetailsModal;
+    private Chip HomeChip1, HomeChip2;
 
 
     @Override
@@ -49,6 +51,21 @@ public class VaccineReport extends AppCompatActivity {
         Column3Data = findViewById(R.id.tablecoloum7);
         Column4Data = findViewById(R.id.tablecoloum8);
         DoneButton = findViewById(R.id.savebutton);
+        HomeChip1 = findViewById(R.id.chip12);
+        HomeChip2 = findViewById(R.id.chip15);
+
+        HomeChip1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(VaccineReport.this, ActivityMainSideBar.class));
+            }
+        });
+        HomeChip2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(VaccineReport.this, ActivityMainSideBar.class));
+            }
+        });
 
         VRAddButton.setOnClickListener(new View.OnClickListener() {
             @Override

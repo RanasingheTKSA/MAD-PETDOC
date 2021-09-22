@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.model.PetCardModal;
+import com.google.android.material.chip.Chip;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -35,6 +36,7 @@ public class PetCard extends AppCompatActivity {
     private Button SAVE;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
+    private Chip HomeChip1, HomeChip2;
     private String petId;
     private PetCardModal petCardModal;
     final Calendar myCalendar = Calendar.getInstance();
@@ -63,10 +65,25 @@ public class PetCard extends AppCompatActivity {
         PetGender = findViewById(R.id.ETPetGender);
         PetWeight = findViewById(R.id.ETPetWeight);
         PetOwnerName = findViewById(R.id.ETPetOwnerName);
+        HomeChip1 = findViewById(R.id.chip9);
+        HomeChip2 = findViewById(R.id.chip13);
         SAVE = findViewById(R.id.SAVE);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("PetCards");
+
+        HomeChip1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PetCard.this, ActivityMainSideBar.class));
+            }
+        });
+        HomeChip2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PetCard.this, ActivityMainSideBar.class));
+            }
+        });
 
         DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
 

@@ -11,7 +11,7 @@
         android:id="@+id/catdiseasesandvaccinesheading"
         android:layout_width="254dp"
         android:layout_height="36dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:contentDescription="@string/catnutritionandgrowthheading"
         android:text="NUTRITION AND GROWTH"
         android:textSize="20sp"
@@ -30,17 +30,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
+        android:alpha="0.5"
         app:layout_constraintTop_toBottomOf="@+id/textView54"
         app:srcCompat="@drawable/kittens_2273598_1920" />
 
     <TextView
         android:id="@+id/textView54"
         android:layout_width="355dp"
-        android:layout_height="214dp"
-        android:layout_marginTop="5dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="15dp"
         android:contentDescription="@string/nutritionandgrowthdesc"
+        android:justificationMode="inter_word"
         android:text="Nutrients are substances obtained from food and used by an animal as a source of energy and as part of the metabolic machinery necessary for maintenance and growth. Barring any special needs, illness-related deficiencies or instructions from your vet, your pets should be able to get all the nutrients they need from high-quality commercial pet foods, which are formulated with these special standards in mind. Here are the six essential classes of nutrients fundamental for healthy living."
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading" />
@@ -92,8 +94,8 @@
     <ImageView
         android:id="@+id/imageView55"
         android:layout_width="70dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

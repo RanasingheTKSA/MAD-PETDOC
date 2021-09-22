@@ -36,7 +36,7 @@ public class ActivityMainSideBar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_sidebar);
 
-        HPToolBar = findViewById(R.id.toolbar2);
+        //HPToolBar = findViewById(R.id.toolbar2);
         HomeChip3 = findViewById(R.id.chip9);
         HomeChip4 = findViewById(R.id.chip13);
         HomeImage2 = findViewById(R.id.HomeHeadingImage);

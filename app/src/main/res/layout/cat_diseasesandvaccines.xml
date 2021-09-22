@@ -9,11 +9,12 @@
 
     <TextView
         android:id="@+id/catdiseasesandvaccinesheading"
-        android:layout_width="249dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:contentDescription="@string/catdiseasesandvaccinesheading"
         android:text="DISEASES AND VACCINES"
+        android:gravity="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,12 +23,13 @@
 
     <TextView
         android:id="@+id/textView53"
-        android:layout_width="363dp"
-        android:layout_height="442dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="370dp"
+        android:layout_height="365dp"
+        android:layout_marginTop="10dp"
         android:contentDescription="@string/catdiseasesdesc"
         android:text="For many years cat treatments were simply extensions of those given dogs. Now, however, cat disorders of the skin, the eyes, the ears, the various systems and the blood, as well as contagious cat diseases and external and internal parasites, are studied, so that appropriate preventions and treatments can be developed.  Cats permitted to wander outdoors are exposed to a variety of hazards, including accidents, attacks from other animals, poisoning, fleas and other parasites, and contagious diseases such as feline acquired immune deficiency syndrome .Cats that kill and eat rodents and other small animals can become infected with the parasitic protozoan Toxoplasma gondii, which can be transmitted to humans and causes the disease toxoplasmosis. Cats that share litter boxes with one another may increase their exposure to Tritrichomonas foetus, a single-celled flagellated protozoan that resembles Giardia. T. foetus infects the cat’s lower intestine, causing diarrhea, which may also contain mucus or fresh blood in some infected cats."
-        android:textSize="16sp"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading" />
@@ -78,8 +80,8 @@
     <ImageView
         android:id="@+id/imageView55"
         android:layout_width="70dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,13 +112,13 @@
     <ImageView
         android:id="@+id/imageView38"
         android:layout_width="370dp"
-        android:layout_height="456dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading"
-        app:srcCompat="@drawable/cat_339400_1920"
-        android:alpha="0.3"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        app:srcCompat="@drawable/cat_339400_1920" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

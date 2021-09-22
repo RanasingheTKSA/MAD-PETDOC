@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mad_pet_doctor" >
+    package="com.example.mad_pet_doctor">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Madpetdoctor" >
-        <activity android:name=".DetailsOfPets" >
+        android:theme="@style/Theme.Madpetdoctor">
+        <activity android:name=".ActivityMainSideBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +20,8 @@
         <activity android:name=".VaccineDetails" />
         <activity android:name=".PetCard" />
         <activity android:name=".VaccineReport" />
-        <!--<activity android:name=".DetailsOfPets" />-->
-        <activity android:name=".ActivityMainSideBar" />
+        <activity android:name=".DetailsOfPets" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".IntroductionDog" />
         <activity android:name=".DogDiseasesAndVaccines" />
         <activity android:name=".DogNutritionAndGrowth" />
@@ -35,6 +35,7 @@
         <activity android:name=".Doctors" />
         <activity android:name=".MedicalProfActivity" />
         <activity android:name=".MedicalCenterList" />
+        
     </application>
 
 </manifest>

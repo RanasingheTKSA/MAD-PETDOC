@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <SearchView
+    <!-- <SearchView
         android:id="@+id/searchView4"
         android:layout_width="384dp"
         android:layout_height="40dp"
@@ -28,93 +28,102 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hospitalButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/hospitalButton2" /> -->
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/NavigationBar"
-        android:layout_width="259dp"
-        android:layout_height="485dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="400dp"
+        android:layout_height="660dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar2">
 
         <ImageView
             android:id="@+id/navigationimage"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
+            android:layout_width="510dp"
+            android:layout_height="200dp"
             app:srcCompat="@drawable/auth_logo" />
 
         <Button
             android:id="@+id/navButton1"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="80dp"
+            android:layout_width="350dp"
+            android:layout_marginLeft="25dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="180dp"
             android:text="DOCTOR"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#CD853F" />
 
         <Button
             android:id="@+id/navButton2"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="120dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="230dp"
             android:text="PET CARD DETAILS"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#DC143C" />
 
         <Button
             android:id="@+id/navButton3"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="160dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="280dp"
             android:text="MEDICAL CENTER"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#808080" />
 
         <Button
             android:id="@+id/navButton4"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="200dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="330dp"
             android:text="VACCINE REPORT"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#2F4F4F" />
 
         <Button
             android:id="@+id/navButton5"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="240dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="380dp"
             android:text="DETAILS OF PETS"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#D2B48C" />
 
         <Button
             android:id="@+id/navButton6"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="280dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="430dp"
             android:text="ACCOUNTS"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#191970" />
 
         <Button
             android:id="@+id/navButton7"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="320dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="480dp"
             android:text="BLOGS"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#191970" />
 
         <Button
             android:id="@+id/navButton8"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="360dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="530dp"
             android:text="CONTACT US"
-            app:backgroundTint="#C18585" />
+            app:backgroundTint="#191970" />
 
         <Button
             android:id="@+id/navButton9"
-            android:layout_width="250dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="400dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="580dp"
             android:text="LOGOUT"
             app:backgroundTint="#FF0000" />
 
@@ -196,7 +205,7 @@
         app:layout_constraintStart_toEndOf="@+id/HomeHeadingImage"
         app:layout_constraintTop_toBottomOf="@+id/usericon" />
 
-    <ImageButton
+    <!--<ImageButton
         android:id="@+id/locationButton2"
         android:layout_width="103dp"
         android:layout_height="68dp"
@@ -218,7 +227,7 @@
         app:layout_constraintTop_toBottomOf="@+id/locationButton2"
         app:srcCompat="@drawable/home_hospital" />
 
-   <!-- <ImageButton
+    <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="100dp"
         android:layout_height="67dp"

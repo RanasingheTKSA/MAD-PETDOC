@@ -21,7 +21,7 @@
         android:id="@+id/detailsofpetpageimage2"
         android:layout_width="188dp"
         android:layout_height="184dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:contentDescription="@string/detailsofpetpageimage2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -33,10 +33,10 @@
         android:id="@+id/detailsofpets"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/dopdetailsofpets"
         android:text="DETAILS OF PETS"
-        android:textColor="#8C8888"
+        android:textColor="@color/black"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage1" />
+        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage1"
+        app:backgroundTint="#191970"/>
 
     <Button
         android:id="@+id/catsbutton"
@@ -140,6 +141,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage2" />
+        app:layout_constraintTop_toBottomOf="@+id/detailsofpetpageimage2"
+        app:backgroundTint="#191970"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

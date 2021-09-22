@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
 
         //Home page Tool bar
-        //Toolbar = findViewById(R.id.toolbar2);
+        //Toolbar toolbar = findViewById(R.id.toolbar2);
+        //setSupportActionBar(toolbar);
+
         View_bar = findViewById(R.id.view);
         HomeChip1 = findViewById(R.id.chip9);
         HomeChip2 = findViewById(R.id.chip13);
@@ -94,4 +96,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 }

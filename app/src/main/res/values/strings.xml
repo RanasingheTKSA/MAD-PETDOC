@@ -197,6 +197,9 @@
     <string name="blogs">Blogs</string>
     <string name="contactus">ContactUs</string>
     <string name="logout">LogOut</string>
+    
+    <string name="home_navigation_drawer_open">open navigation drawer </string>
+    <string name="Home_navigation_drawer_close">close navigation drawer </string>
 
 
     <!--Dunusinghe A.V. IT20025526-->
@@ -513,6 +516,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_home_page_side_bar">Home_Page_Side_Bar_Activity</string>
+    <string name="title_activity_side_bar_main">SideBarMainActivity</string>
 
 
 </resources>

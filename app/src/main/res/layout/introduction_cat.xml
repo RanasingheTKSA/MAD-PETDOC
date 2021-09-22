@@ -23,24 +23,25 @@
 
     <ImageView
         android:id="@+id/imageView31"
-        android:layout_width="382dp"
-        android:layout_height="365dp"
-        android:alpha="0.3"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:alpha="0.5"
         android:contentDescription="@string/introductionofcatimage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
         app:srcCompat="@drawable/cat_3449999_1920" />
 
     <TextView
         android:id="@+id/textView52"
         android:layout_width="389dp"
-        android:layout_height="410dp"
+        android:layout_height="360dp"
         android:layout_marginTop="12dp"
         android:contentDescription="@string/catintrodesc"
         android:text="Cat, (Felis catus), also called house cat or domestic cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family. Like all felids, domestic cats are characterized by supple low-slung bodies, finely molded heads, long tails that aid in balance, and specialized teeth and claws that adapt them admirably to a life of active hunting. Cats possess other features of their wild relatives in being basically carnivorous, remarkably agile and powerful, and finely coordinated in movement.    It is noteworthy that the ancestors of the other common household pet, the dog, were social animals that lived together in packs in which there was subordination to a leader, and the dog has readily transferred its allegiance from pack leader to human master. The cat, however, has not yielded as readily to subjugation. Consequently, the house cat is able to revert to complete self-reliance more quickly and more successfully than most domesticated dogs. For an account of the relationship of the family of cats to other carnivores, see carnivore."
-        android:textSize="16sp"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading" />
@@ -92,8 +93,8 @@
     <ImageView
         android:id="@+id/imageView55"
         android:layout_width="70dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

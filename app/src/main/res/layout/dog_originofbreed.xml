@@ -27,7 +27,7 @@
         android:layout_width="386dp"
         android:layout_height="180dp"
         android:layout_marginTop="5dp"
-        android:alpha="0.3"
+        android:alpha="0.5"
         android:contentDescription="@string/originofbreedimage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"

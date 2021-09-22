@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.material.chip.Chip;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -17,6 +18,7 @@ public class Dog extends AppCompatActivity {
     private TextView DogHeading;
     private ImageView DogIntroImage, DogBreedImage, DogGrowthImage, DogDiseasesImage;
     private Button DogIntroButton, DogBreedButton, DogGrowthButton, DogDiseasesButton;
+    private Chip HomeChip1, HomeChip2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,21 @@ public class Dog extends AppCompatActivity {
         DogBreedButton = findViewById(R.id.originofbreed3);
         DogGrowthButton = findViewById(R.id.nutritionandgrowth);
         DogDiseasesButton =  findViewById(R.id.diseasesandvaccines);
+        HomeChip1 = findViewById(R.id.chip9);
+        HomeChip2 = findViewById(R.id.chip13);
+
+        HomeChip1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dog.this, ActivityMainSideBar.class));
+            }
+        });
+        HomeChip2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dog.this, ActivityMainSideBar.class));
+            }
+        });
 
         //Introduction Button Implementation
         DogIntroButton.setOnClickListener(new View.OnClickListener() {

@@ -26,6 +26,7 @@
         android:layout_height="241dp"
         android:layout_marginTop="12dp"
         android:contentDescription="@string/dognutritionandgrowth"
+        android:alpha="0.5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,11 +35,12 @@
 
     <TextView
         android:id="@+id/textView50"
-        android:layout_width="357dp"
+        android:layout_width="360dp"
         android:layout_height="219dp"
         android:contentDescription="@string/dognutritiondesc"
         android:text="Puppies need three basic things in order to thrive: good nutrition, warmth, and companionship. Puppies need to eat three or four times a day from the time they are weaned until they are about six months old. Thereafter they can be fed twice a day until maturity and once daily after that. However, many dog owners, especially those with large breeds, feed twice a day throughout the dog’s life (this does not mean feeding more than the required daily amount, but it is a more balanced method of feeding)."
-        android:textSize="16sp"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catdiseasesandvaccinesheading" />
@@ -90,8 +92,8 @@
     <ImageView
         android:id="@+id/imageView55"
         android:layout_width="70dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

@@ -9,13 +9,14 @@
 
     <TextView
         android:id="@+id/PetCardHeading"
-        android:layout_width="223dp"
+        android:layout_width="250dp"
         android:layout_height="38dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/vaccine_report"
         android:text="PET CARD DETAILS"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
@@ -24,13 +25,14 @@
         android:id="@+id/PetCardImage"
         android:layout_width="113dp"
         android:layout_height="67dp"
+        android:layout_marginTop="10dp"
         android:contentDescription="@string/petcarddetailsimage1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PetCardHeading"
         app:srcCompat="@drawable/icons8_report_64" />
 
-    <SearchView
+   <!-- <SearchView
         android:id="@+id/SearchBar"
         android:layout_width="370dp"
         android:layout_height="34dp"
@@ -41,19 +43,19 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PetCardImage" />
-
+        -->
     <TableLayout
         android:id="@+id/Table"
         android:layout_width="398dp"
         android:layout_height="395dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/table1"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SearchBar">
+        app:layout_constraintTop_toBottomOf="@+id/PetCardImage">
 
         <TableRow
             android:id="@+id/TableRow"
