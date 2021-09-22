@@ -36,7 +36,7 @@
         android:layout_marginTop="12dp"
         android:contentDescription="@string/dopdetailsofpets"
         android:text="DETAILS OF PETS"
-        android:textColor="@color/black"
+        android:textColor="#8C8888"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

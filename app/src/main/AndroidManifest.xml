@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mad_pet_doctor">
+    package="com.example.mad_pet_doctor" >
 
     <application
         android:allowBackup="true"
@@ -8,34 +8,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".VaccineDetails">
+        android:theme="@style/Theme.Madpetdoctor" >
+        <activity android:name=".DetailsOfPets" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PetCardDetails"></activity>
-        <!-- <activity android:name=".VaccineDetails"></activity> -->
-        <activity android:name=".PetCard"></activity>
-        <activity android:name=".VaccineReport"></activity>
-        <activity android:name=".DetailsOfPets"></activity>
-        <activity android:name=".ActivityMainSideBar"></activity>
-        <activity android:name=".IntroductionDog"></activity>
-        <activity android:name=".DogDiseasesAndVaccines"></activity>
-        <activity android:name=".DogNutritionAndGrowth"></activity>
-        <activity android:name=".DogOrignAndBreed"></activity>
-        <activity android:name=".Dog"></activity>
-        <activity android:name=".Cat"></activity>
-        <activity android:name=".CatDiseasesAndVaccines"></activity>
-        <activity android:name=".CatNutritionAndGrowth"></activity>
-        <activity android:name=".CatOriginOfBreed"></activity>
-        <activity android:name=".IntroductionCat"></activity>
-        <activity android:name=".Doctors"></activity>
-        <activity android:name=".MedicalProfActivity"></activity>
-        <activity android:name=".MedicalCenterList"></activity>
-
+        <activity android:name=".PetCardDetails" />
+        <activity android:name=".VaccineDetails" />
+        <activity android:name=".PetCard" />
+        <activity android:name=".VaccineReport" />
+        <!--<activity android:name=".DetailsOfPets" />-->
+        <activity android:name=".ActivityMainSideBar" />
+        <activity android:name=".IntroductionDog" />
+        <activity android:name=".DogDiseasesAndVaccines" />
+        <activity android:name=".DogNutritionAndGrowth" />
+        <activity android:name=".DogOrignAndBreed" />
+        <activity android:name=".Dog" />
+        <activity android:name=".Cat" />
+        <activity android:name=".CatDiseasesAndVaccines" />
+        <activity android:name=".CatNutritionAndGrowth" />
+        <activity android:name=".CatOriginOfBreed" />
+        <activity android:name=".IntroductionCat" />
+        <activity android:name=".Doctors" />
+        <activity android:name=".MedicalProfActivity" />
+        <activity android:name=".MedicalCenterList" />
     </application>
 
 </manifest>

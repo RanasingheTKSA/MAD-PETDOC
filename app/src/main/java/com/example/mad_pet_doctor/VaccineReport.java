@@ -53,14 +53,14 @@ public class VaccineReport extends AppCompatActivity {
         VRAddButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_one = new Intent(VaccineReport.this, VaccineDetails.class);
+                startActivity(new Intent(VaccineReport.this, VaccineDetails.class));
             }
         });
 
         DoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent_two = new Intent(VaccineReport.this, MainActivity.class);
+                startActivity(new Intent(VaccineReport.this, MainActivity.class));
             }
         });
 

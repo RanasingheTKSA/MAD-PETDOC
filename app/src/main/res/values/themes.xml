@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.Madpetdoctor.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Madpetdoctor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Madpetdoctor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

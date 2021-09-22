@@ -42,18 +42,6 @@
         app:layout_constraintTop_toBottomOf="@+id/subheading2"
         app:srcCompat="@drawable/pet_foot" />
 
-    <!-- <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="54dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/pet_foot3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/pet_foot" /> -->
-
     <TextView
         android:id="@+id/subheading1"
         android:layout_width="wrap_content"
@@ -79,19 +67,6 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/docname2" />
-
-    <!-- <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:contentDescription="@string/otherdetails"
-        android:text="Other Details"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView46" /> -->
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -126,28 +101,6 @@
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/medicalcenter1" />
-
-    <!-- <TextView
-        android:id="@+id/textView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Cat details"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView48"/>
-
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Other Details"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.36"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" /> -->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -196,8 +149,8 @@
 
     <ImageView
         android:id="@+id/imageView55"
-        android:layout_width="70dp"
-        android:layout_height="58dp"
+        android:layout_width="65dp"
+        android:layout_height="56dp"
         android:layout_marginTop="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -269,16 +222,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subheading2"
         app:srcCompat="@drawable/home_hospital" />
-
-    <!-- <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="100dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/icons8_down_button_30" /> -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
