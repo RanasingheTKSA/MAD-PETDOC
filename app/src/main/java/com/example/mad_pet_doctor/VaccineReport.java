@@ -2,9 +2,13 @@ package com.example.mad_pet_doctor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -18,22 +22,39 @@ import com.google.android.material.chip.Chip;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class VaccineReport extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.List;
 
-    private TextView VRHeading;
-    private ImageView VRImage;
-    private ImageButton VRAddButton;
-    private TableLayout VRTable;
-    private TextView Column1Data, Column2Data, Column3Data,Column4Data;
-    private Button DoneButton;
-    private String VaccineReportID;
-    private FirebaseDatabase firebaseDatabase;
-    private DatabaseReference databaseReference;
-    private VaccineDetailsModal vaccineDetailsModal;
-    private Chip HomeChip1, HomeChip2;
+public class VaccineReport extends ArrayAdapter<VaccineDetailsModal> {
 
+    private Activity context;
+    List<VaccineDetailsModal> vaccineDetailsModals;
+
+    public VaccineReport(Activity context, List<VaccineDetailsModal> vaccineDetailsModals) {
+        super(context, R.layout.vaccine_report_list, vaccineDetailsModals);
+        this.context = context;
+        this.vaccineDetailsModals = vaccineDetailsModals;
+    }
 
     @Override
+    public View getView (int position, View convertView, ViewGroup parent){
+        LayoutInflater inflater = context.getLayoutInflater();
+        View listViewItem = inflater.inflate(R.layout.vaccine_report_list_details, null, true);
+        TextView textViewVRName = (TextView) listViewItem.findViewById(R.id.VR_name_list_textview);
+        TextView textViewVRDate = (TextView) listViewItem.findViewById(R.id.VR_date_list_textview);
+        TextView textViewVRPrice = (TextView) listViewItem.findViewById(R.id.VR_price_list_textview);
+
+
+        VaccineDetailsModal vaccineDetailsModal = vaccineDetailsModals.get(position);
+        textViewVRName.setText(vaccineDetailsModal.getVaccine_Name_Edt());
+        textViewVRDate.setText(vaccineDetailsModal.getVaccine_Date_Edt());
+        textViewVRPrice.setText(vaccineDetailsModal.getVaccine_Price_Edt());
+
+        return listViewItem;
+    }
+
+}
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine_report);
@@ -81,5 +102,4 @@ public class VaccineReport extends AppCompatActivity {
             }
         });
 
-    }
-}
+    }*/

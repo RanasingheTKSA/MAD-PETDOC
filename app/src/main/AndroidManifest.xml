@@ -9,17 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Madpetdoctor">
-        <activity android:name=".ActivityMainSideBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityMainSideBar" />
         <activity android:name=".VaccineDetails" />
         <activity android:name=".PetCard" />
-        <activity android:name=".VaccineReport" />
+        <!-- <activity android:name="." /> -->
+
+        <!--<activity
+            android:name=".VaccineDetailsActivity"
+            android:exported="true"/> -->
+
         <activity android:name=".DetailsOfPets" />
         <activity android:name=".PetCardDetails" />
         <activity android:name=".IntroductionDog" />
